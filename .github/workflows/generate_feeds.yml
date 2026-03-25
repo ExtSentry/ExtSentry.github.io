@@ -3,7 +3,7 @@ name: Generate ExtSentry Feeds
 on:
   schedule:
     # Run daily at 06:00 UTC
-    - cron: '*/5 * * * *'
+    - cron: '*/45 * * * *'
   workflow_dispatch: # Allow manual trigger from Actions tab
   push:
     branches: [main]
