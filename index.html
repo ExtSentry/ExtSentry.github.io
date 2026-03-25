@@ -1116,70 +1116,89 @@ function DataTable({
     }
   }, "Next ", '\u2192')));
 }
+const FEED_BASE = 'feeds/';
 const FEEDS = [{
   name: 'STIX 2.1 Bundle',
   plat: 'OpenCTI / TAXII',
-  desc: 'Indicators + Malware SDOs + Relationships. Confidence scores.'
+  desc: 'Indicators + Malware SDOs + Relationships. Confidence scores.',
+  file: 'stix2_bundle.json'
 }, {
   name: 'MISP Event',
   plat: 'MISP',
-  desc: 'Attributes + SHA-256 hashes + annotation objects.'
+  desc: 'Attributes + SHA-256 hashes + annotation objects.',
+  file: 'misp_event.json'
 }, {
   name: 'MISP Warning List',
   plat: 'MISP',
-  desc: 'Warning list for correlation.'
+  desc: 'Warning list for correlation.',
+  file: 'misp_warninglist.json'
 }, {
   name: 'OpenCTI CSV',
   plat: 'OpenCTI',
-  desc: 'CSV with x_opencti_score, confidence.'
+  desc: 'CSV with x_opencti_score, confidence.',
+  file: 'opencti_import.csv'
 }, {
   name: 'Splunk Lookup',
   plat: 'Splunk',
-  desc: 'Lookup table with wildcard patterns + SHA-256.'
+  desc: 'Lookup table with wildcard patterns + SHA-256.',
+  file: 'splunk_lookup_browser_extensions.csv'
 }, {
   name: 'Sigma Rules',
   plat: 'Sigma / SIEM',
-  desc: '13+ rules: process, file, registry, SHA-256 hash.'
+  desc: '13+ rules: process, file, registry, SHA-256 hash.',
+  file: 'sigma_rules_browser_extensions.yml'
 }, {
   name: 'Elastic Threat Intel',
   plat: 'Elasticsearch',
-  desc: 'ECS NDJSON with file hashes, TLP:CLEAR.'
+  desc: 'ECS NDJSON with file hashes, TLP:CLEAR.',
+  file: 'elastic_threat_intel.ndjson'
 }, {
   name: 'Elastic Detection Rule',
   plat: 'Elastic Security',
-  desc: 'KQL rule + MITRE T1176.'
+  desc: 'KQL rule + MITRE T1176.',
+  file: 'elastic_detection_rule.ndjson'
 }, {
   name: 'Sentinel KQL',
   plat: 'Microsoft Sentinel',
-  desc: '3 MDE tables with has_any.'
+  desc: '3 MDE tables with has_any.',
+  file: 'sentinel_analytics_rule.kql'
 }, {
   name: 'Sentinel Watchlist',
   plat: 'Microsoft Sentinel',
-  desc: 'CSV for Watchlist import with SHA-256.'
+  desc: 'CSV for Watchlist import with SHA-256.',
+  file: 'sentinel_watchlist.csv'
 }, {
   name: 'YARA Rules',
   plat: 'YARA',
-  desc: 'By category + CRX SHA-256 hash matching.'
+  desc: 'By category + CRX SHA-256 hash matching.',
+  file: 'yara_browser_extensions.yar'
 }, {
   name: 'Suricata Rules',
   plat: 'Suricata / Snort',
-  desc: 'http.uri + flow:to_server,established.'
+  desc: 'http.uri + flow:to_server,established.',
+  file: 'suricata_browser_extensions.rules'
 }, {
   name: 'OpenIOC',
   plat: 'OpenIOC / Mandiant',
-  desc: 'FileItem + RegistryItem + SHA-256.'
+  desc: 'FileItem + RegistryItem + SHA-256.',
+  file: 'openioc_browser_extensions.ioc'
 }, {
   name: 'JSON Feed',
   plat: 'Universal',
-  desc: 'Full metadata with SHA-256 hashes.'
+  desc: 'Full metadata with SHA-256 hashes.',
+  file: 'extsentry_feed.json'
 }, {
   name: 'Enriched CSV',
   plat: 'Universal',
-  desc: 'CSV with severity, SHA-256, URLs.'
+  desc: 'CSV with severity, SHA-256, URLs.',
+  file: 'extsentry_ioc_feed.csv'
 }, {
   name: 'Plain IOC Lists',
   plat: 'Any',
-  desc: 'Extension IDs + SHA-256 hashes, one per line.'
+  desc: 'Extension IDs + SHA-256 hashes, one per line.',
+  file: 'ioc_all_extension_ids.txt',
+  malFile: 'ioc_malicious_extension_ids.txt',
+  sensFile: 'ioc_suspicious_extension_ids.txt'
 }];
 const PERM_RISK = [{
   p: '<all_urls>',
@@ -2911,7 +2930,9 @@ function App() {
       display: 'flex',
       gap: 6
     }
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("a", {
+    href: FEED_BASE + (f.malFile || f.file),
+    download: true,
     style: {
       flex: 1,
       padding: '6px 0',
@@ -2923,9 +2944,12 @@ function App() {
       fontWeight: 600,
       color: '#f85149',
       fontFamily: mono,
-      cursor: 'pointer'
+      cursor: 'pointer',
+      textDecoration: 'none'
     }
-  }, "Malicious"), /*#__PURE__*/React.createElement("div", {
+  }, "Malicious"), /*#__PURE__*/React.createElement("a", {
+    href: FEED_BASE + (f.sensFile || f.file),
+    download: true,
     style: {
       flex: 1,
       padding: '6px 0',
@@ -2937,7 +2961,8 @@ function App() {
       fontWeight: 600,
       color: '#d29922',
       fontFamily: mono,
-      cursor: 'pointer'
+      cursor: 'pointer',
+      textDecoration: 'none'
     }
   }, "Sensitive"))))))), tab === 'checker' && /*#__PURE__*/React.createElement(ExtensionChecker, null), tab === 'policy' && /*#__PURE__*/React.createElement(PolicyGenerator, null), tab === 'guide' && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
