@@ -1,0 +1,43 @@
+name: Generate ExtSentry Feeds
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger from Actions tab
+  push:
+    branches: [main]
+    paths:
+      - 'generate_feeds.py'
+      - 'browser_extensions_list.csv'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate feeds
+        run: python3 generate_feeds.py
+
+      - name: Commit and push updated feeds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/ browser_extensions_list.csv
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update feeds $(date -u +%Y-%m-%d)"
+            git push
+          fi
