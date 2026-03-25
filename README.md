@@ -1,5 +1,8 @@
 # ExtSentry
 
+
+<img src="logo.png" alt="ExtSentry logo" width="240">
+
 **Browser Extension Threat Intelligence**
 
 ExtSentry transforms the community-curated [browser extension threat list](https://github.com/mthcht/awesome-lists) into ready-to-import feeds for 16+ security platforms. Point your SIEM, SOAR, or threat intel platform at the output and start detecting malicious, suspicious, and unwanted browser extensions.
