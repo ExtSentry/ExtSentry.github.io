@@ -1,6 +1,6 @@
 # ExtSentry
 
-https://extsentry.guthub.io
+https://extsentry.github.io
 
 <img src="logo.png" alt="ExtSentry logo" width="240">
 
