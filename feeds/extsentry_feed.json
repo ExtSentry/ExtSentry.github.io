@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-03-30T22:18:29Z",
+  "generated": "2026-03-30T23:20:22Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 1413,
+  "total_indicators": 1415,
   "categories": {
-    "malware": 1176,
+    "malware": 1178,
     "compromised": 94,
     "cryptocurrency": 117,
     "Credential Access": 2,
@@ -18,6 +18,28 @@
     "PROXY/VPN": 5
   },
   "indicators": [
+    {
+      "extension_id": "plfchpahihleeejpjmodggckakhglee",
+      "extension_name": null,
+      "wildcard_pattern": "*nplfchpahihleeejpjmodggckakhglee*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://x.com/i/status/1907925793336078675",
+      "description": "bank credential stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/plfchpahihleeejpjmodggckakhglee"
+    },
+    {
+      "extension_id": "ckkjdiimhlanonhceggkfjlmjnenpmfm",
+      "extension_name": null,
+      "wildcard_pattern": "*ckkjdiimhlanonhceggkfjlmjnenpmfm*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://x.com/i/status/1907925793336078675",
+      "description": "bank credential stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ckkjdiimhlanonhceggkfjlmjnenpmfm"
+    },
     {
       "extension_id": "fpeabamapgecnidibdmjoepaiehokgda",
       "extension_name": "Chrome MCP Server - AI Browser Control",

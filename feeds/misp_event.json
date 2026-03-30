@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-03-30",
-    "timestamp": "1774909109",
+    "timestamp": "1774912823",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,40 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "e4d6c6c1-7172-52e5-a3a4-8265966bcef8",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "plfchpahihleeejpjmodggckakhglee",
+        "comment": "bank credential stealer | Category: malware | Type: malicious | bank credential stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "2d3a4bd0-2242-5248-91b7-aa5ca219e3ae",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ckkjdiimhlanonhceggkfjlmjnenpmfm",
+        "comment": "bank credential stealer | Category: malware | Type: malicious | bank credential stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "0d69c595-01aa-55e3-b901-e55873527956",
         "type": "text",
@@ -24169,6 +24203,96 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "99b8c136-8de4-5da5-aaca-d2875d8ac296",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: bank credential stealer",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "plfchpahihleeejpjmodggckakhglee",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bank credential stealer",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://x.com/i/status/1907925793336078675",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a190e20d-ec9e-5991-8512-d4c5ad29c4b4",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: bank credential stealer",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ckkjdiimhlanonhceggkfjlmjnenpmfm",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bank credential stealer",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://x.com/i/status/1907925793336078675",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "69becf4b-7d78-5ead-ad50-1ba35c0c68f9",
         "name": "annotation",
