@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-02",
-    "timestamp": "1775122971",
+    "timestamp": "1775126169",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -33,11 +33,11 @@
         "category": "Other",
         "to_ids": false,
         "value": "bcjindcccaagfpapjjmafapmmgkkhgoa",
-        "comment": "JSON Formatter | Category: adware | Type: suspicious | https://x.com/wesbos/status/2039355472830939319?s=20",
+        "comment": "JSON Formatter | Category: PUP | Type: suspicious | https://x.com/wesbos/status/2039355472830939319?s=20",
         "distribution": "5",
         "Tag": [
           {
-            "name": "extsentry:category=\"adware\""
+            "name": "extsentry:category=\"PUP\""
           },
           {
             "name": "extsentry:type=\"suspicious\""
@@ -24245,7 +24245,7 @@
           {
             "object_relation": "text",
             "type": "text",
-            "value": "adware",
+            "value": "PUP",
             "comment": "Threat Category",
             "to_ids": false
           },

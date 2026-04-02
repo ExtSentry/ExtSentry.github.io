@@ -4325,10 +4325,10 @@ falsepositives:
     - Legitimate extensions with matching IDs
 level: medium
 ---
-title: 'adware' Browser Extension Detected in CommandLine - ExtSentry
-id: fc32fa45-a127-5028-a269-3a96cd289309
+title: 'PUP' Browser Extension Detected in CommandLine - ExtSentry
+id: 20daa50a-1abf-5221-a707-a5271a33dee8
 status: experimental
-description: Detects browser extensions categorized as 'adware' in the ExtSentry feed
+description: Detects browser extensions categorized as 'PUP' in the ExtSentry feed
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
@@ -4344,6 +4344,9 @@ detection:
     selection:
         CommandLine|contains:
             - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
+            - 'dhkplhfnhceodhffomolpfigojocbpcb'
+            - 'pfmopbbadnfoelckkcmjjeaaegjpjjbk'
+            - 'aaaailpifkkekipiachodfkfmgmiapmp'
     condition: selection
 falsepositives:
     - Legitimate use of extensions in this category
@@ -5903,32 +5906,6 @@ detection:
     selection:
         CommandLine|contains:
             - 'bfleegjcoffelppfmadimianphbcdjkb'
-    condition: selection
-falsepositives:
-    - Legitimate use of extensions in this category
-level: medium
----
-title: 'PUP' Browser Extension Detected in CommandLine - ExtSentry
-id: 20daa50a-1abf-5221-a707-a5271a33dee8
-status: experimental
-description: Detects browser extensions categorized as 'PUP' in the ExtSentry feed
-references:
-    - https://github.com/mthcht/awesome-lists
-author: ExtSentry / mthcht
-date: 2026-04-02
-modified: 2026-04-02
-tags:
-    - attack.persistence
-    - attack.t1176
-logsource:
-    category: process_creation
-    product: windows
-detection:
-    selection:
-        CommandLine|contains:
-            - 'dhkplhfnhceodhffomolpfigojocbpcb'
-            - 'pfmopbbadnfoelckkcmjjeaaegjpjjbk'
-            - 'aaaailpifkkekipiachodfkfmgmiapmp'
     condition: selection
 falsepositives:
     - Legitimate use of extensions in this category

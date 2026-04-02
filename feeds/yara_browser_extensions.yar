@@ -1,15 +1,18 @@
-rule ExtSentry_adware_BrowserExtensions
+rule ExtSentry_PUP_BrowserExtensions
 {
     meta:
-        description = "Detects browser extension IDs categorized as adware by ExtSentry"
+        description = "Detects browser extension IDs categorized as PUP by ExtSentry"
         author = "ExtSentry / mthcht"
         date = "2026-04-02"
         reference = "https://github.com/mthcht/awesome-lists"
-        category = "adware"
+        category = "PUP"
         tlp = "WHITE"
 
     strings:
         $ext_0 = "bcjindcccaagfpapjjmafapmmgkkhgoa" ascii wide
+        $ext_1 = "dhkplhfnhceodhffomolpfigojocbpcb" ascii wide
+        $ext_2 = "pfmopbbadnfoelckkcmjjeaaegjpjjbk" ascii wide
+        $ext_3 = "aaaailpifkkekipiachodfkfmgmiapmp" ascii wide
 
     condition:
         any of ($ext_*)
@@ -1520,25 +1523,6 @@ rule ExtSentry_RMM_BrowserExtensions
 
     strings:
         $ext_0 = "bfleegjcoffelppfmadimianphbcdjkb" ascii wide
-
-    condition:
-        any of ($ext_*)
-}
-
-rule ExtSentry_PUP_BrowserExtensions
-{
-    meta:
-        description = "Detects browser extension IDs categorized as PUP by ExtSentry"
-        author = "ExtSentry / mthcht"
-        date = "2026-04-02"
-        reference = "https://github.com/mthcht/awesome-lists"
-        category = "PUP"
-        tlp = "WHITE"
-
-    strings:
-        $ext_0 = "dhkplhfnhceodhffomolpfigojocbpcb" ascii wide
-        $ext_1 = "pfmopbbadnfoelckkcmjjeaaegjpjjbk" ascii wide
-        $ext_2 = "aaaailpifkkekipiachodfkfmgmiapmp" ascii wide
 
     condition:
         any of ($ext_*)

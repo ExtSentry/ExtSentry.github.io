@@ -1,5 +1,5 @@
 ExtensionID,ExtensionName,Category,ThreatType,Severity,CrxSHA256,Reference
-bcjindcccaagfpapjjmafapmmgkkhgoa,JSON Formatter,adware,suspicious,medium,,https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/reviews
+bcjindcccaagfpapjjmafapmmgkkhgoa,JSON Formatter,PUP,suspicious,medium,,https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/reviews
 plfchpahihleeejpjmodggckakhglee,bank credential stealer,malware,malicious,critical,,https://x.com/i/status/1907925793336078675
 ckkjdiimhlanonhceggkfjlmjnenpmfm,bank credential stealer,malware,malicious,critical,,https://x.com/i/status/1907925793336078675
 fpeabamapgecnidibdmjoepaiehokgda,Chrome MCP Server - AI Browser Control,malware,malicious,critical,0cbf101e96f6d5c4146812f07105f8b89bd76dd994f540470cd1c4bc37df37d5,https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/dbdcea6a9f5684a9268c39e60c667c5c9c06263b/2026-02-11-IOCs-for-RAT-disguinsed-as-AI-based-browser-extension.txt
