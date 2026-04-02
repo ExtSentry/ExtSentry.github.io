@@ -1,3 +1,20 @@
+rule ExtSentry_adware_BrowserExtensions
+{
+    meta:
+        description = "Detects browser extension IDs categorized as adware by ExtSentry"
+        author = "ExtSentry / mthcht"
+        date = "2026-04-02"
+        reference = "https://github.com/mthcht/awesome-lists"
+        category = "adware"
+        tlp = "WHITE"
+
+    strings:
+        $ext_0 = "bcjindcccaagfpapjjmafapmmgkkhgoa" ascii wide
+
+    condition:
+        any of ($ext_*)
+}
+
 rule ExtSentry_malware_BrowserExtensions
 {
     meta:

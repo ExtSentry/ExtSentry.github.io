@@ -19,6 +19,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
             - 'plfchpahihleeejpjmodggckakhglee'
             - 'ckkjdiimhlanonhceggkfjlmjnenpmfm'
             - 'fpeabamapgecnidibdmjoepaiehokgda'
@@ -1461,6 +1462,7 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
             - 'plfchpahihleeejpjmodggckakhglee'
             - 'ckkjdiimhlanonhceggkfjlmjnenpmfm'
             - 'fpeabamapgecnidibdmjoepaiehokgda'
@@ -2902,6 +2904,7 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
             - 'plfchpahihleeejpjmodggckakhglee'
             - 'ckkjdiimhlanonhceggkfjlmjnenpmfm'
             - 'fpeabamapgecnidibdmjoepaiehokgda'
@@ -4320,6 +4323,30 @@ detection:
     condition: selection
 falsepositives:
     - Legitimate extensions with matching IDs
+level: medium
+---
+title: 'adware' Browser Extension Detected in CommandLine - ExtSentry
+id: fc32fa45-a127-5028-a269-3a96cd289309
+status: experimental
+description: Detects browser extensions categorized as 'adware' in the ExtSentry feed
+references:
+    - https://github.com/mthcht/awesome-lists
+author: ExtSentry / mthcht
+date: 2026-04-02
+modified: 2026-04-02
+tags:
+    - attack.persistence
+    - attack.t1176
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        CommandLine|contains:
+            - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
+    condition: selection
+falsepositives:
+    - Legitimate use of extensions in this category
 level: medium
 ---
 title: 'malware' Browser Extension Detected in CommandLine - ExtSentry

@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-02",
-    "timestamp": "1775116944",
+    "timestamp": "1775122371",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,23 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "56dfb3e2-4de5-5709-9dce-5c48a471bef4",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bcjindcccaagfpapjjmafapmmgkkhgoa",
+        "comment": "JSON Formatter | Category: adware | Type: suspicious | https://x.com/wesbos/status/2039355472830939319?s=20",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"adware\""
+          },
+          {
+            "name": "extsentry:type=\"suspicious\""
+          }
+        ]
+      },
       {
         "uuid": "e4d6c6c1-7172-52e5-a3a4-8265966bcef8",
         "type": "text",
@@ -24203,6 +24220,51 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "92657467-7e91-5ff4-90bd-db002313bbdd",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: JSON Formatter",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bcjindcccaagfpapjjmafapmmgkkhgoa",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "JSON Formatter",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "adware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "suspicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/reviews",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "99b8c136-8de4-5da5-aaca-d2875d8ac296",
         "name": "annotation",
