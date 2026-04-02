@@ -1,7 +1,7 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-02T16:36:48Z",
+  "generated": "2026-04-02T17:32:28Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
   "total_indicators": 1416,
@@ -23,7 +23,7 @@
       "extension_name": "JSON Formatter",
       "wildcard_pattern": "*bcjindcccaagfpapjjmafapmmgkkhgoa*",
       "category": "PUP",
-      "threat_type": "suspicious",
+      "threat_type": "privacy",
       "reference_url": "https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/reviews",
       "description": "https://x.com/wesbos/status/2039355472830939319?s=20",
       "crx_sha256": null,
