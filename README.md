@@ -68,4 +68,4 @@ All extension data is sourced from [mthcht/awesome-lists](https://github.com/mth
 
 ## License
 
-TLP:CLEAR — feed outputs are free to use, share, and integrate.
+MIT
