@@ -3073,8 +3073,8 @@ function loadFeed() {
           '*' + ind.extension_id + '*',
           ind.category || '',
           ind.threat_type || '',
-          ind.reference_link || '',
-          ind.comment || '',
+          ind.reference_url || '',
+          ind.description || '',
           ind.crx_sha256 || ''
         ];
         if (ind.threat_type === 'sensitive') {
