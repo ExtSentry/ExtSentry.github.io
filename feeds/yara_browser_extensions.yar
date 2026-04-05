@@ -9,10 +9,11 @@ rule ExtSentry_PUP_BrowserExtensions
         tlp = "WHITE"
 
     strings:
-        $ext_0 = "bcjindcccaagfpapjjmafapmmgkkhgoa" ascii wide
-        $ext_1 = "dhkplhfnhceodhffomolpfigojocbpcb" ascii wide
-        $ext_2 = "pfmopbbadnfoelckkcmjjeaaegjpjjbk" ascii wide
-        $ext_3 = "aaaailpifkkekipiachodfkfmgmiapmp" ascii wide
+        $ext_0 = "gogbiohkminacikoppmljeolgccpmlop" ascii wide
+        $ext_1 = "bcjindcccaagfpapjjmafapmmgkkhgoa" ascii wide
+        $ext_2 = "dhkplhfnhceodhffomolpfigojocbpcb" ascii wide
+        $ext_3 = "pfmopbbadnfoelckkcmjjeaaegjpjjbk" ascii wide
+        $ext_4 = "aaaailpifkkekipiachodfkfmgmiapmp" ascii wide
 
     condition:
         any of ($ext_*)

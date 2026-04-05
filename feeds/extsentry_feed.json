@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-05T19:59:23Z",
+  "generated": "2026-04-05T20:34:36Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 1769,
+  "total_indicators": 1770,
   "categories": {
-    "PUP": 4,
+    "PUP": 5,
     "malware": 1560,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -18,6 +18,17 @@
     "PROXY/VPN": 5
   },
   "indicators": [
+    {
+      "extension_id": "gogbiohkminacikoppmljeolgccpmlop",
+      "extension_name": "Color Picker - Eyedropper",
+      "wildcard_pattern": "*gogbiohkminacikoppmljeolgccpmlop*",
+      "category": "PUP",
+      "threat_type": "privacy",
+      "reference_url": "https://x.com/tuckner/status/2039777577452155131",
+      "description": "spying on you",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/gogbiohkminacikoppmljeolgccpmlop"
+    },
     {
       "extension_id": "bcjindcccaagfpapjjmafapmmgkkhgoa",
       "extension_name": "JSON Formatter",
