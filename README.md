@@ -1,8 +1,26 @@
 # ExtSentry
 
-https://extsentry.github.io
+<p align="center">
+  <img src="logo.png" width="220" alt="ExtSentry logo">
+</p>
 
-<img src="logo.png" alt="ExtSentry logo" width="240">
+<p align="center">
+  <strong>Threat intelligence feed for browser extensions</strong>
+</p>
+
+<p align="center">
+  Track suspicious, malicious, and risky browser extensions in one place.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/manifest-v3-blue" alt="Manifest V3">
+  <img src="https://img.shields.io/badge/version-1.0.0-C2694F" alt="Version 1.0.0">
+</p>
+
+<p align="center">
+  <a href="https://extsentry.github.io">extsentry.github.io</a>
+</p>
+
 
 **Browser Extension Threat Intelligence**
 
