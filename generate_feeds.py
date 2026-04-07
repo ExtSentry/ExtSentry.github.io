@@ -80,12 +80,6 @@ SEVERITY_MAP = {
 }
 
 # ─── STIX 2.1 Bundle (OpenCTI / TAXII) ───
-# Fixes:
-#   - Don't include TLP marking def as object (just reference the standard ID)
-#   - Use proper STIX pattern with custom observable x_extsentry_extension
-#   - Add pattern_version field
-#   - Add confidence field for OpenCTI compatibility
-#   - Remove invalid OR syntax from pattern
 def generate_stix(rows):
     identity_id = f"identity--{deterministic_uuid('extsentry-identity')}"
     identity = {
@@ -137,9 +131,6 @@ def generate_stix(rows):
             "external_id": ext_id
         })
 
-        # STIX 2.1 pattern: use custom SCO property on software
-        # software SCO name = extension name, x_extension_id = the id
-        # Pattern checks the custom property
         safe_name = display_name.replace("'", "\\'")
         pattern = f"[software:x_extension_id = '{ext_id}']"
         if row['sha256']:
@@ -166,7 +157,6 @@ def generate_stix(rows):
         }
         objects.append(indicator)
 
-        # Also create a Malware SDO for malicious ones
         if row['type'] == 'malicious' or row['category'] == 'malware':
             malware_id = f"malware--{deterministic_uuid(ext_id + '-malware')}"
             malware_type = category_to_malware_type.get(row['category'], 'unknown')
@@ -212,13 +202,6 @@ def generate_stix(rows):
     print(f"  STIX 2.1 Bundle: {len(objects)} objects")
 
 # ─── MISP Event JSON ───
-# Fixes:
-#   - type "text" with to_ids: false (text is not an IDS-exportable type)
-#   - category changed to "Other" (extension IDs are not payload delivery)
-#   - published as false (import should not auto-publish)
-#   - Added timestamp field
-#   - Removed invalid galaxy tag
-#   - MISP Object uses "custom" template approach since browser-extension is not standard
 def generate_misp(rows):
     event = {
         "Event": {
@@ -251,8 +234,6 @@ def generate_misp(rows):
 
         display_name = row['name'] or row['comment'] or row['id']
 
-        # Attributes: use type "text", category "Other", to_ids false
-        # Text type is not IDS-exportable so to_ids must be false
         attr = {
             "uuid": deterministic_uuid(f"misp-attr-{row['id']}"),
             "type": "text",
@@ -268,7 +249,6 @@ def generate_misp(rows):
         }
         event["Event"]["Attribute"].append(attr)
 
-        # Add SHA-256 attribute if available (type sha256, to_ids true for IDS matching)
         if row['sha256']:
             sha_attr = {
                 "uuid": deterministic_uuid(f"misp-attr-sha256-{row['id']}"),
@@ -285,8 +265,6 @@ def generate_misp(rows):
             }
             event["Event"]["Attribute"].append(sha_attr)
 
-        # Use a generic MISP object (custom-object) approach
-        # Since "browser-extension" is not a standard MISP object template
         obj = {
             "uuid": deterministic_uuid(f"misp-obj-{row['id']}"),
             "name": "annotation",
@@ -322,10 +300,6 @@ def generate_misp(rows):
     print(f"  MISP Event: {len(event['Event']['Attribute'])} attributes, {len(event['Event']['Object'])} objects")
 
 # ─── MISP Warning Lists ───
-# Fixes:
-#   - matching_attributes only includes valid MISP attribute types
-#   - "comment" is NOT an attribute type - removed
-#   - Added "filename" and "other" as matching types
 def generate_misp_warninglists(rows):
     warninglist = {
         "name": "ExtSentry - Known Malicious/Suspicious Browser Extension IDs",
@@ -431,10 +405,6 @@ def generate_splunk(rows):
     print(f"  Splunk Lookup CSV generated")
 
 # ─── Sigma Rules ───
-# Fixes:
-#   - Added modified field
-#   - Added file_event and registry_event logsource variants
-#   - Split master rule into registry detection (where ext IDs actually appear)
 def generate_sigma(rows):
     all_ids = [r['id'] for r in rows if r['id']]
 
@@ -449,7 +419,6 @@ def generate_sigma(rows):
 
     rules = []
 
-    # Rule 1: Process creation (commandline contains extension ID)
     rule = f"""title: Suspicious Browser Extension ID in Process CommandLine - ExtSentry
 id: {deterministic_uuid('sigma-proc')}
 status: experimental
@@ -482,7 +451,6 @@ level: medium
 """
     rules.append(rule)
 
-    # Rule 2: File event (extension ID in file path - browser profiles)
     rule2 = f"""title: Suspicious Browser Extension ID in File Path - ExtSentry
 id: {deterministic_uuid('sigma-file')}
 status: experimental
@@ -514,7 +482,6 @@ level: medium
 """
     rules.append(rule2)
 
-    # Rule 3: Registry event (Windows stores extension info in registry)
     rule3 = f"""title: Suspicious Browser Extension ID in Registry - ExtSentry
 id: {deterministic_uuid('sigma-reg')}
 status: experimental
@@ -546,7 +513,6 @@ level: medium
 """
     rules.append(rule3)
 
-    # Per-category rules (process_creation only to keep file manageable)
     for cat, ids in ids_by_category.items():
         level = "high" if cat in ("malware", "Credential Access", "compromised") else "medium"
         cat_clean = cat.replace("/", "_").replace(" ", "_")
@@ -578,7 +544,6 @@ level: {level}
 """
         rules.append(rule)
 
-    # SHA256 hash-based file detection rule (when hashes are available)
     sha_rows = [r for r in rows if r['sha256']]
     if sha_rows:
         sha_rule = f"""title: Malicious Browser Extension CRX File Hash - ExtSentry
@@ -621,10 +586,6 @@ level: critical
     print(f"  Sigma Rules: {len(rules)} rules (3 logsource types + {len(ids_by_category)} per-category)")
 
 # ─── OpenIOC 1.1 ───
-# Fixes:
-#   - Use FileItem/FullPath (contains) for file path matching
-#   - Add RegistryItem/Path for Windows registry detection
-#   - Add RegistryItem/Text for registry value matching
 def generate_openioc(rows):
     ioc = ET.Element("ioc", {
         "xmlns": "http://schemas.mandiant.com/2010/ioc",
@@ -650,7 +611,6 @@ def generate_openioc(rows):
 
         comment_text = f"{row['category']} | {row['type']} | {row['comment']}"
 
-        # File path match (extension directories)
         ind_file = ET.SubElement(indicator_or, "IndicatorItem", {
             "id": deterministic_uuid(f"openioc-file-{row['id']}"),
             "condition": "contains"
@@ -665,7 +625,6 @@ def generate_openioc(rows):
         comment_el = ET.SubElement(ind_file, "Comment")
         comment_el.text = comment_text
 
-        # Registry path match (Chrome/Edge store extension info in registry)
         ind_reg = ET.SubElement(indicator_or, "IndicatorItem", {
             "id": deterministic_uuid(f"openioc-reg-{row['id']}"),
             "condition": "contains"
@@ -680,7 +639,6 @@ def generate_openioc(rows):
         comment_el2 = ET.SubElement(ind_reg, "Comment")
         comment_el2.text = comment_text
 
-        # SHA-256 hash match (if available)
         if row['sha256']:
             ind_hash = ET.SubElement(indicator_or, "IndicatorItem", {
                 "id": deterministic_uuid(f"openioc-hash-{row['id']}"),
@@ -702,8 +660,6 @@ def generate_openioc(rows):
     print(f"  OpenIOC: {sum(1 for r in rows if r['id'])} indicator items (file + registry)")
 
 # ─── YARA Rules ───
-# Fixes:
-#   - Removed nocase (extension IDs are always lowercase, nocase causes FPs and hurts perf)
 def generate_yara(rows):
     rules = []
     cats = {}
@@ -739,7 +695,6 @@ def generate_yara(rows):
 """
         rules.append(rule)
 
-    # Add a hash-based rule for entries with known CRX SHA-256
     sha_rows = [r for r in rows if r['sha256']]
     if sha_rows:
         hash_conditions = []
@@ -765,15 +720,9 @@ rule ExtSentry_CRX_SHA256_Hashes
 
     with open(os.path.join(OUTPUT_DIR, "yara_browser_extensions.yar"), 'w') as f:
         f.write("\n".join(rules))
-    print(f"  YARA Rules: {len(rules)} rules by category (nocase removed)")
+    print(f"  YARA Rules: {len(rules)} rules by category")
 
 # ─── Suricata Rules ───
-# Fixes:
-#   - Added flow:to_server,established
-#   - Use http.uri sticky buffer for targeted matching
-#   - Removed nocase (IDs are lowercase)
-#   - Added comment about TLS inspection requirement
-#   - Reduced to high-confidence malicious indicators only for performance
 def generate_suricata(rows):
     rules = []
     rules.append("# ExtSentry Browser Extension Suricata Rules")
@@ -791,7 +740,6 @@ def generate_suricata(rows):
         display = (row['name'] or row['comment'] or row['id'])[:60].replace('"', "'").replace(';', ',')
         severity = 1 if row['type'] == 'malicious' else 2
 
-        # Rule matching extension ID in HTTP URI (extension install/update URLs)
         rule = (
             f'alert http $HOME_NET any -> $EXTERNAL_NET any '
             f'(msg:"EXTSENTRY - Suspicious Browser Extension: {display}"; '
@@ -811,10 +759,6 @@ def generate_suricata(rows):
     print(f"  Suricata Rules: {sid - 9000001} rules (with flow + http.uri buffer)")
 
 # ─── OpenCTI CSV Import Format ───
-# Fixes:
-#   - Fixed STIX pattern to use custom observable property
-#   - external_references as proper JSON string (OpenCTI CSV connector format)
-#   - Added valid_from column
 def generate_opencti_csv(rows):
     fieldnames = ['type', 'name', 'description', 'pattern', 'pattern_type',
                   'x_opencti_main_observable_type', 'labels', 'confidence',
@@ -844,10 +788,11 @@ def generate_opencti_csv(rows):
     print(f"  OpenCTI CSV: generated")
 
 # ─── Simple IOC lists (just IDs, one per line) ───
+# "sensitive" type = not malicious, everything else = malicious
 def generate_plain_lists(rows):
     all_ids = [r['id'] for r in rows if r['id']]
-    malicious_ids = [r['id'] for r in rows if r['id'] and r['type'] == 'malicious']
-    suspicious_ids = [r['id'] for r in rows if r['id'] and r['type'] != 'malicious']
+    malicious_ids = [r['id'] for r in rows if r['id'] and r['type'] != 'sensitive']
+    suspicious_ids = [r['id'] for r in rows if r['id'] and r['type'] == 'sensitive']
     sha256_hashes = [r['sha256'] for r in rows if r['sha256']]
 
     with open(os.path.join(OUTPUT_DIR, "ioc_all_extension_ids.txt"), 'w') as f:
@@ -859,20 +804,12 @@ def generate_plain_lists(rows):
     if sha256_hashes:
         with open(os.path.join(OUTPUT_DIR, "ioc_crx_sha256_hashes.txt"), 'w') as f:
             f.write("\n".join(sha256_hashes))
-    print(f"  Plain IOC Lists: {len(all_ids)} all, {len(malicious_ids)} malicious, {len(suspicious_ids)} suspicious, {len(sha256_hashes)} SHA-256 hashes")
+    print(f"  Plain IOC Lists: {len(all_ids)} all, {len(malicious_ids)} malicious, {len(suspicious_ids)} suspicious (sensitive only), {len(sha256_hashes)} SHA-256 hashes")
 
 # ─── Elasticsearch / Kibana ───
-# Fixes:
-#   - NDJSON now follows ECS with event.kind, event.category, event.type
-#   - threat.indicator.type uses "software" (valid per ECS STIX Cyber Observable types)
-#   - Extension ID stored in threat.indicator.name and custom extsentry.extension_id field
-#   - Removed non-existent threat.indicator.software.id field
-#   - TLP marking uses "CLEAR" (modern TLP 2.0 naming)
-#   - Detection rule uses proper Elastic Security NDJSON rule format with KQL
 def generate_elastic(rows):
     all_ids = [r['id'] for r in rows if r['id']]
 
-    # --- Elastic Security Detection Rule (proper NDJSON format with KQL) ---
     rule = {
         "id": deterministic_uuid("elastic-rule"),
         "name": "ExtSentry - Suspicious Browser Extension Activity",
@@ -882,7 +819,7 @@ def generate_elastic(rows):
         "type": "query",
         "language": "kuery",
         "query": " or ".join([
-            f'process.command_line: "*{eid}*"' for eid in all_ids[:200]  # KQL has practical limits
+            f'process.command_line: "*{eid}*"' for eid in all_ids[:200]
         ]),
         "index": [
             "logs-endpoint.events.*",
@@ -916,7 +853,6 @@ def generate_elastic(rows):
         json.dump(rule, f)
         f.write("\n")
 
-    # --- ECS-compliant NDJSON threat intel documents ---
     with open(os.path.join(OUTPUT_DIR, "elastic_threat_intel.ndjson"), 'w') as f:
         for row in rows:
             if not row['id']:
@@ -965,15 +901,8 @@ def generate_elastic(rows):
     print(f"  Elastic: Detection rule (NDJSON) + {sum(1 for r in rows if r['id'])} ECS-compliant threat intel docs")
 
 # ─── Microsoft Sentinel Analytics Rule (KQL) ───
-# Fixes:
-#   - has_any_cs replaced with has_any (has_any_cs does not exist in KQL)
-#   - ProcessCommandLine (correct MDE field, not CommandLine)
-#   - Added DeviceRegistryEvents and DeviceFileEvents tables
-#   - Added proper Sentinel analytics rule ARM template wrapper
-#   - Recommends Sentinel Watchlist for large IOC sets
 def generate_sentinel(rows):
     all_ids = [r['id'] for r in rows if r['id']]
-    # Chunk IDs for KQL dynamic() limit
     chunk_size = 200
     chunks = [all_ids[i:i+chunk_size] for i in range(0, len(all_ids), chunk_size)]
 
@@ -1040,7 +969,6 @@ def generate_sentinel(rows):
     with open(os.path.join(OUTPUT_DIR, "sentinel_analytics_rule.kql"), 'w') as f:
         f.write(kql)
 
-    # Also generate Sentinel Watchlist CSV for import
     with open(os.path.join(OUTPUT_DIR, "sentinel_watchlist.csv"), 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=['ExtensionID', 'ExtensionName', 'Category', 'ThreatType', 'Severity', 'CrxSHA256', 'Reference'])
         w.writeheader()
