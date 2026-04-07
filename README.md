@@ -84,6 +84,10 @@ Feeds are rebuilt hourly via GitHub Actions. See `.github/workflows/generate_fee
 
 All extension data is sourced from [mthcht/awesome-lists](https://github.com/mthcht/awesome-lists) - a community-maintained list of malicious, suspicious, and sensitive browser extensions. Contributions and corrections should be directed upstream.
 
+## Related project
+
+[ExtSentry-Guard](https://github.com/ExtSentry/ExtSentry-Guard) is a native browser extension that detects and block malicious extensions using the ExtSentry community threat feed
+
 ## License
 
 MIT
