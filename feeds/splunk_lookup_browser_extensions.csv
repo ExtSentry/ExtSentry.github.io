@@ -1,4 +1,5 @@
 browser_extension_id,browser_extension_id_wildcard,extension_name,category,threat_type,severity,crx_sha256,description,reference_url
+ipmmidjikiklckbngllogmggoofbhjikgb,*ipmmidjikiklckbngllogmggoofbhjikgb*,ChatGPT Ad Blocker,malware,malicious,critical,,steal the ChatGPT conversations data,https://github.com/mthcht/ThreatIntel-Reports/blob/b65e17489a8485bf5893c481de58e363c2ce35f6/Intel%20Reports/thehackernews_com/2026_04_weekly-recap-axios-hack-chrome-0-day_html/content.txt#L788
 gogbiohkminacikoppmljeolgccpmlop,*gogbiohkminacikoppmljeolgccpmlop*,Color Picker - Eyedropper,PUP,privacy,low,,spying on you,https://x.com/tuckner/status/2039777577452155131
 bcjindcccaagfpapjjmafapmmgkkhgoa,*bcjindcccaagfpapjjmafapmmgkkhgoa*,JSON Formatter,PUP,privacy,low,,https://x.com/wesbos/status/2039355472830939319?s=20,https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/reviews
 plfchpahihleeejpjmodggckakhglee,*nplfchpahihleeejpjmodggckakhglee*,bank credential stealer,malware,malicious,critical,,bank credential stealer,https://x.com/i/status/1907925793336078675

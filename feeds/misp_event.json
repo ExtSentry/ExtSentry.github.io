@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-08",
-    "timestamp": "1775635345",
+    "timestamp": "1775640116",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,23 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "ce302f3b-a330-58e3-8995-c9ef794f9076",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ipmmidjikiklckbngllogmggoofbhjikgb",
+        "comment": "ChatGPT Ad Blocker | Category: malware | Type: malicious | steal the ChatGPT conversations data",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "a42d430d-bbed-5dac-a579-4283a23b78c1",
         "type": "text",
@@ -30238,6 +30255,51 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "34eafc1e-b017-5ff5-a144-cd77c6b702b1",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ChatGPT Ad Blocker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ipmmidjikiklckbngllogmggoofbhjikgb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ChatGPT Ad Blocker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/mthcht/ThreatIntel-Reports/blob/b65e17489a8485bf5893c481de58e363c2ce35f6/Intel%20Reports/thehackernews_com/2026_04_weekly-recap-axios-hack-chrome-0-day_html/content.txt#L788",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "2725913f-d082-5019-9d88-4d909832e88a",
         "name": "annotation",

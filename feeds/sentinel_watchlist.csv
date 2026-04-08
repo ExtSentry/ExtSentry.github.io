@@ -1,4 +1,5 @@
 ExtensionID,ExtensionName,Category,ThreatType,Severity,CrxSHA256,Reference
+ipmmidjikiklckbngllogmggoofbhjikgb,ChatGPT Ad Blocker,malware,malicious,critical,,https://github.com/mthcht/ThreatIntel-Reports/blob/b65e17489a8485bf5893c481de58e363c2ce35f6/Intel%20Reports/thehackernews_com/2026_04_weekly-recap-axios-hack-chrome-0-day_html/content.txt#L788
 gogbiohkminacikoppmljeolgccpmlop,Color Picker - Eyedropper,PUP,privacy,low,,https://x.com/tuckner/status/2039777577452155131
 bcjindcccaagfpapjjmafapmmgkkhgoa,JSON Formatter,PUP,privacy,low,,https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/reviews
 plfchpahihleeejpjmodggckakhglee,bank credential stealer,malware,malicious,critical,,https://x.com/i/status/1907925793336078675
