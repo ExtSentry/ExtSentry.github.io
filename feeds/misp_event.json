@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-10",
-    "timestamp": "1775849503",
+    "timestamp": "1775852310",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,23 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "f778bc56-2ba7-5ad8-8faf-a0db7423a152",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jnannpdmmiphnkpaooplhegabbghlplj",
+        "comment": "Pro search | Category: malware | Type: malicious | shows fake antivirus alerts constantly and capture browsing activities",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "ce302f3b-a330-58e3-8995-c9ef794f9076",
         "type": "text",
@@ -30255,6 +30272,44 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "a541c37e-c185-5290-99b4-1a0cab2cf39d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Pro search",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jnannpdmmiphnkpaooplhegabbghlplj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Pro search",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "34eafc1e-b017-5ff5-a144-cd77c6b702b1",
         "name": "annotation",

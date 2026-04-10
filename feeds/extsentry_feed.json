@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-10T19:31:42Z",
+  "generated": "2026-04-10T20:18:30Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 1771,
+  "total_indicators": 1772,
   "categories": {
-    "malware": 1561,
+    "malware": 1562,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -18,6 +18,17 @@
     "PROXY/VPN": 5
   },
   "indicators": [
+    {
+      "extension_id": "jnannpdmmiphnkpaooplhegabbghlplj",
+      "extension_name": "Pro search",
+      "wildcard_pattern": "*jnannpdmmiphnkpaooplhegabbghlplj*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": null,
+      "description": "shows fake antivirus alerts constantly and capture browsing activities",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/jnannpdmmiphnkpaooplhegabbghlplj"
+    },
     {
       "extension_id": "ipmmidjikiklckbngllogmggoofbhjikgb",
       "extension_name": "ChatGPT Ad Blocker",

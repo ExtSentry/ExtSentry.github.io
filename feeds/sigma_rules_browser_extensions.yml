@@ -19,6 +19,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'jnannpdmmiphnkpaooplhegabbghlplj'
             - 'ipmmidjikiklckbngllogmggoofbhjikgb'
             - 'gogbiohkminacikoppmljeolgccpmlop'
             - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
@@ -1817,6 +1818,7 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'jnannpdmmiphnkpaooplhegabbghlplj'
             - 'ipmmidjikiklckbngllogmggoofbhjikgb'
             - 'gogbiohkminacikoppmljeolgccpmlop'
             - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
@@ -3614,6 +3616,7 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'jnannpdmmiphnkpaooplhegabbghlplj'
             - 'ipmmidjikiklckbngllogmggoofbhjikgb'
             - 'gogbiohkminacikoppmljeolgccpmlop'
             - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
@@ -5408,6 +5411,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'jnannpdmmiphnkpaooplhegabbghlplj'
             - 'ipmmidjikiklckbngllogmggoofbhjikgb'
             - 'plfchpahihleeejpjmodggckakhglee'
             - 'ckkjdiimhlanonhceggkfjlmjnenpmfm'
