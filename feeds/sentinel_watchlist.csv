@@ -1,4 +1,112 @@
 ExtensionID,ExtensionName,Category,ThreatType,Severity,CrxSHA256,Reference
+obifanppcpchlehkjipahhphbcbjekfa,Telegram Multi-account,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+mdcfennpfgkngnibjbpnpaafcjnhcjno,Web Client for Telegram - Teleside,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+mmecpiobcdbjkaijljohghhpfgngpjmk,YouSide - Youtube Sidebar,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+bfoofgelpmalhcmedaaeogahlmbkopfd,Web Client for Youtube - SideYou,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cbfhnceafaenchbefokkngcbnejached,Web Client for TikTok,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ogogpebnagniggbnkbpjioobomdbmdcj,Text Translation,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ldmnhdllijbchflpbmnlgndfnlgmkgif,Page Locker,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+lnajjhohknhgemncbaomjjjpmpdigedg,Page Auto Refresh,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+aecccajigpipkpioaidignbgbeekglkd,Web Client for Rugby Rush - SideGame,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+akebbllmckjphjiojeioooidhnddnplj,Formula Rush Racing Game,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+akifdnfipbeoonhoeabdicnlcdhghmpn,Piggy Prizes - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+akkkopcadaalekbdgpdikhdablkgjagd,Slot Arabian,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+alkfljfjkpiccfgbeocbbjjladigcleg,Frogtastic,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+alllblhkgghelnejlggmmgjbkdabidie,Black Beard Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+amkkjdjjgiiamenbopfpdmjcleecjjgg,Indian - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+amnaljnjmgajgajelnplfmidgjgbjfhe,Mahjong Deluxe,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+bbjdlbemjklojnbifkgameepcafflmem,Crazy Freekick,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+bdnanfggeppmkfhkgmpojkhanoplkacc,Slot Car Racing,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+bgdkbjcdecedfoejdfgeafdodjgfohno,Clear Cache Plus,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+bnchgibgpgmlickioneccggfobljmhjc,Galactica Delux - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+bpljfbcejldmgeoodnogeefaihjdgbam,Speed Test for Chrome - WiFi SpeedTest,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cbnekafldflkmngbgmbnfmchjaelnhem,Game SkySpeedster,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cdpiopekjeonfjeocbfebemgocjciepp,Master Chess,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cehdkmmfadpplgchnbjgdngdcjmhlfcc,Hockey Shootout,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cljengcehefhflhoahaambmkknjekjib,Odds Of The Gods - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+clpgopiimdjcilllcjncdkoeikkkcfbi,Billiards Pro,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cmeoegkmpbpcoabhlklbamfeidebgmdf,Three Card Poker,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cmlbghnlnbjkdgfjlegkbjmadpbmlgjb,Donuts - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cnibdhllkgidlgmaoanhkemjeklneolk,Archer - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+cpnfioldnmhaihohppoaebillnambcgn,Rugby Rush,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+dbohcpohlgnhgjmfkakoniiplglpfhcb,Bingo,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+dcamdpfclondppklabgkfaofjccpioil,Web Client for game Cricket Batter Challenge,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+dljlpildgknddpnahppkihgodokfjbnd,Slot Machine Zeus Treasures,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+dlpiookhionidajbiopmaajeckifeehn,Horse Racing,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+dmaibhbbpmdihedidicfeigilkbobcog,Aztec - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+dohenclhhdfljpjlnpjnephpccbdgmmb,Straight 4,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+dpdemambcedffmnkfmkephnhhnclmcio,Slot The Gold Pot,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ejlcbfmhjbkgohopdkijfgggbikgbacb,American Roulette Royale,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+eljfpgehlncincemdmmnebmnlcmfamhm,Asia Slot,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+enmmilgindjmffoljaojkcgloakmloen,Web Client for game Drive Your Car,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+eoklnfefipnjfeknpmigmogeeepddcch,Jurassic Giants - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+fddajeklkkggbnppabbhkdmnkdjindlo,Street Basketball,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+fibgndhgobbaaekmnneapojgkcehaeac,Tarot Side Panel,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+fjfhejmbhpabkacpoddjbcfandjoacmb,Dragon Slayer - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+flkdjodmoefccepdihipjdlianmkmhgc,Best Blackjack,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+fmajpchoiahphjiligpmghnhmabolhoh,Book Of Magic - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+gaafhblhbnkekenogcjniofhbicchlke,Snake - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+gbaoddbbpompjhmilbgiaapkkakldlpc,Dice King - Classic Craps And Roll Game,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+gbhhgipmedccnankkjchgcidiigmioio,Slot Ramses,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+gfhcdakcnpahfdealajmhcapnhhablbp,Battleship War,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+gipmochingljoikdjakkdolfcbphmlom,Gold Miner 2,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+glofhphmolanicdaddgkmhfmjidjkaem,Greyhound Racing - Dog Race Simulator,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+haochenfmhglpholokliifmlpafilfdc,Hercules: Sports Legend,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+hbobdcfpgonejphpemijgjddanoipbkj,Flicking Soccer,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+hdmppejcahhppjhkncagagopecddokpi,Voodoo Magic - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+heljkmdknlfhiecpknceodpbokeipigo,Web Client for Hockey Shootout - SideGame,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+hiofkndodabpioiheinoiojjobadpgmj,MASTER CHECKERS,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+hkbihmjhjmehlocilifheeaeiljabenb,Watercraft Rush,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+hlmdnedepbbihmbddepemmbkenbnoegd,Car Rush,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+hmlnefhgicedcmebmkjdcogieefbaagl,Video Poker Deuces Wild,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+hnpbijogiiaegambgpaenjbcbgaeimlf,Slot Machine Ultimate Soccer,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ibelidmkbnjmmpjgfibbdbkamgcbnjdm,Christmas Eve - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ihbkmfoadnfjgkpdmgcboiehapkiflme,Columbus Voyage - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ijccacgjefefdpglhclnbpfjlcbagafm,High or Low Casino Game,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ijfmkphjcogaealhjgijjfjlkpdhhojk,Goalkeeper Challenge,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ijpgccpmogehkjhdmomckpkfcpbjlmnj,Tropical Beach - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+imjmnghlhiimodfkdkgnfplhlobehnpm,BlackJack 3D,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+jddinhnhplibccfmniaakhffpjpnaglp,Web Client for game Classic Bowling,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+jmopjanoebpdbopigcbpjhiigmjolikk,Raging Zeus Mines,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+jnmmbmkmbkcccpihjgnhjmhhkokfdnfe,Classic Backgammon,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+jodocbbdcdclkhjkibnlfhbmllcpfkfo,Slot Machine The Fruits,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+kahcolfecjbejjjadhjafmihdnifonjf,Baccarat,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+kblomapfkjidbbbdllmofkcakcenkmec,Mini Golf World,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+kbmindomjiejdikjaagfdbdfpnlanobi,Gold Rush - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+kbnkkecifeppobnemkielnpagifkobki,Pirat Slot,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+kjnakdbpijigdbfepipnbafnhbcfdkga,40 Imperial Crown - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+kknakidneabpfgepadgpkibalcnabnnh,3D Soccer Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+klglejfbdeipgklgaepnodpjcnhaihkd,Premium Horse Racing,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+kmiidcaojgeepjlccoalkdimgpfnbagj,Tanks Game,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+lcijkepobdokkgmefebkiejhealgblle,Caribbean Stud Poker,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+lefndgfmmbdklidbkeifpgclmpnhcilg,Wild Buffalo - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+lfkknbmaifjomagejflmjklcmpadmmdg,Aqua - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ljbgkfbiifhpgpipepnfefijldolkhlm,Game Crypto Merge,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+lmcpbhamfpbonaenickjclacodolkbdl,Sherwood Forest - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+lmgenhmehbcolpikplhkoelmagdhoojn,Web Client for game Fatboy Dream,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+maeccdadgnadblfddcmanhpofobhgfme,Lone Star Jackpots - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+medkneifmjcpgmmibfppjpfjbkgbgebl,Hidden Kitty Game,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+mheomooihiffmcgldolenemmplpgoahn,Keno,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+mmbbjakjlpmndjlbhihlddgcdppblpka,Jokers Bonanza - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+mmbkmjmlnhocfcnjmbchmflamalekbnb,Penalty Kicks,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+nbgligggjfgkpphhghhjdoiefbimgooc,Pai Gow Poker,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ncpdkpcgmdhhnmcjgiiifdhefmekdcnf,Metal Calculator,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ndajcmifndknmkckdcdefkpgcodciggk,Farm - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+nelbpdjegmhhgpfcjclhdmkcglimkjpp,Rail Maze Puzzle,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+nkacmelgoeejhjgmmgflbcdhonpaplcg,RED DOG CARD GAME,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+nmegibgeklckejdlfhoadhhbgcdjnojb,Coin Miner 2,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+nodobilhjanebkafmpihkpoabiggnnfl,Black Ninja - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+oanpifaoclmgmflmddlgkikfaggejobn,Pyramid Solitaire,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ocflhkadmmnlbieoiiekfcdcmjcfeahe,Chrome Client for Downhill Ski - SideGame,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+odeccdcabdffpebnfancpkepjeecempn,Slot Machine Mr Chicken,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+oejhnncfanbaogjlbknmlgjpleachclf,Web Client for French Roulette - SideGame,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ogbaedmbbmmipljceodeimlckohbnfan,3D Roulette Casino Game,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+ojkbafekojdcedacileemekjdfdpkbkf,Slot Machine Space Adventure,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+pdgaknahllnfldmclpcllpieafkaibmf,Whack 'em All,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+peflgkmfmoijonfgcjdlpnnfdegnlaji,Video Poker Jacks or Better,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+phfkdailnomcbcknpdmokejhellbecjb,Swimming Pro,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+pkghgkfjhjghinikeanecbgjehojfhdg,InterAlt,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
+pllkanemicadpcmkfodglahcocfdgkhj,Gold of Egypt - Slot Machine,malware,malicious,critical,,https://socket.dev/blog/108-chrome-ext-linked-to-data-exfil-session-theft-shared-c2
 jnannpdmmiphnkpaooplhegabbghlplj,Pro search,malware,malicious,critical,,
 ipmmidjikiklckbngllogmggoofbhjikgb,ChatGPT Ad Blocker,malware,malicious,critical,,https://github.com/mthcht/ThreatIntel-Reports/blob/b65e17489a8485bf5893c481de58e363c2ce35f6/Intel%20Reports/thehackernews_com/2026_04_weekly-recap-axios-hack-chrome-0-day_html/content.txt#L788
 gogbiohkminacikoppmljeolgccpmlop,Color Picker - Eyedropper,PUP,privacy,low,,https://x.com/tuckner/status/2039777577452155131
