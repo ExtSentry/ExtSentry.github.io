@@ -1,10 +1,20 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-19T21:18:38Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-19T21:39:38Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-04-19T21:18:38Z</authored_date>
+  <authored_date>2026-04-19T21:39:38Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="9c4f20d9-4216-5779-b653-c9b704e3e0a5" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">omddlmnhcofjbnbflmjginpjjblphbgk</Content>
+        <Comment>malware | malicious | Linked in public reporting to the Vercel third-party AI tool incident and a now-removed extension - attribution not independently confirmed - Hunt with related OAuth IOC 110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="47b2f46a-2d61-5db9-af69-0b97002e9165" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">omddlmnhcofjbnbflmjginpjjblphbgk</Content>
+        <Comment>malware | malicious | Linked in public reporting to the Vercel third-party AI tool incident and a now-removed extension - attribution not independently confirmed - Hunt with related OAuth IOC 110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com</Comment>
+      </IndicatorItem>
       <IndicatorItem id="e7dc28d7-c812-594f-8056-a6f616bd311a" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">nglingapjinhecnfejdcpihlpneeadjp</Content>

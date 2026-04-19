@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-19T21:18:38Z",
+  "generated": "2026-04-19T21:39:38Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 1881,
+  "total_indicators": 1882,
   "categories": {
-    "malware": 1671,
+    "malware": 1672,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -18,6 +18,17 @@
     "PROXY/VPN": 5
   },
   "indicators": [
+    {
+      "extension_id": "omddlmnhcofjbnbflmjginpjjblphbgk",
+      "extension_name": "Context (removed Chrome extension)",
+      "wildcard_pattern": "*omddlmnhcofjbnbflmjginpjjblphbgk*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://x.com/i/status/2045960143209152981",
+      "description": "Linked in public reporting to the Vercel third-party AI tool incident and a now-removed extension - attribution not independently confirmed - Hunt with related OAuth IOC 110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/omddlmnhcofjbnbflmjginpjjblphbgk"
+    },
     {
       "extension_id": "nglingapjinhecnfejdcpihlpneeadjp",
       "extension_name": "OpenClaw Browser Relay",
