@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-19",
-    "timestamp": "1776578465",
+    "timestamp": "1776583381",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,40 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "70c24c8a-98cf-5284-ad5b-fa87d91fd5a7",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nglingapjinhecnfejdcpihlpneeadjp",
+        "comment": "OpenClaw Browser Relay | Category: malware | Type: malicious | Browser-control relay extension with local WebSocket/CDP automation - third-party depreciated package for openclaw. Added for enterprise blocklist - not as confirmed malware",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "b1b797e3-c239-5fab-acb2-81729019cbff",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "to_ids": true,
+        "value": "133df5ad1bd5f3c5444fc6bf15040b34372dd309d7481be708ae6445c3a20c6f",
+        "comment": "CRX file hash for OpenClaw Browser Relay (nglingapjinhecnfejdcpihlpneeadjp)",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "29bf0cc7-d0c4-590a-aa90-17e47e6ff02d",
         "type": "text",
@@ -32108,6 +32142,58 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "daf46dee-21fe-5199-b2d4-cf680a33455f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: OpenClaw Browser Relay",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nglingapjinhecnfejdcpihlpneeadjp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "OpenClaw Browser Relay",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "sha256",
+            "value": "133df5ad1bd5f3c5444fc6bf15040b34372dd309d7481be708ae6445c3a20c6f",
+            "comment": "CRX File SHA-256",
+            "to_ids": true
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/openclaw-browser-relay/nglingapjinhecnfejdcpihlpneeadjp",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "f089e386-fca0-5989-9c52-16c036681cbb",
         "name": "annotation",

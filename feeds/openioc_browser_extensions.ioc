@@ -1,10 +1,25 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-19T06:01:04Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-19T07:23:01Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-04-19T06:01:04Z</authored_date>
+  <authored_date>2026-04-19T07:23:01Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="e7dc28d7-c812-594f-8056-a6f616bd311a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">nglingapjinhecnfejdcpihlpneeadjp</Content>
+        <Comment>malware | malicious | Browser-control relay extension with local WebSocket/CDP automation - third-party depreciated package for openclaw. Added for enterprise blocklist - not as confirmed malware</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f6f59ab8-4a74-55d7-8a80-37b586e00a44" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">nglingapjinhecnfejdcpihlpneeadjp</Content>
+        <Comment>malware | malicious | Browser-control relay extension with local WebSocket/CDP automation - third-party depreciated package for openclaw. Added for enterprise blocklist - not as confirmed malware</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="308c6f74-6d5b-55b9-af4b-3f99de16f626" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="string">133df5ad1bd5f3c5444fc6bf15040b34372dd309d7481be708ae6445c3a20c6f</Content>
+        <Comment>CRX SHA-256 for malware | malicious | Browser-control relay extension with local WebSocket/CDP automation - third-party depreciated package for openclaw. Added for enterprise blocklist - not as confirmed malware</Comment>
+      </IndicatorItem>
       <IndicatorItem id="61ef079f-7d49-5770-8fa0-70aaf16bc0ca" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">obifanppcpchlehkjipahhphbcbjekfa</Content>
