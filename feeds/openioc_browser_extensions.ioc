@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-20T09:27:54Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-20T10:36:16Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-04-20T09:27:54Z</authored_date>
+  <authored_date>2026-04-20T10:36:16Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
       <IndicatorItem id="9c4f20d9-4216-5779-b653-c9b704e3e0a5" condition="contains">
@@ -1120,16 +1120,6 @@
         <Content type="string">jnannpdmmiphnkpaooplhegabbghlplj</Content>
         <Comment>malware | malicious | shows fake antivirus alerts constantly and capture browsing activities</Comment>
       </IndicatorItem>
-      <IndicatorItem id="19f67dba-3b27-59c5-9d75-3094629e4386" condition="contains">
-        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
-        <Content type="string">ipmmidjikiklckbngllogmggoofbhjikgb</Content>
-        <Comment>malware | malicious | steal the ChatGPT conversations data</Comment>
-      </IndicatorItem>
-      <IndicatorItem id="2b173d89-95b9-5c04-91df-33d3cc287f97" condition="contains">
-        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
-        <Content type="string">ipmmidjikiklckbngllogmggoofbhjikgb</Content>
-        <Comment>malware | malicious | steal the ChatGPT conversations data</Comment>
-      </IndicatorItem>
       <IndicatorItem id="a990dd05-f3ee-5f0f-9f23-dfb230b6a220" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">gogbiohkminacikoppmljeolgccpmlop</Content>
@@ -1149,16 +1139,6 @@
         <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
         <Content type="string">bcjindcccaagfpapjjmafapmmgkkhgoa</Content>
         <Comment>PUP | privacy | https://x.com/wesbos/status/2039355472830939319?s=20</Comment>
-      </IndicatorItem>
-      <IndicatorItem id="d573099e-7d23-5124-b6ec-a10cfeadde51" condition="contains">
-        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
-        <Content type="string">plfchpahihleeejpjmodggckakhglee</Content>
-        <Comment>malware | malicious | bank credential stealer</Comment>
-      </IndicatorItem>
-      <IndicatorItem id="8996587c-e45c-5675-9021-6fd4b84e73c0" condition="contains">
-        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
-        <Content type="string">plfchpahihleeejpjmodggckakhglee</Content>
-        <Comment>malware | malicious | bank credential stealer</Comment>
       </IndicatorItem>
       <IndicatorItem id="61f6745d-61a3-5ec1-81c7-9eb5de7678d2" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
@@ -17943,16 +17923,6 @@
       <IndicatorItem id="5c1e95a4-3fe1-5d15-9f8f-e681d34e1c54" condition="contains">
         <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
         <Content type="string">pidecdgcabcolloikegacdjejomeodji</Content>
-        <Comment>malware | malicious | </Comment>
-      </IndicatorItem>
-      <IndicatorItem id="52d4f0bd-d5c0-581a-8f06-e88fdd122590" condition="contains">
-        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
-        <Content type="string">nmmhkkegccagdldgiimedpiccmgmiedagg4</Content>
-        <Comment>malware | malicious | </Comment>
-      </IndicatorItem>
-      <IndicatorItem id="d2c280a8-a812-5032-aac6-54ee9372f652" condition="contains">
-        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
-        <Content type="string">nmmhkkegccagdldgiimedpiccmgmiedagg4</Content>
         <Comment>malware | malicious | </Comment>
       </IndicatorItem>
       <IndicatorItem id="35f09760-cb7d-53d3-82a0-b8b8268e2fc4" condition="contains">

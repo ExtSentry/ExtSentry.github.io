@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-20",
-    "timestamp": "1776677275",
+    "timestamp": "1776681376",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -1932,23 +1932,6 @@
         ]
       },
       {
-        "uuid": "ce302f3b-a330-58e3-8995-c9ef794f9076",
-        "type": "text",
-        "category": "Other",
-        "to_ids": false,
-        "value": "ipmmidjikiklckbngllogmggoofbhjikgb",
-        "comment": "ChatGPT Ad Blocker | Category: malware | Type: malicious | steal the ChatGPT conversations data",
-        "distribution": "5",
-        "Tag": [
-          {
-            "name": "extsentry:category=\"malware\""
-          },
-          {
-            "name": "extsentry:type=\"malicious\""
-          }
-        ]
-      },
-      {
         "uuid": "a42d430d-bbed-5dac-a579-4283a23b78c1",
         "type": "text",
         "category": "Other",
@@ -1979,23 +1962,6 @@
           },
           {
             "name": "extsentry:type=\"privacy\""
-          }
-        ]
-      },
-      {
-        "uuid": "e4d6c6c1-7172-52e5-a3a4-8265966bcef8",
-        "type": "text",
-        "category": "Other",
-        "to_ids": false,
-        "value": "plfchpahihleeejpjmodggckakhglee",
-        "comment": "bank credential stealer | Category: malware | Type: malicious | bank credential stealer",
-        "distribution": "5",
-        "Tag": [
-          {
-            "name": "extsentry:category=\"malware\""
-          },
-          {
-            "name": "extsentry:type=\"malicious\""
           }
         ]
       },
@@ -30594,23 +30560,6 @@
         ]
       },
       {
-        "uuid": "0640debc-6876-58ac-a5bc-0666b51aea29",
-        "type": "text",
-        "category": "Other",
-        "to_ids": false,
-        "value": "nmmhkkegccagdldgiimedpiccmgmiedagg4",
-        "comment": "nmmhkkegccagdldgiimedpiccmgmiedagg4 | Category: malware | Type: malicious | ",
-        "distribution": "5",
-        "Tag": [
-          {
-            "name": "extsentry:category=\"malware\""
-          },
-          {
-            "name": "extsentry:type=\"malicious\""
-          }
-        ]
-      },
-      {
         "uuid": "ce574b24-13f6-5b96-9730-6059de00c03f",
         "type": "text",
         "category": "Other",
@@ -37155,51 +37104,6 @@
         ]
       },
       {
-        "uuid": "34eafc1e-b017-5ff5-a144-cd77c6b702b1",
-        "name": "annotation",
-        "meta-category": "misc",
-        "description": "Suspicious/Malicious browser extension: ChatGPT Ad Blocker",
-        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
-        "template_version": "1",
-        "Attribute": [
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "ipmmidjikiklckbngllogmggoofbhjikgb",
-            "comment": "Browser Extension ID",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "ChatGPT Ad Blocker",
-            "comment": "Extension Name",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "malware",
-            "comment": "Threat Category",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "malicious",
-            "comment": "Threat Type",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "link",
-            "value": "https://github.com/mthcht/ThreatIntel-Reports/blob/b65e17489a8485bf5893c481de58e363c2ce35f6/Intel%20Reports/thehackernews_com/2026_04_weekly-recap-axios-hack-chrome-0-day_html/content.txt#L788",
-            "comment": "Reference URL",
-            "to_ids": false
-          }
-        ]
-      },
-      {
         "uuid": "2725913f-d082-5019-9d88-4d909832e88a",
         "name": "annotation",
         "meta-category": "misc",
@@ -37284,51 +37188,6 @@
             "object_relation": "text",
             "type": "link",
             "value": "https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/reviews",
-            "comment": "Reference URL",
-            "to_ids": false
-          }
-        ]
-      },
-      {
-        "uuid": "99b8c136-8de4-5da5-aaca-d2875d8ac296",
-        "name": "annotation",
-        "meta-category": "misc",
-        "description": "Suspicious/Malicious browser extension: bank credential stealer",
-        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
-        "template_version": "1",
-        "Attribute": [
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "plfchpahihleeejpjmodggckakhglee",
-            "comment": "Browser Extension ID",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "bank credential stealer",
-            "comment": "Extension Name",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "malware",
-            "comment": "Threat Category",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "malicious",
-            "comment": "Threat Type",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "link",
-            "value": "https://x.com/i/status/1907925793336078675",
             "comment": "Reference URL",
             "to_ids": false
           }
@@ -112494,51 +112353,6 @@
             "object_relation": "text",
             "type": "link",
             "value": "https://blog.avast.com/malicious-extensions-chrome-web-store",
-            "comment": "Reference URL",
-            "to_ids": false
-          }
-        ]
-      },
-      {
-        "uuid": "0b44611d-3946-52e6-9dd5-08aedb0d9b8c",
-        "name": "annotation",
-        "meta-category": "misc",
-        "description": "Suspicious/Malicious browser extension: nmmhkkegccagdldgiimedpiccmgmiedagg4",
-        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
-        "template_version": "1",
-        "Attribute": [
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "nmmhkkegccagdldgiimedpiccmgmiedagg4",
-            "comment": "Browser Extension ID",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "nmmhkkegccagdldgiimedpiccmgmiedagg4",
-            "comment": "Extension Name",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "malware",
-            "comment": "Threat Category",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "malicious",
-            "comment": "Threat Type",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "link",
-            "value": "https://www.malwarebytes.com/blog/threat-intelligence/2023/07/criminals-target-businesses-with-malicious-extension-for-metas-ads-manager-and-accidentally-leak-stolen-accounts",
             "comment": "Reference URL",
             "to_ids": false
           }

@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-20T09:27:54Z",
+  "generated": "2026-04-20T10:36:16Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 1882,
+  "total_indicators": 1879,
   "categories": {
-    "malware": 1672,
+    "malware": 1669,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -1240,17 +1240,6 @@
       "chrome_webstore_url": "https://chromewebstore.google.com/detail/jnannpdmmiphnkpaooplhegabbghlplj"
     },
     {
-      "extension_id": "ipmmidjikiklckbngllogmggoofbhjikgb",
-      "extension_name": "ChatGPT Ad Blocker",
-      "wildcard_pattern": "*ipmmidjikiklckbngllogmggoofbhjikgb*",
-      "category": "malware",
-      "threat_type": "malicious",
-      "reference_url": "https://github.com/mthcht/ThreatIntel-Reports/blob/b65e17489a8485bf5893c481de58e363c2ce35f6/Intel%20Reports/thehackernews_com/2026_04_weekly-recap-axios-hack-chrome-0-day_html/content.txt#L788",
-      "description": "steal the ChatGPT conversations data",
-      "crx_sha256": null,
-      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ipmmidjikiklckbngllogmggoofbhjikgb"
-    },
-    {
       "extension_id": "gogbiohkminacikoppmljeolgccpmlop",
       "extension_name": "Color Picker - Eyedropper",
       "wildcard_pattern": "*gogbiohkminacikoppmljeolgccpmlop*",
@@ -1271,17 +1260,6 @@
       "description": "https://x.com/wesbos/status/2039355472830939319?s=20",
       "crx_sha256": null,
       "chrome_webstore_url": "https://chromewebstore.google.com/detail/bcjindcccaagfpapjjmafapmmgkkhgoa"
-    },
-    {
-      "extension_id": "plfchpahihleeejpjmodggckakhglee",
-      "extension_name": null,
-      "wildcard_pattern": "*nplfchpahihleeejpjmodggckakhglee*",
-      "category": "malware",
-      "threat_type": "malicious",
-      "reference_url": "https://x.com/i/status/1907925793336078675",
-      "description": "bank credential stealer",
-      "crx_sha256": null,
-      "chrome_webstore_url": "https://chromewebstore.google.com/detail/plfchpahihleeejpjmodggckakhglee"
     },
     {
       "extension_id": "ckkjdiimhlanonhceggkfjlmjnenpmfm",
@@ -19707,17 +19685,6 @@
       "description": "",
       "crx_sha256": null,
       "chrome_webstore_url": "https://chromewebstore.google.com/detail/pidecdgcabcolloikegacdjejomeodji"
-    },
-    {
-      "extension_id": "nmmhkkegccagdldgiimedpiccmgmiedagg4",
-      "extension_name": null,
-      "wildcard_pattern": "*nmmhkkegccagdldgiimedpiccmgmiedagg4*",
-      "category": "malware",
-      "threat_type": "malicious",
-      "reference_url": "https://www.malwarebytes.com/blog/threat-intelligence/2023/07/criminals-target-businesses-with-malicious-extension-for-metas-ads-manager-and-accidentally-leak-stolen-accounts",
-      "description": "",
-      "crx_sha256": null,
-      "chrome_webstore_url": "https://chromewebstore.google.com/detail/nmmhkkegccagdldgiimedpiccmgmiedagg4"
     },
     {
       "extension_id": "dlddmedljhmbgdhapibnagaanenmajcm",
