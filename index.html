@@ -1013,17 +1013,26 @@ function DataTable({
     }
   }, "Ref"))), /*#__PURE__*/React.createElement("tbody", null, paged.map((row, i) => {
     const sv = SV[row.severity] || 'MEDIUM';
+    const isExpanded = expandedId === row.id;
+    const toggleExpand = () => setExpandedId(prev => prev === row.id ? null : row.id);
     return /*#__PURE__*/React.createElement("tr", {
       key: row.id + '-' + i,
-      onMouseEnter: e => e.currentTarget.style.background = '#0d1117',
-      onMouseLeave: e => e.currentTarget.style.background = 'transparent'
+      onClick: toggleExpand,
+      onMouseEnter: e => { if (!isExpanded) e.currentTarget.style.background = '#0d1117'; },
+      onMouseLeave: e => { if (!isExpanded) e.currentTarget.style.background = 'transparent'; },
+      style: {
+        cursor: 'pointer',
+        background: isExpanded ? '#10151d' : 'transparent',
+        transition: 'background 0.15s ease'
+      }
     }, /*#__PURE__*/React.createElement("td", {
       style: {
         padding: '7px 12px',
-        maxWidth: 200,
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
-        whiteSpace: 'nowrap',
+        maxWidth: isExpanded ? 'none' : 200,
+        overflow: isExpanded ? 'visible' : 'hidden',
+        textOverflow: isExpanded ? 'clip' : 'ellipsis',
+        whiteSpace: isExpanded ? 'normal' : 'nowrap',
+        wordBreak: isExpanded ? 'break-word' : 'normal',
         color: '#c8ccd4'
       }
     }, row.name || '-'), /*#__PURE__*/React.createElement("td", {
@@ -1034,7 +1043,8 @@ function DataTable({
       }
     }, /*#__PURE__*/React.createElement("span", {
       title: 'Click to copy: ' + row.id + (row.sha256 ? '\nSHA256: ' + row.sha256 : ''),
-      onClick: () => {
+      onClick: e => {
+        e.stopPropagation();
         navigator.clipboard && navigator.clipboard.writeText(row.id);
         setExpandedId(prev => prev === row.id ? null : row.id);
         setCopiedId(row.id);
@@ -1043,16 +1053,16 @@ function DataTable({
       style: {
         cursor: 'pointer',
         fontFamily: 'monospace',
-        background: expandedId === row.id ? '#1c2333' : 'transparent',
-        padding: expandedId === row.id ? '2px 6px' : '0',
+        background: isExpanded ? '#1c2333' : 'transparent',
+        padding: isExpanded ? '2px 6px' : '0',
         borderRadius: 4,
-        border: expandedId === row.id ? '1px solid #30363d' : '1px solid transparent',
+        border: isExpanded ? '1px solid #30363d' : '1px solid transparent',
         display: 'inline-block',
-        wordBreak: expandedId === row.id ? 'break-all' : 'normal',
-        whiteSpace: expandedId === row.id ? 'normal' : 'nowrap',
+        wordBreak: isExpanded ? 'break-all' : 'normal',
+        whiteSpace: isExpanded ? 'normal' : 'nowrap',
         transition: 'all 0.15s ease'
       }
-    }, expandedId === row.id ? row.id : (row.id.length > 24 ? row.id.slice(0, 24) + '\u2026' : row.id),
+    }, isExpanded ? row.id : (row.id.length > 24 ? row.id.slice(0, 24) + '\u2026' : row.id),
     copiedId === row.id && /*#__PURE__*/React.createElement("span", {
       style: {
         marginLeft: 6,
@@ -1060,7 +1070,19 @@ function DataTable({
         fontSize: 10,
         fontFamily: 'sans-serif'
       }
-    }, '\u2713 copied'))), /*#__PURE__*/React.createElement("td", {
+    }, '\u2713 copied')),
+    isExpanded && row.sha256 && /*#__PURE__*/React.createElement("div", {
+      style: {
+        marginTop: 6,
+        fontSize: 10,
+        color: '#484f58',
+        fontFamily: 'monospace',
+        wordBreak: 'break-all',
+        lineHeight: 1.4
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: { color: '#6e7681', marginRight: 6 }
+    }, "SHA256:"), row.sha256)), /*#__PURE__*/React.createElement("td", {
       style: {
         padding: '7px 12px'
       }
@@ -1080,12 +1102,15 @@ function DataTable({
     }, sv)), /*#__PURE__*/React.createElement("td", {
       style: {
         padding: '7px 12px',
-        maxWidth: 240,
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
-        whiteSpace: 'nowrap',
+        maxWidth: isExpanded ? 'none' : 240,
+        minWidth: isExpanded ? 240 : 0,
+        overflow: isExpanded ? 'visible' : 'hidden',
+        textOverflow: isExpanded ? 'clip' : 'ellipsis',
+        whiteSpace: isExpanded ? 'normal' : 'nowrap',
+        wordBreak: isExpanded ? 'break-word' : 'normal',
         color: '#6e7681',
-        fontSize: 11
+        fontSize: 11,
+        lineHeight: isExpanded ? 1.55 : 'normal'
       }
     }, row.comment), /*#__PURE__*/React.createElement("td", {
       style: {
@@ -1095,6 +1120,7 @@ function DataTable({
       href: row.link,
       target: "_blank",
       rel: "noopener noreferrer",
+      onClick: e => e.stopPropagation(),
       style: {
         color: '#58a6ff',
         textDecoration: 'none',
@@ -1509,8 +1535,7 @@ function ContributeBtn() {
     }
   }, "+ Contribute extension");
 }
-function ExtensionChecker() {
-  const [subTab, setSubTab] = useState('check');
+function ExtensionChecker({ subTab, setSubTab }) {
   const [extId, setExtId] = useState('');
   const [manifest, setManifest] = useState('');
   const [result, setResult] = useState(null);
@@ -2450,10 +2475,82 @@ function PolicyGenerator() {
     type: "info"
   }, "Permission-based blocking stops any extension requesting dangerous capabilities, regardless of whether it is in the malicious feed. Combine with a blocklist for defense in depth.")));
 }
+const TAB_SUBS = {
+  dashboard: [],
+  feeds: ['malicious', 'sensitive', 'download'],
+  checker: ['check', 'analyze', 'inventory'],
+  policy: [],
+  guide: ['traces', 'remediation']
+};
+const TAB_IDS = Object.keys(TAB_SUBS);
+function parseHash() {
+  const raw = (window.location.hash || '').replace(/^#\/?/, '');
+  if (!raw) return { tab: 'dashboard', sub: null };
+  const parts = raw.split('/').filter(Boolean);
+  const tab = TAB_IDS.includes(parts[0]) ? parts[0] : 'dashboard';
+  const subs = TAB_SUBS[tab];
+  const sub = parts[1] && subs.includes(parts[1]) ? parts[1] : null;
+  return { tab, sub };
+}
+function buildHash(tab, sub) {
+  return sub ? '#' + tab + '/' + sub : '#' + tab;
+}
+function pushHash(tab, sub) {
+  const h = buildHash(tab, sub);
+  if (window.location.hash !== h) {
+    window.history.pushState(null, '', h);
+  }
+}
 function App() {
-  const [tab, setTab] = useState('dashboard');
-  const [feedSub, setFeedSub] = useState('malicious');
-  const [guidePanel, setGuidePanel] = useState('traces');
+  const initial = parseHash();
+  const [tab, setTab] = useState(initial.tab);
+  const [feedSub, setFeedSub] = useState(initial.tab === 'feeds' && initial.sub ? initial.sub : 'malicious');
+  const [checkerSub, setCheckerSub] = useState(initial.tab === 'checker' && initial.sub ? initial.sub : 'check');
+  const [guidePanel, setGuidePanel] = useState(initial.tab === 'guide' && initial.sub ? initial.sub : 'traces');
+
+  // Ensure URL reflects initial state (e.g. empty hash -> #dashboard, or #feeds -> #feeds/malicious)
+  React.useEffect(() => {
+    const currentSub =
+      tab === 'feeds' ? feedSub :
+      tab === 'checker' ? checkerSub :
+      tab === 'guide' ? guidePanel : null;
+    const target = buildHash(tab, currentSub);
+    if (window.location.hash !== target) {
+      window.history.replaceState(null, '', target);
+    }
+    // run once on mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Sync state when user navigates with Back/Forward or edits the URL
+  React.useEffect(() => {
+    const sync = () => {
+      const p = parseHash();
+      setTab(p.tab);
+      if (p.tab === 'feeds' && p.sub) setFeedSub(p.sub);
+      if (p.tab === 'checker' && p.sub) setCheckerSub(p.sub);
+      if (p.tab === 'guide' && p.sub) setGuidePanel(p.sub);
+    };
+    window.addEventListener('hashchange', sync);
+    window.addEventListener('popstate', sync);
+    return () => {
+      window.removeEventListener('hashchange', sync);
+      window.removeEventListener('popstate', sync);
+    };
+  }, []);
+
+  const selectTab = (id) => {
+    setTab(id);
+    const sub =
+      id === 'feeds' ? feedSub :
+      id === 'checker' ? checkerSub :
+      id === 'guide' ? guidePanel : null;
+    pushHash(id, sub);
+  };
+  const selectFeedSub = (id) => { setFeedSub(id); pushHash('feeds', id); };
+  const selectCheckerSub = (id) => { setCheckerSub(id); pushHash('checker', id); };
+  const selectGuidePanel = (id) => { setGuidePanel(id); pushHash('guide', id); };
+
   const tabs = [{
     id: 'dashboard',
     l: 'Dashboard'
@@ -2566,7 +2663,7 @@ function App() {
     }
   }, tabs.map(t => /*#__PURE__*/React.createElement("button", {
     key: t.id,
-    onClick: () => setTab(t.id),
+    onClick: () => selectTab(t.id),
     style: {
       background: tab === t.id ? '#161b22' : 'transparent',
       border: tab === t.id ? '1px solid #30363d' : '1px solid transparent',
@@ -2873,7 +2970,7 @@ function App() {
     }
   }, feedSubs.map(s => /*#__PURE__*/React.createElement("button", {
     key: s.id,
-    onClick: () => setFeedSub(s.id),
+    onClick: () => selectFeedSub(s.id),
     style: {
       display: 'flex',
       alignItems: 'center',
@@ -3058,7 +3155,7 @@ function App() {
       cursor: 'pointer',
       textDecoration: 'none'
     }
-  }, "Sensitive"))))))), tab === 'checker' && /*#__PURE__*/React.createElement(ExtensionChecker, null), tab === 'policy' && /*#__PURE__*/React.createElement(PolicyGenerator, null), tab === 'guide' && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+  }, "Sensitive"))))))), tab === 'checker' && /*#__PURE__*/React.createElement(ExtensionChecker, { subTab: checkerSub, setSubTab: selectCheckerSub }), tab === 'policy' && /*#__PURE__*/React.createElement(PolicyGenerator, null), tab === 'guide' && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
       marginBottom: 20
     }
@@ -3082,7 +3179,7 @@ function App() {
     }
   }, gps.map(p => /*#__PURE__*/React.createElement("button", {
     key: p.id,
-    onClick: () => !p.soon && setGuidePanel(p.id),
+    onClick: () => !p.soon && selectGuidePanel(p.id),
     style: {
       background: guidePanel === p.id ? '#161b22' : 'transparent',
       border: guidePanel === p.id ? '1px solid #58a6ff33' : '1px solid #1b1f27',
