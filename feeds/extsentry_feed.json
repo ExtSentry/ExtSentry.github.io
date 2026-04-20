@@ -1,7 +1,7 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-20T04:45:05Z",
+  "generated": "2026-04-20T07:06:06Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
   "total_indicators": 1882,
@@ -20,12 +20,12 @@
   "indicators": [
     {
       "extension_id": "omddlmnhcofjbnbflmjginpjjblphbgk",
-      "extension_name": "Context (removed Chrome extension)",
+      "extension_name": "Context Extension",
       "wildcard_pattern": "*omddlmnhcofjbnbflmjginpjjblphbgk*",
       "category": "malware",
       "threat_type": "malicious",
       "reference_url": "https://x.com/i/status/2045960143209152981",
-      "description": "Linked in public reporting to the Vercel third-party AI tool incident and a now-removed extension - attribution not independently confirmed - Hunt with related OAuth IOC 110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com",
+      "description": "Linked in public reporting to the Vercel third-party AI tool incident and a now-removed extension - Hunt with related OAuth IOC 110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com",
       "crx_sha256": null,
       "chrome_webstore_url": "https://chromewebstore.google.com/detail/omddlmnhcofjbnbflmjginpjjblphbgk"
     },

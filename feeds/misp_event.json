@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-20",
-    "timestamp": "1776660306",
+    "timestamp": "1776668767",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -33,7 +33,7 @@
         "category": "Other",
         "to_ids": false,
         "value": "omddlmnhcofjbnbflmjginpjjblphbgk",
-        "comment": "Context (removed Chrome extension) | Category: malware | Type: malicious | Linked in public reporting to the Vercel third-party AI tool incident and a now-removed extension - attribution not independently confirmed - Hunt with related OAuth IOC 110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com",
+        "comment": "Context Extension | Category: malware | Type: malicious | Linked in public reporting to the Vercel third-party AI tool incident and a now-removed extension - Hunt with related OAuth IOC 110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com",
         "distribution": "5",
         "Tag": [
           {
@@ -32163,7 +32163,7 @@
         "uuid": "f856cf44-c905-5228-95b7-95e35048d2aa",
         "name": "annotation",
         "meta-category": "misc",
-        "description": "Suspicious/Malicious browser extension: Context (removed Chrome extension)",
+        "description": "Suspicious/Malicious browser extension: Context Extension",
         "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
         "template_version": "1",
         "Attribute": [
@@ -32177,7 +32177,7 @@
           {
             "object_relation": "text",
             "type": "text",
-            "value": "Context (removed Chrome extension)",
+            "value": "Context Extension",
             "comment": "Extension Name",
             "to_ids": false
           },
