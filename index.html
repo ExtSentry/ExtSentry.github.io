@@ -403,6 +403,40 @@ function GhBtn({
     d: "M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
   })), label);
 }
+function StoreBtn({
+  href,
+  label
+}) {
+  // Top-right CTA link styled like GhBtn but with a puzzle-piece (extension) icon
+  // and a subtle green accent to signal "install / get" instead of "source code".
+  return /*#__PURE__*/React.createElement("a", {
+    href: href,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    style: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 6,
+      padding: '5px 12px',
+      background: '#1a2e22',
+      border: '1px solid #3fb95055',
+      borderRadius: 6,
+      color: '#7ee787',
+      fontSize: 11,
+      textDecoration: 'none',
+      fontFamily: mono,
+      fontWeight: 600,
+      whiteSpace: 'nowrap'
+    }
+  }, /*#__PURE__*/React.createElement("svg", {
+    width: "14",
+    height: "14",
+    viewBox: "0 0 24 24",
+    fill: "#7ee787"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5C13 2.12 11.88 1 10.5 1S8 2.12 8 3.5V5H4c-1.1 0-1.99.9-1.99 2v3.8H3.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7s2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5S21.88 11 20.5 11z"
+  })), label);
+}
 const DASHBOARD_DESC = "Browser extensions operate with deep access to everything users do online - reading page content, intercepting requests, accessing cookies, session tokens, and credentials. This attack surface has become one of the most exploited vectors in modern cybersecurity. In December 2024, a single phishing campaign compromised over 35 Chrome extensions affecting 2.6 million users, including the Cyberhaven security extension, by abusing OAuth permissions to push malicious updates that exfiltrated Facebook tokens and session cookies. A year later in December 2025, the Trust Wallet Chrome extension was hijacked through a leaked Web Store API key, draining $8.5 million in cryptocurrency from 2,520 wallets through a single compromised update. The DarkSpectre threat actor operated three campaigns (ShadyPanda, GhostPoster, Zoom Stealer) across Chrome, Edge, and Firefox over seven years, impacting 8.8 million users through over 100 extensions that acted as sleeper agents - behaving normally for months or years before activating data theft, search hijacking, and corporate intelligence collection. In late 2025, two fake AI assistant extensions impersonating AITOPIA were found exfiltrating ChatGPT and DeepSeek conversations from 900,000 users while carrying a Google Featured badge. In February 2026, the AiFrame campaign deployed 32 extensions disguised as AI tools to siphon browsing data across thousands of victims. Attackers use multiple strategies: purchasing established extensions from developers, phishing developer accounts via OAuth abuse, compromising Web Store API keys, or planting sleeper extensions that build trust before weaponization. Extensions bypass traditional endpoint security because they are already trusted, update automatically, and hold excessive permissions. Most organizations have zero visibility into what extensions employees are running, and most SIEMs have no detection rules for this vector. A single compromised extension can harvest every credential entered in the browser, steal active SSO sessions, exfiltrate sensitive documents, and execute local binaries via nativeMessaging - all while appearing as a legitimate tool. <strong>Monitoring and blocking known-malicious extensions is not optional - it is a fundamental security control.</strong>";
 function TracesPanel() {
   const [browser, setBrowser] = useState('chrome');
@@ -2628,7 +2662,8 @@ function App() {
       display: 'flex',
       alignItems: 'center',
       gap: 12,
-      marginBottom: 10
+      marginBottom: 10,
+      flexWrap: 'wrap'
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
@@ -2670,9 +2705,14 @@ function App() {
       marginLeft: 'auto',
       display: 'flex',
       gap: 8,
-      alignItems: 'center'
+      alignItems: 'center',
+      flexWrap: 'wrap',
+      justifyContent: 'flex-end'
     }
-  }, /*#__PURE__*/React.createElement(GhBtn, {
+  }, /*#__PURE__*/React.createElement(StoreBtn, {
+    href: "https://chromewebstore.google.com/detail/extsentry-guard/oiapejoklmgleheehkpgnpgmpibmoppm",
+    label: "Get Guard"
+  }), /*#__PURE__*/React.createElement(GhBtn, {
     href: "https://github.com/mthcht/awesome-lists/tree/main/Lists",
     label: "IOCs"
   }), /*#__PURE__*/React.createElement(GhBtn, {
