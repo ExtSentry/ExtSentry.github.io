@@ -2146,7 +2146,14 @@ function PolicyGenerator() {
   const [customIds, setCustomIds] = useState('');
   const [output, setOutput] = useState('');
   const [copied, setCopied] = useState(false);
-  const malIds = useMemo(() => DATA_MAL.map(r => r.id).filter(id => id && id.length >= 10), []);
+  // Extension ID format classifiers
+  //   Chromium/Edge : exactly 32 lowercase letters a-p (hex-like, alphabet remapped)
+  //   Firefox       : "name@domain" or "{uuid}" style
+  const isChromiumExtId = id => typeof id === 'string' && /^[a-p]{32}$/.test(id);
+  const isFirefoxExtId = id => typeof id === 'string' && (id.includes('@') || /^\{[0-9a-f-]{10,}\}$/i.test(id));
+  const allMalIds = useMemo(() => DATA_MAL.map(r => r.id).filter(id => id && id.length >= 10), []);
+  const malIdsChromium = useMemo(() => allMalIds.filter(isChromiumExtId), [allMalIds]);
+  const malIdsFirefox = useMemo(() => allMalIds.filter(isFirefoxExtId), [allMalIds]);
   const PLATFORMS = [{
     id: 'chrome_gpo',
     l: 'Chrome / Edge - GPO Registry',
@@ -2183,7 +2190,18 @@ function PolicyGenerator() {
   }];
   const generatePolicy = useCallback(() => {
     const extra = customIds.split(/[\n,;]+/).map(s => s.trim()).filter(s => s.length >= 10);
-    const allBlockIds = [...new Set([...malIds, ...extra])];
+    // Pick the ID list that matches the target browser's ID format
+    const isFirefoxPlatform = platform === 'firefox_json';
+    const baseIds = isFirefoxPlatform ? malIdsFirefox : malIdsChromium;
+    const extraFiltered = extra.filter(id => isFirefoxPlatform ? isFirefoxExtId(id) : isChromiumExtId(id));
+    const extraDropped = extra.length - extraFiltered.length;
+    const allBlockIds = [...new Set([...baseIds, ...extraFiltered])];
+    const filterNote = isFirefoxPlatform
+      ? `// Filtered to Firefox ID format (name@domain or {uuid}): ${baseIds.length} from feed`
+      : `// Filtered to Chromium/Edge ID format (32 chars a-p): ${baseIds.length} from feed`;
+    const droppedNote = extraDropped > 0
+      ? `\n// ${extraDropped} custom ID(s) skipped - wrong format for this browser`
+      : '';
     let result = '';
     if (platform === 'chrome_gpo') {
       if (strategy === 'blocklist') {
@@ -2307,9 +2325,14 @@ function PolicyGenerator() {
         result = ['// Microsoft Intune OMA-URI - Block by permissions', '', '// OMA-URI:', './Device/Vendor/MSFT/Policy/Config/microsoft_edge~Policy~microsoft_edge~Extensions/ExtensionSettings', '', '// Data type: String', '// Value:', '<enabled/><data id="ExtensionSettings" value=\'{"*":{"blocked_permissions":["debugger","nativeMessaging","proxy","management","desktopCapture","tabCapture"]}}\'/>'].join('\n');
       }
     }
+    // Prepend a header noting how IDs were filtered (only relevant when the policy uses IDs)
+    if (strategy === 'blocklist' && result) {
+      const header = [filterNote + droppedNote, ''].join('\n');
+      result = header + '\n' + result;
+    }
     setOutput(result);
     setCopied(false);
-  }, [platform, strategy, malIds, customIds]);
+  }, [platform, strategy, malIdsChromium, malIdsFirefox, customIds]);
   const copyOutput = () => {
     navigator.clipboard && navigator.clipboard.writeText(output);
     setCopied(true);
@@ -2328,7 +2351,7 @@ function PolicyGenerator() {
       color: '#6e7681',
       marginBottom: 20
     }
-  }, "Generate ready-to-deploy policies to block or control browser extensions across your fleet. Policies include the full ExtSentry malicious feed (", malIds.length, " extension IDs) as a pre-built blocklist."), /*#__PURE__*/React.createElement("div", {
+  }, "Generate ready-to-deploy policies to block or control browser extensions across your fleet. Policies include the full ExtSentry malicious feed (", allMalIds.length, " extension IDs, auto-filtered by browser ID format: ", malIdsChromium.length, " Chromium/Edge, ", malIdsFirefox.length, " Firefox) as a pre-built blocklist."), /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
       gridTemplateColumns: '1fr 1fr',
@@ -2469,7 +2492,7 @@ function PolicyGenerator() {
     }
   }, copied ? 'Copied' : 'Copy')), /*#__PURE__*/React.createElement(Code, null, output), strategy === 'blocklist' && /*#__PURE__*/React.createElement(Callout, {
     type: "info"
-  }, "This policy blocks ", /*#__PURE__*/React.createElement("strong", null, malIds.length), " known malicious extension IDs from the ExtSentry feed", customIds.trim() ? ' plus your custom IDs' : '', ". To keep the blocklist current, regenerate periodically as the feed is updated."), strategy === 'allowlist' && /*#__PURE__*/React.createElement(Callout, {
+  }, "This policy blocks ", /*#__PURE__*/React.createElement("strong", null, platform === 'firefox_json' ? malIdsFirefox.length : malIdsChromium.length), " known malicious ", platform === 'firefox_json' ? 'Firefox' : 'Chromium/Edge', " extension IDs from the ExtSentry feed", customIds.trim() ? ' plus your custom IDs (format-matched)' : '', ". IDs from the other browser family are excluded automatically. To keep the blocklist current, regenerate periodically as the feed is updated."), strategy === 'allowlist' && /*#__PURE__*/React.createElement(Callout, {
     type: "warn"
   }, "Allowlist mode blocks ALL extensions not explicitly approved. Users will lose access to any extension not in the allowlist. Test in a pilot group before fleet-wide deployment."), strategy === 'block_permissions' && /*#__PURE__*/React.createElement(Callout, {
     type: "info"
