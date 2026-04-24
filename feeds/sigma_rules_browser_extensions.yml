@@ -19,6 +19,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'cpcdkmjddocikjdkbbeiaafnpdbdafmi'
             - 'omddlmnhcofjbnbflmjginpjjblphbgk'
             - 'nglingapjinhecnfejdcpihlpneeadjp'
             - 'obifanppcpchlehkjipahhphbcbjekfa'
@@ -1925,6 +1926,7 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'cpcdkmjddocikjdkbbeiaafnpdbdafmi'
             - 'omddlmnhcofjbnbflmjginpjjblphbgk'
             - 'nglingapjinhecnfejdcpihlpneeadjp'
             - 'obifanppcpchlehkjipahhphbcbjekfa'
@@ -3830,6 +3832,7 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'cpcdkmjddocikjdkbbeiaafnpdbdafmi'
             - 'omddlmnhcofjbnbflmjginpjjblphbgk'
             - 'nglingapjinhecnfejdcpihlpneeadjp'
             - 'obifanppcpchlehkjipahhphbcbjekfa'
@@ -5732,6 +5735,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'cpcdkmjddocikjdkbbeiaafnpdbdafmi'
             - 'omddlmnhcofjbnbflmjginpjjblphbgk'
             - 'nglingapjinhecnfejdcpihlpneeadjp'
             - 'obifanppcpchlehkjipahhphbcbjekfa'
@@ -7843,6 +7847,7 @@ logsource:
 detection:
     selection:
         Hashes|contains:
+            - 'c46af9ae6ab0e7567573dbc950a8ffbe30ea848fac90cd15860045fe7640199c'
             - '133df5ad1bd5f3c5444fc6bf15040b34372dd309d7481be708ae6445c3a20c6f'
             - '0cbf101e96f6d5c4146812f07105f8b89bd76dd994f540470cd1c4bc37df37d5'
             - '21dd863ff9bbd15da01c1218bf92bd65eeae04a41876e10c41733b58035414c4'
@@ -7853,6 +7858,7 @@ detection:
             - 'cdae573ab468b24c28a42d6078daf2da1a4b4c5657a4146ad966e2fe8340cb49'
     filter_selection:
         sha256:
+            - 'c46af9ae6ab0e7567573dbc950a8ffbe30ea848fac90cd15860045fe7640199c'
             - '133df5ad1bd5f3c5444fc6bf15040b34372dd309d7481be708ae6445c3a20c6f'
             - '0cbf101e96f6d5c4146812f07105f8b89bd76dd994f540470cd1c4bc37df37d5'
             - '21dd863ff9bbd15da01c1218bf92bd65eeae04a41876e10c41733b58035414c4'

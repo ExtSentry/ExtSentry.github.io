@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-24T06:29:18Z",
+  "generated": "2026-04-24T08:35:06Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 1879,
+  "total_indicators": 1880,
   "categories": {
-    "malware": 1669,
+    "malware": 1670,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -18,6 +18,17 @@
     "PROXY/VPN": 5
   },
   "indicators": [
+    {
+      "extension_id": "cpcdkmjddocikjdkbbeiaafnpdbdafmi",
+      "extension_name": "NexShield Advanced Web Guardian",
+      "wildcard_pattern": "*cpcdkmjddocikjdkbbeiaafnpdbdafmi*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://github.com/mthcht/ThreatIntel-Reports/blob/f1ceede743e0791ea9f2af7988ab9fcfd4a38d56/Intel%20Reports/thehackernews_com/2026_01_crashfix-chrome-extension-delivers_html/content.txt#L696",
+      "description": "",
+      "crx_sha256": "c46af9ae6ab0e7567573dbc950a8ffbe30ea848fac90cd15860045fe7640199c",
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/cpcdkmjddocikjdkbbeiaafnpdbdafmi"
+    },
     {
       "extension_id": "omddlmnhcofjbnbflmjginpjjblphbgk",
       "extension_name": "Context Extension",

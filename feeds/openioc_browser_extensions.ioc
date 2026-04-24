@@ -1,10 +1,25 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-24T06:29:18Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-24T08:35:06Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-04-24T06:29:18Z</authored_date>
+  <authored_date>2026-04-24T08:35:06Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="edcd3370-796b-5c8d-ab2f-f26897421420" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">cpcdkmjddocikjdkbbeiaafnpdbdafmi</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c3cad525-ec6b-55a4-a3bf-db306bad71a3" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">cpcdkmjddocikjdkbbeiaafnpdbdafmi</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="410f043a-f7a0-5d43-a17e-cf10f6f9a3d1" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="string">c46af9ae6ab0e7567573dbc950a8ffbe30ea848fac90cd15860045fe7640199c</Content>
+        <Comment>CRX SHA-256 for malware | malicious | </Comment>
+      </IndicatorItem>
       <IndicatorItem id="9c4f20d9-4216-5779-b653-c9b704e3e0a5" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">omddlmnhcofjbnbflmjginpjjblphbgk</Content>
