@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-24",
-    "timestamp": "1777025477",
+    "timestamp": "1777031037",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,23 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "6106685a-9ac1-5a0d-ad9a-d82a1141d895",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "lhokehflammomchbkmpohfeidffnlpmo",
+        "comment": "Sinceerly | Category: malware | Type: malicious | stealing api key and email text messages",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "9b054d03-2042-5067-adcf-94138479a22b",
         "type": "text",
@@ -32142,6 +32159,51 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "34134e2c-b22a-5ea7-a73f-c25a9c6f1653",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Sinceerly",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "lhokehflammomchbkmpohfeidffnlpmo",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Sinceerly",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://x.com/nix_eth/status/2047407665211728181",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "a2e1d604-807c-521d-9501-f2e9f0688990",
         "name": "annotation",

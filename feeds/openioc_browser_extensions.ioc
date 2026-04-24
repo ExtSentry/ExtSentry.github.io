@@ -1,10 +1,20 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-24T10:11:16Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-24T11:43:56Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-04-24T10:11:16Z</authored_date>
+  <authored_date>2026-04-24T11:43:56Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="b693f458-50b9-5df6-8634-37e1a9dc94fd" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">lhokehflammomchbkmpohfeidffnlpmo</Content>
+        <Comment>malware | malicious | stealing api key and email text messages</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d0db884e-5e79-54ad-8e6d-a1067a2a7c7d" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">lhokehflammomchbkmpohfeidffnlpmo</Content>
+        <Comment>malware | malicious | stealing api key and email text messages</Comment>
+      </IndicatorItem>
       <IndicatorItem id="edcd3370-796b-5c8d-ab2f-f26897421420" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">cpcdkmjddocikjdkbbeiaafnpdbdafmi</Content>
