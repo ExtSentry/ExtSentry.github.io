@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-26T16:23:39Z",
+  "generated": "2026-04-26T16:51:55Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 1881,
+  "total_indicators": 1893,
   "categories": {
-    "malware": 1671,
+    "malware": 1683,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -18,6 +18,138 @@
     "PROXY/VPN": 5
   },
   "indicators": [
+    {
+      "extension_id": "injnjbcogjhcjhnhcbmlahgikemedbko",
+      "extension_name": "TikTok Downloader \u2013 Save Videos, No Watermark",
+      "wildcard_pattern": "*injnjbcogjhcjhnhcbmlahgikemedbko*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Active; installs=3000",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/injnjbcogjhcjhnhcbmlahgikemedbko"
+    },
+    {
+      "extension_id": "ehdkeonoccndeaggbnolijnmmeohkbpf",
+      "extension_name": "TikTok Video Downloader \u2013 Bulk Save",
+      "wildcard_pattern": "*ehdkeonoccndeaggbnolijnmmeohkbpf*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Active; installs=1000",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ehdkeonoccndeaggbnolijnmmeohkbpf"
+    },
+    {
+      "extension_id": "pfpijacnpangmkfdpgodlbokpkhpkeka",
+      "extension_name": "Tiktok Downloader",
+      "wildcard_pattern": "*pfpijacnpangmkfdpgodlbokpkhpkeka*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Active; installs=353",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/pfpijacnpangmkfdpgodlbokpkhpkeka"
+    },
+    {
+      "extension_id": "cfbgdmiobbicgjnaegnenlcgbdabkcli",
+      "extension_name": "TikTok Video Downloader \u2013 Save Without Watermark",
+      "wildcard_pattern": "*cfbgdmiobbicgjnaegnenlcgbdabkcli*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Active; installs=4000",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/cfbgdmiobbicgjnaegnenlcgbdabkcli"
+    },
+    {
+      "extension_id": "mpalaahimeigibehbocnjipjfakekfia",
+      "extension_name": "Mass Tiktok Video Downloader",
+      "wildcard_pattern": "*mpalaahimeigibehbocnjipjfakekfia*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Microsoft Edge; status=Active; installs=77",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/mpalaahimeigibehbocnjipjfakekfia"
+    },
+    {
+      "extension_id": "kkhjihaeddnhknninbekkhaklnailngh",
+      "extension_name": "TikTok Video Downloader \u2013 Save Without Watermark",
+      "wildcard_pattern": "*kkhjihaeddnhknninbekkhaklnailngh*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Microsoft Edge; status=Active; installs=9",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/kkhjihaeddnhknninbekkhaklnailngh"
+    },
+    {
+      "extension_id": "kbifpojhlkdoidmndacedmkbjopeekgl",
+      "extension_name": "TikTok Downloader \u2013 Save Videos, No Watermark",
+      "wildcard_pattern": "*kbifpojhlkdoidmndacedmkbjopeekgl*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Microsoft Edge; status=Active; installs=47",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/kbifpojhlkdoidmndacedmkbjopeekgl"
+    },
+    {
+      "extension_id": "jacilgchggenbmgbfnehcegalhlgpnhf",
+      "extension_name": "Mass Tiktok Video Downloader",
+      "wildcard_pattern": "*jacilgchggenbmgbfnehcegalhlgpnhf*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Active; installs=4000",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/jacilgchggenbmgbfnehcegalhlgpnhf"
+    },
+    {
+      "extension_id": "oaceepljpkcbcgccnmlepeofkhplkbih",
+      "extension_name": "Mass Tiktok Video Downloader",
+      "wildcard_pattern": "*oaceepljpkcbcgccnmlepeofkhplkbih*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Removed; installs=30000",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/oaceepljpkcbcgccnmlepeofkhplkbih"
+    },
+    {
+      "extension_id": "ilcjgmjecbhpgpipmkfkibjopafpbcag",
+      "extension_name": "TikTok Downloader \u2013 Save Videos, No Watermark",
+      "wildcard_pattern": "*ilcjgmjecbhpgpipmkfkibjopafpbcag*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Removed; installs=10000",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ilcjgmjecbhpgpipmkfkibjopafpbcag"
+    },
+    {
+      "extension_id": "kmobjdioiclamniofdnngmafbhgcniok",
+      "extension_name": "TikTok Video Keeper",
+      "wildcard_pattern": "*kmobjdioiclamniofdnngmafbhgcniok*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Removed; installs=60000",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/kmobjdioiclamniofdnngmafbhgcniok"
+    },
+    {
+      "extension_id": "cgnbfcoeopaehocfdnkkjecibafichje",
+      "extension_name": "Video Downloader for Tiktok",
+      "wildcard_pattern": "*cgnbfcoeopaehocfdnkkjecibafichje*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/",
+      "description": "StealTok campaign; browser=Google Chrome; status=Removed; installs=20000",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/cgnbfcoeopaehocfdnkkjecibafichje"
+    },
     {
       "extension_id": "lhokehflammomchbkmpohfeidffnlpmo",
       "extension_name": "Sinceerly",

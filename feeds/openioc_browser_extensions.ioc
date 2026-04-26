@@ -1,10 +1,130 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-26T16:23:39Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-26T16:51:55Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-04-26T16:23:39Z</authored_date>
+  <authored_date>2026-04-26T16:51:55Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="5c154364-a541-57d3-b8c4-2d4b60ec0ba5" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">injnjbcogjhcjhnhcbmlahgikemedbko</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=3000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="47f1545c-c392-5d1c-8d38-055bd7e902a5" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">injnjbcogjhcjhnhcbmlahgikemedbko</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=3000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="92de584a-d067-5279-b095-131118b4ce1a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ehdkeonoccndeaggbnolijnmmeohkbpf</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=1000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c96b95ff-954f-50e9-82a6-1d572f42807d" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ehdkeonoccndeaggbnolijnmmeohkbpf</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=1000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="23c93e76-d994-5aa3-94c7-7b787d0a2be8" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">pfpijacnpangmkfdpgodlbokpkhpkeka</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=353</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a6a62910-4af8-57a7-a250-29e28b24039f" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">pfpijacnpangmkfdpgodlbokpkhpkeka</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=353</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d156e892-22bb-54c4-95b0-ee73172cc212" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">cfbgdmiobbicgjnaegnenlcgbdabkcli</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=4000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1dfa0383-138e-513a-a275-890f3ded5074" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">cfbgdmiobbicgjnaegnenlcgbdabkcli</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=4000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="10035424-2c5f-5544-8147-d6101338e11a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">mpalaahimeigibehbocnjipjfakekfia</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Microsoft Edge; status=Active; installs=77</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="53dc8701-3cad-528a-9c78-69ee0cc9ffc8" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">mpalaahimeigibehbocnjipjfakekfia</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Microsoft Edge; status=Active; installs=77</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="23b1eb60-3d76-56fa-af2e-5e07e68a216f" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kkhjihaeddnhknninbekkhaklnailngh</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Microsoft Edge; status=Active; installs=9</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="66da6f1b-757f-505c-b43a-530f7262e3db" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kkhjihaeddnhknninbekkhaklnailngh</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Microsoft Edge; status=Active; installs=9</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="0d8f12ff-779e-561f-b25c-61ff64d0dfde" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kbifpojhlkdoidmndacedmkbjopeekgl</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Microsoft Edge; status=Active; installs=47</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="010daec5-7d91-589b-8684-a870da85acee" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kbifpojhlkdoidmndacedmkbjopeekgl</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Microsoft Edge; status=Active; installs=47</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3b821b24-f095-5f25-8028-bb655210f97e" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jacilgchggenbmgbfnehcegalhlgpnhf</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=4000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3b5d681e-59e9-5dc8-a0ec-014bc7749b8b" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jacilgchggenbmgbfnehcegalhlgpnhf</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Active; installs=4000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="da388892-9073-501e-acb5-8d406ca724cf" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">oaceepljpkcbcgccnmlepeofkhplkbih</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Removed; installs=30000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="675de244-487b-59e2-a8d3-4d54af60eeeb" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">oaceepljpkcbcgccnmlepeofkhplkbih</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Removed; installs=30000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e0986530-bbcf-5379-afa8-7094749c28e6" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ilcjgmjecbhpgpipmkfkibjopafpbcag</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Removed; installs=10000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="cd144bfb-796b-5875-9957-563430fbb11a" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ilcjgmjecbhpgpipmkfkibjopafpbcag</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Removed; installs=10000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d35cd5e9-da23-505b-ba82-85c498f44b5a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kmobjdioiclamniofdnngmafbhgcniok</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Removed; installs=60000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="37fa5fff-7631-588a-8880-5fa4237e6409" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kmobjdioiclamniofdnngmafbhgcniok</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Removed; installs=60000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="37fb2ced-fc85-50fb-ae0e-4b608c2329b3" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">cgnbfcoeopaehocfdnkkjecibafichje</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Removed; installs=20000</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a84e1cc6-0b57-5282-98aa-4965739c3595" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">cgnbfcoeopaehocfdnkkjecibafichje</Content>
+        <Comment>malware | malicious | StealTok campaign; browser=Google Chrome; status=Removed; installs=20000</Comment>
+      </IndicatorItem>
       <IndicatorItem id="b693f458-50b9-5df6-8634-37e1a9dc94fd" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">lhokehflammomchbkmpohfeidffnlpmo</Content>
