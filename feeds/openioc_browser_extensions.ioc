@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-27T15:25:31Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-27T15:51:26Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-04-27T15:25:31Z</authored_date>
+  <authored_date>2026-04-27T15:51:26Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
       <IndicatorItem id="5c154364-a541-57d3-b8c4-2d4b60ec0ba5" condition="contains">
@@ -16180,15 +16180,10 @@
         <Content type="string">lcdlanlaneooailnebnhamiiieebikid</Content>
         <Comment>malware | malicious | </Comment>
       </IndicatorItem>
-      <IndicatorItem id="6674f424-714d-56d3-a789-a54b7c298541" condition="contains">
-        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
-        <Content type="string">ngpampappnmepgilojfohadhhmbhlaek</Content>
-        <Comment>malware | malicious | </Comment>
-      </IndicatorItem>
-      <IndicatorItem id="8bcae1e7-8b6c-51d6-b1c1-e9747b6905be" condition="contains">
-        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
-        <Content type="string">ngpampappnmepgilojfohadhhmbhlaek</Content>
-        <Comment>malware | malicious | </Comment>
+      <IndicatorItem id="661b159c-4bdc-5e75-8a75-12dbf87b56eb" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="string">b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba</Content>
+        <Comment>CRX SHA-256 for malware | malicious | </Comment>
       </IndicatorItem>
       <IndicatorItem id="5ecb644e-9216-5c49-a9c0-304bbaf96b71" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>

@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-04-27T15:25:31Z",
+  "generated": "2026-04-27T15:51:26Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 1893,
+  "total_indicators": 1892,
   "categories": {
-    "malware": 1683,
+    "malware": 1682,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -17758,19 +17758,8 @@
       "threat_type": "malicious",
       "reference_url": "https://www.bleepingcomputer.com/news/security/fake-chrome-extension-internet-download-manager-has-200-000-installs/",
       "description": "",
-      "crx_sha256": null,
+      "crx_sha256": "b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba",
       "chrome_webstore_url": "https://chromewebstore.google.com/detail/lcdlanlaneooailnebnhamiiieebikid"
-    },
-    {
-      "extension_id": "ngpampappnmepgilojfohadhhmbhlaek",
-      "extension_name": null,
-      "wildcard_pattern": "*ngpampappnmepgilojfohadhhmbhlaek*",
-      "category": "malware",
-      "threat_type": "malicious",
-      "reference_url": "https://www.bleepingcomputer.com/news/security/fake-chrome-extension-internet-download-manager-has-200-000-installs/",
-      "description": "",
-      "crx_sha256": null,
-      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ngpampappnmepgilojfohadhhmbhlaek"
     },
     {
       "extension_id": "llcdellnofncikmhimjdbkdjgpmcjbik",

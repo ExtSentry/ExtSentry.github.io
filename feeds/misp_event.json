@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-27",
-    "timestamp": "1777303532",
+    "timestamp": "1777305087",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27602,12 +27602,12 @@
         ]
       },
       {
-        "uuid": "6ea52776-f652-5567-882f-cd9251f66b25",
-        "type": "text",
-        "category": "Other",
-        "to_ids": false,
-        "value": "ngpampappnmepgilojfohadhhmbhlaek",
-        "comment": "ngpampappnmepgilojfohadhhmbhlaek | Category: malware | Type: malicious | ",
+        "uuid": "369a6590-43eb-5510-8e1a-f9eb8e3efa7b",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "to_ids": true,
+        "value": "b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba",
+        "comment": "CRX file hash for Internet Download Manager (lcdlanlaneooailnebnhamiiieebikid)",
         "distribution": "5",
         "Tag": [
           {
@@ -104738,48 +104738,10 @@
           },
           {
             "object_relation": "text",
-            "type": "link",
-            "value": "https://www.bleepingcomputer.com/news/security/fake-chrome-extension-internet-download-manager-has-200-000-installs/",
-            "comment": "Reference URL",
-            "to_ids": false
-          }
-        ]
-      },
-      {
-        "uuid": "1b12ff4a-e6b6-51bf-9b90-24e2b23a03e2",
-        "name": "annotation",
-        "meta-category": "misc",
-        "description": "Suspicious/Malicious browser extension: ngpampappnmepgilojfohadhhmbhlaek",
-        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
-        "template_version": "1",
-        "Attribute": [
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "ngpampappnmepgilojfohadhhmbhlaek",
-            "comment": "Browser Extension ID",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "ngpampappnmepgilojfohadhhmbhlaek",
-            "comment": "Extension Name",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "malware",
-            "comment": "Threat Category",
-            "to_ids": false
-          },
-          {
-            "object_relation": "text",
-            "type": "text",
-            "value": "malicious",
-            "comment": "Threat Type",
-            "to_ids": false
+            "type": "sha256",
+            "value": "b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba",
+            "comment": "CRX File SHA-256",
+            "to_ids": true
           },
           {
             "object_relation": "text",

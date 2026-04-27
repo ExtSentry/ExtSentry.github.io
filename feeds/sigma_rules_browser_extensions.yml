@@ -1632,7 +1632,6 @@ detection:
             - 'aapbdbdomjkkjkaonfhkkikfgjllcleb'
             - 'eenjdnjldapjajjofmldgmkjaienebbj'
             - 'lcdlanlaneooailnebnhamiiieebikid'
-            - 'ngpampappnmepgilojfohadhhmbhlaek'
             - 'llcdellnofncikmhimjdbkdjgpmcjbik'
             - 'mjnbclmflcpookeapghfhapeffmpodij'
             - 'odlnghcomkeenpeblhddfpacdncfjmna'
@@ -3552,7 +3551,6 @@ detection:
             - 'aapbdbdomjkkjkaonfhkkikfgjllcleb'
             - 'eenjdnjldapjajjofmldgmkjaienebbj'
             - 'lcdlanlaneooailnebnhamiiieebikid'
-            - 'ngpampappnmepgilojfohadhhmbhlaek'
             - 'llcdellnofncikmhimjdbkdjgpmcjbik'
             - 'mjnbclmflcpookeapghfhapeffmpodij'
             - 'odlnghcomkeenpeblhddfpacdncfjmna'
@@ -5471,7 +5469,6 @@ detection:
             - 'aapbdbdomjkkjkaonfhkkikfgjllcleb'
             - 'eenjdnjldapjajjofmldgmkjaienebbj'
             - 'lcdlanlaneooailnebnhamiiieebikid'
-            - 'ngpampappnmepgilojfohadhhmbhlaek'
             - 'llcdellnofncikmhimjdbkdjgpmcjbik'
             - 'mjnbclmflcpookeapghfhapeffmpodij'
             - 'odlnghcomkeenpeblhddfpacdncfjmna'
@@ -7177,7 +7174,6 @@ detection:
             - 'aapbdbdomjkkjkaonfhkkikfgjllcleb'
             - 'eenjdnjldapjajjofmldgmkjaienebbj'
             - 'lcdlanlaneooailnebnhamiiieebikid'
-            - 'ngpampappnmepgilojfohadhhmbhlaek'
             - 'llcdellnofncikmhimjdbkdjgpmcjbik'
             - 'mjnbclmflcpookeapghfhapeffmpodij'
             - 'odlnghcomkeenpeblhddfpacdncfjmna'
@@ -7908,6 +7904,7 @@ detection:
             - '4a2f0f1893527e4c419f36c2e4f95a61617074200bb67218fb96ae74125e433b'
             - '5629be21869a83e9b9da86ab16a2d9cebd0aed2c04a9efe2ac044dfe0d5db6b9'
             - 'cdae573ab468b24c28a42d6078daf2da1a4b4c5657a4146ad966e2fe8340cb49'
+            - 'b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba'
     filter_selection:
         sha256:
             - 'c46af9ae6ab0e7567573dbc950a8ffbe30ea848fac90cd15860045fe7640199c'
@@ -7919,6 +7916,7 @@ detection:
             - '4a2f0f1893527e4c419f36c2e4f95a61617074200bb67218fb96ae74125e433b'
             - '5629be21869a83e9b9da86ab16a2d9cebd0aed2c04a9efe2ac044dfe0d5db6b9'
             - 'cdae573ab468b24c28a42d6078daf2da1a4b4c5657a4146ad966e2fe8340cb49'
+            - 'b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba'
     condition: selection or filter_selection
 falsepositives:
     - Unlikely
