@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-04-27",
-    "timestamp": "1777316087",
+    "timestamp": "1777320343",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -32351,6 +32351,652 @@
         "to_ids": false,
         "value": "kdenlnncndfnhkognokgfpabgkgehodd",
         "comment": "QuickLens - Search Screen with Google Lens | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9bf09ea6-6add-5a1f-9afb-5c8dc557f78e",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "browser_extension_id",
+        "comment": "browser_extension | Category: metadata_category | Type: metadata_type | metadata_comment",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"metadata_category\""
+          },
+          {
+            "name": "extsentry:type=\"metadata_type\""
+          }
+        ]
+      },
+      {
+        "uuid": "c8e53b1a-170d-551c-adf3-0882a8040f7e",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "to_ids": true,
+        "value": "crx_file_sha256",
+        "comment": "CRX file hash for browser_extension (browser_extension_id)",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"metadata_category\""
+          },
+          {
+            "name": "extsentry:type=\"metadata_type\""
+          }
+        ]
+      },
+      {
+        "uuid": "b33634b7-741f-5518-9049-913a7b7d19a1",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}",
+        "comment": "Bypass | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla-confirmed malicious proxy API abuse - exact ID match required",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "209f6579-26ca-53c1-8c69-8cbde970dd2e",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{d61552ef-e2a6-4fb5-bf67-8990f0014957}",
+        "comment": "Bypass XM | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla-confirmed malicious proxy API abuse - exact ID match required",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "886a134b-a4fb-5c12-8766-3eaad4ee8260",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "firefox@browser-security.de",
+        "comment": "Browser Security | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e6202b41-4105-56ce-88f3-eb809b21b469",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "firefox@smarttube.io",
+        "comment": "Smarttube | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6f0a41f6-ea26-575e-a97e-36534eed3dae",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{0fde9597-0508-47ff-ad8a-793fa059c4e7}",
+        "comment": "Web Security blocked add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "7a7e5337-eb35-5da7-a9fe-422829000566",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "info@browser-privacy.com",
+        "comment": "Browser Privacy | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "df1d1cb5-be49-51f1-814e-0492319f59af",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{d3b98a68-fd64-4763-8b66-e15e47ef000a}",
+        "comment": "Web Security blocked add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d941c909-9e45-5830-9b49-b8e7f9d52418",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{36ea170d-2586-45fb-9f48-5f6b6fd59da7}",
+        "comment": "Web Security blocked add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "649b7b8c-f1c4-5216-a6a3-8516ebec075c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "youtubemp3converter@yttools.io",
+        "comment": "YouTube MP3 Converter & Download | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "a24d0fc1-a7b0-5f5b-8b34-6ea23a1b39bd",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "simplysearch@dirtylittlehelpers.com",
+        "comment": "Simply Search | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0d7d0f07-0009-5c8f-86f6-bbbacf8e6854",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "extreme@smarttube.io",
+        "comment": "Smarttube - Extreme | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "69552a21-ca21-5e26-b410-7d0ba595c041",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "selfdestructingcookies@dirtylittlehelpers.com",
+        "comment": "Self Destroying Cookies | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "5b93019c-362c-57fd-8cb4-a8cf87e6ce40",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}",
+        "comment": "Web Security blocked add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "52c80962-64ec-57ba-992c-e4b4f939a224",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}",
+        "comment": "Web Security blocked add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d1f59a7e-61de-5cdd-b3a3-0d21c7a62388",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "adblock@smarttube.io",
+        "comment": "YouTube - Adblock | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d834195c-f27c-58b9-9010-8a139389fb90",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}",
+        "comment": "Web Security blocked add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c938fdb5-7be2-5bf7-bce1-52e9c7311f06",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}",
+        "comment": "Web Security blocked add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9d7f398f-148b-533f-872c-6bb7d1f3fd34",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{8c85526d-1be9-4b96-9462-aa48a811f4cf}",
+        "comment": "Web Security blocked add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9935c26b-9ed0-5848-8460-420ec54006d5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mail@quick-buttons.de",
+        "comment": "Amazon Quick Search | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bcd6f1c8-3dc0-5e6f-973e-d6d3d07f60e0",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "youtubeadblocker@yttools.io",
+        "comment": "YouTube Adblocker | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "8f442fbc-31f0-5da7-aa0f-7b99742cabb2",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "extension@browser-safety.org",
+        "comment": "Browser Safety | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0a5894f3-44f9-585f-a388-a79d1fa82bbb",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "contact@web-security.com",
+        "comment": "Web Security | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e4323f4c-ed5e-565c-8cc0-83f88a16cdb5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "videodownloader@dirtylittlehelpers.com",
+        "comment": "Video Downloader | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6d2401d3-50d9-5839-8f4d-cb99858bd2de",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "googlenotrack@dirtylittlehelpers.com",
+        "comment": "Google NoTrack | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ea66f40a-7a37-57ee-af1f-55806ae081f5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "develop@quick-amz.com",
+        "comment": "Quick AMZ | Category: malware | Type: malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6d9ea156-3446-597e-9e06-72a80ee7adfd",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{7536027f-96fb-4762-9e02-fdfaedd3bfb5}",
+        "comment": "Twiter X Video Downloader | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / Zoom Stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "4c1ba3f0-45e3-55ab-b415-5e99ae4cd735",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "xtwitterdownloader@benimaddonum.com",
+        "comment": "x-video-downloader | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / Zoom Stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ceac5448-8469-58a1-9a5e-d5e804e18873",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{34b0d04c-29cf-473c-bb6c-c2fe94377b99}",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "32f0f6a9-aae4-5b06-8b8c-e1513d0ed8f4",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "81476e3e-f1cb-53ef-97e7-7305a33f387a",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nickyfeng2@edgetranslate.com",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "397ed107-10d6-5248-824d-f44adccae3aa",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "1305302314@qq.com",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ac1a761c-befb-5cab-9ca0-5d61ca4005a3",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mail@imba97.cn",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "1f3addda-5bfe-5e21-8e40-eaced42fd656",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{99d4bddd-5452-4216-83bc-fcd57857b6fb}",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c108607c-61cc-5a6b-8576-71363b29b0ec",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "a60e667c-733e-5b49-887a-8ab11092cb7a",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{5f246670-f5e2-45ff-b183-be21cbeb065a}",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ad092e13-23a0-597a-8e32-b52cdcafa868",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "{c257a965-0bf8-4934-bf85-9ebf761d1cf8}",
+        "comment": "ShadyPanda Firefox add-on | Category: malware | Type: malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda",
         "distribution": "5",
         "Tag": [
           {
@@ -117302,6 +117948,1678 @@
             "object_relation": "text",
             "type": "link",
             "value": "https://annex.security/blog/pixel-perfect/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b4ca93cd-1ac3-5e60-a94e-d36235f8f094",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: browser_extension",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "browser_extension_id",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "browser_extension",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "metadata_category",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "metadata_type",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "sha256",
+            "value": "crx_file_sha256",
+            "comment": "CRX File SHA-256",
+            "to_ids": true
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "metadata_link",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "de274ef8-6e64-51dd-b401-4247aff64278",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Bypass",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Bypass",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://blog.mozilla.org/security/2021/10/25/securing-the-proxy-api-for-firefox-add-ons/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "94dd2c47-7f51-5c6f-88ff-617178001d3b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Bypass XM",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{d61552ef-e2a6-4fb5-bf67-8990f0014957}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Bypass XM",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://blog.mozilla.org/security/2021/10/25/securing-the-proxy-api-for-firefox-add-ons/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "af4e17e7-ea21-5eb7-b3e0-16367f275103",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Browser Security",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "firefox@browser-security.de",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Browser Security",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "4b1da5f7-977d-5722-8367-db961de2ff59",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Smarttube",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "firefox@smarttube.io",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Smarttube",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b367c1c4-051b-5f6b-89ab-d12174ad8db8",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security blocked add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{0fde9597-0508-47ff-ad8a-793fa059c4e7}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security blocked add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "171fe173-12ae-5490-b86b-db49754ffdf9",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Browser Privacy",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "info@browser-privacy.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Browser Privacy",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "fa0315dd-48f1-50e0-8ad6-af04fb8e3b68",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security blocked add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{d3b98a68-fd64-4763-8b66-e15e47ef000a}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security blocked add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "9239a4b2-1bbc-53ec-85fc-5fa7c82b3843",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security blocked add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{36ea170d-2586-45fb-9f48-5f6b6fd59da7}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security blocked add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "f7efdda0-ef16-5208-bdc2-8879345198d4",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: YouTube MP3 Converter & Download",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "youtubemp3converter@yttools.io",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "YouTube MP3 Converter & Download",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "cf427996-77ae-5e67-a72c-369c6fe36cb9",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Simply Search",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "simplysearch@dirtylittlehelpers.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Simply Search",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "fa75f288-29c8-5798-a491-4fdb80c72921",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Smarttube - Extreme",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "extreme@smarttube.io",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Smarttube - Extreme",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "3b234fd7-3651-5653-b6d4-5371c7ba6f0a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Self Destroying Cookies",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "selfdestructingcookies@dirtylittlehelpers.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Self Destroying Cookies",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "ec72b550-85b6-56b8-94b9-2ee30e1d876a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security blocked add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security blocked add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "79cbcf98-9b51-52fa-b1ee-af9a950f989b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security blocked add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security blocked add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "1d0262cf-2bab-5142-989b-bb1783455b8a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: YouTube - Adblock",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "adblock@smarttube.io",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "YouTube - Adblock",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "9b231f1e-3a15-55d7-8008-c36e782adb3e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security blocked add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security blocked add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "fe212cad-1f8a-51f9-ad4f-fb5330f03ac0",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security blocked add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security blocked add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "64d741d0-30bf-53b1-a640-2ed29f6ea3ed",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security blocked add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{8c85526d-1be9-4b96-9462-aa48a811f4cf}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security blocked add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "fd71812f-e05f-586f-931b-a9930fe35160",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Amazon Quick Search",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mail@quick-buttons.de",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Amazon Quick Search",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "29eef9a0-2a74-5dab-8529-7087dde31a05",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: YouTube Adblocker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "youtubeadblocker@yttools.io",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "YouTube Adblocker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "cfdff4e8-0c8e-5377-94f7-60dc2c9b77bc",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Browser Safety",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "extension@browser-safety.org",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Browser Safety",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "43207eb4-8160-5240-b44b-2496c10d8f52",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web Security",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "contact@web-security.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web Security",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c5a059d4-5a4a-573d-b9f0-64ec9fc9c2da",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Video Downloader",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "videodownloader@dirtylittlehelpers.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Video Downloader",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "5ed1a1d5-8cf2-59c8-a100-1ed1b534a025",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Google NoTrack",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "googlenotrack@dirtylittlehelpers.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Google NoTrack",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "19f6bd4f-d0e5-5195-aa60-1616592d4e3c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Quick AMZ",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "develop@quick-amz.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Quick AMZ",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=1483995",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6225ce76-ea14-5bea-a1f2-e10111f6d2b7",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Twiter X Video Downloader",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{7536027f-96fb-4762-9e02-fdfaedd3bfb5}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Twiter X Video Downloader",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "13645d4f-ecbc-5aa5-8804-3c75ae06c99b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: x-video-downloader",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "xtwitterdownloader@benimaddonum.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "x-video-downloader",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "04cc80da-5114-5a6c-a421-1dbce1eb2e1a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{34b0d04c-29cf-473c-bb6c-c2fe94377b99}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "050931fc-eac2-5161-8864-5d40b71fc0ef",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "7307ce7b-45b6-593e-b65a-24404d4268fd",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nickyfeng2@edgetranslate.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a4208f4e-41aa-5e34-b38c-18522bf8313c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "1305302314@qq.com",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "2557373c-6103-5637-bae0-48884c83a6ce",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mail@imba97.cn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "1d7071f2-6d2e-5eee-877d-b5b376952ca2",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{99d4bddd-5452-4216-83bc-fcd57857b6fb}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d51f54a9-5542-58a4-94c3-6d25142eec48",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c73ff412-085b-5178-bac8-728fc3bd59b1",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{5f246670-f5e2-45ff-b183-be21cbeb065a}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c6728ab0-273c-5d16-a6a8-1b5e21ad1876",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ShadyPanda Firefox add-on",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "{c257a965-0bf8-4934-bf85-9ebf761d1cf8}",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ShadyPanda Firefox add-on",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.koi.ai/blog/darkspectre-unmasking-the-threat-actor-behind-7-8-million-infected-browsers",
             "comment": "Reference URL",
             "to_ids": false
           }

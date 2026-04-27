@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-27T18:54:46Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-04-27T20:05:42Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-04-27T18:54:46Z</authored_date>
+  <authored_date>2026-04-27T20:05:42Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
       <IndicatorItem id="5c154364-a541-57d3-b8c4-2d4b60ec0ba5" condition="contains">
@@ -18974,6 +18974,381 @@
         <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
         <Content type="string">kdenlnncndfnhkognokgfpabgkgehodd</Content>
         <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="992d0ada-ff6a-575a-b587-ea5b5025c572" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">browser_extension_id</Content>
+        <Comment>metadata_category | metadata_type | metadata_comment</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="83041b71-1fc8-548f-81d7-7cc3722cfcfa" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">browser_extension_id</Content>
+        <Comment>metadata_category | metadata_type | metadata_comment</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="824a5698-803d-55c4-948a-ee6ec368b9a1" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="string">crx_file_sha256</Content>
+        <Comment>CRX SHA-256 for metadata_category | metadata_type | metadata_comment</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1a12d34f-e6c7-5a4b-9ffb-72515e8dc983" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla-confirmed malicious proxy API abuse - exact ID match required</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="9bc07cbd-8984-5c1c-8156-1804cc96e8c7" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla-confirmed malicious proxy API abuse - exact ID match required</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="662c81d1-8d06-5419-a8cf-0243b2e73954" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{d61552ef-e2a6-4fb5-bf67-8990f0014957}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla-confirmed malicious proxy API abuse - exact ID match required</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="ece7600e-3b72-5a9e-8639-c00f45df7253" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{d61552ef-e2a6-4fb5-bf67-8990f0014957}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla-confirmed malicious proxy API abuse - exact ID match required</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="eadd61f4-4ae8-5d67-a3c9-b91bbffb3918" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">firefox@browser-security.de</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c52561c4-e055-5873-8a4a-9550566b1308" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">firefox@browser-security.de</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4313aacc-933a-5941-8dcd-39b327c03f4b" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">firefox@smarttube.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b70e6787-1762-57de-9eb4-790b0addd70d" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">firefox@smarttube.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="be24b96f-82ef-5a58-acbd-eef6c0003ecc" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{0fde9597-0508-47ff-ad8a-793fa059c4e7}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="451a7b3c-e61f-50bd-bbea-29fa06c54fc9" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{0fde9597-0508-47ff-ad8a-793fa059c4e7}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2d2e578d-f261-5306-af7a-ee3f578a551c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">info@browser-privacy.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5bda080c-34a5-5dda-8f81-7a052743aa5b" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">info@browser-privacy.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="42fc6723-6c75-5898-99b6-41fca3803ca9" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{d3b98a68-fd64-4763-8b66-e15e47ef000a}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="fe3ae456-0d16-586a-a05d-ce9cd5d58814" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{d3b98a68-fd64-4763-8b66-e15e47ef000a}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1cc3dda8-8112-55fe-b959-ba2188f777f1" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{36ea170d-2586-45fb-9f48-5f6b6fd59da7}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5c830cd6-eb68-575d-8363-1f91d9f0a8dc" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{36ea170d-2586-45fb-9f48-5f6b6fd59da7}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="8672ea76-8af6-5f34-8f1c-a86d5a844436" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">youtubemp3converter@yttools.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="cf707bfb-bcfa-554b-a936-5242e7bf1d6f" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">youtubemp3converter@yttools.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b3a19e3c-586f-5249-a134-4927bd7eac08" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">simplysearch@dirtylittlehelpers.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="cf0b36d4-00b6-566f-88e1-09d0ff74e956" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">simplysearch@dirtylittlehelpers.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a6a3888b-194c-58e5-ac02-39fd1c1158e3" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">extreme@smarttube.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3593bf56-4faa-5ddf-86aa-ec703d612729" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">extreme@smarttube.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="92ad3c73-6f00-5b83-bff3-6ed278a15394" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">selfdestructingcookies@dirtylittlehelpers.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="8d77632a-c7b2-5594-8a25-59a4dac053cf" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">selfdestructingcookies@dirtylittlehelpers.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="0751194a-d465-5f07-8557-c22905424913" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e8bebec7-310e-57aa-b494-5722efc28c53" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="90020221-85bf-5a52-87e7-dde3866c1890" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2fa153ae-b36c-56e6-a62c-622442410973" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="9f128b50-7593-52d7-ad33-9ff4685daad4" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">adblock@smarttube.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b144a334-2682-528e-af44-adaced580ee7" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">adblock@smarttube.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="30e6d005-b51f-5b04-89ba-4d9d08539c27" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e0260f9f-5783-5a76-9e2b-f77c7f1ef783" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3fd34652-9c5f-5980-967d-b923fe5172e8" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5650f0dc-a9d6-5e37-be7c-b8d1e89d3477" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="21f15399-5f4e-5be1-a0cf-77f410b83656" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{8c85526d-1be9-4b96-9462-aa48a811f4cf}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="867bccc1-c3ec-5686-a4e6-78200cdede60" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{8c85526d-1be9-4b96-9462-aa48a811f4cf}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e44d0bb5-441f-50b8-9d15-90dcff4c1d47" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">mail@quick-buttons.de</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="56e3a9ba-7418-5852-a9d3-4e36fd29dc5b" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">mail@quick-buttons.de</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="13b51457-ff6b-5ec2-81ed-6693d5ec7721" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">youtubeadblocker@yttools.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="89c4249c-c5e3-563a-9e41-21c4eea7b99a" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">youtubeadblocker@yttools.io</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c1beb69b-c426-5b4d-abdc-e1bf233f79c7" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">extension@browser-safety.org</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2a6ad55b-44f6-57d3-bf87-5baffadd6663" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">extension@browser-safety.org</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c6c80222-6260-51fb-b547-763b3ecd5a5e" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">contact@web-security.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="cbdb59af-a6d8-56bd-829d-a5a81e90dbb1" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">contact@web-security.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d79e39b2-e2fa-56db-a30e-a68bab0bb0dc" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">videodownloader@dirtylittlehelpers.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="7abbdb46-808b-5b69-ab26-2221e457c91b" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">videodownloader@dirtylittlehelpers.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="aa2ea73c-b8f8-5489-b13a-00a127a9553c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">googlenotrack@dirtylittlehelpers.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d4cc8242-fc58-5b0c-9d3c-85fe5c6b5ab1" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">googlenotrack@dirtylittlehelpers.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c01730e7-dcbf-5d24-9bc8-4aeeecbb34d3" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">develop@quick-amz.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="518dab43-125a-58b4-874a-8968559a2d8e" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">develop@quick-amz.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - Mozilla hard-blocked Web Security cluster</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b5716146-5bad-5b41-a167-642df6f61296" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{7536027f-96fb-4762-9e02-fdfaedd3bfb5}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / Zoom Stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d0585d0b-0bf8-55b8-8cd1-eaed0c499337" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{7536027f-96fb-4762-9e02-fdfaedd3bfb5}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / Zoom Stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="33faa09d-9fc6-5876-ac23-8333e9c07d2f" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">xtwitterdownloader@benimaddonum.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / Zoom Stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3a8f3315-9a23-5434-a653-8dd1bbb63fc5" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">xtwitterdownloader@benimaddonum.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / Zoom Stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="9fbec386-d739-53fd-803f-90fb24780031" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{34b0d04c-29cf-473c-bb6c-c2fe94377b99}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="72e68046-69ec-5706-91bd-d4052ae014d2" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{34b0d04c-29cf-473c-bb6c-c2fe94377b99}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2dc155e7-71c7-5604-83f3-cac7173d0421" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="624d7078-814f-5d52-be83-afa63038b8ec" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="82049ca8-3b00-5b29-9ea4-478889e89455" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">nickyfeng2@edgetranslate.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c82c29a6-3bd8-5d11-8b7b-37034bd8044b" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">nickyfeng2@edgetranslate.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="7e7070ad-de17-57f1-8352-ee06eb3c609a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">1305302314@qq.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="93e7356f-792b-566a-b3b3-61af97a44e07" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">1305302314@qq.com</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f26dfb1f-291a-5bd4-9b78-6b2d30a091eb" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">mail@imba97.cn</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5117eded-be5b-5f92-832a-ac8fb331f5a4" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">mail@imba97.cn</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda - source defanged domain</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="158ca7cf-e60a-5da9-9b0d-67f7949bde25" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{99d4bddd-5452-4216-83bc-fcd57857b6fb}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="caefe977-b5ec-54d1-b5e7-d7068ad17f5a" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{99d4bddd-5452-4216-83bc-fcd57857b6fb}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6e01b647-b81d-5432-a4c3-0cdfecd3cbbf" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f11726dd-000d-5195-a062-0ee50fe45bb8" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c026a9ad-3c6d-5d38-a78d-51ed1b7efb8e" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{5f246670-f5e2-45ff-b183-be21cbeb065a}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="0a7feabe-e082-53d0-ad7c-51f099a0986a" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{5f246670-f5e2-45ff-b183-be21cbeb065a}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f207e6c3-f6e0-5a6e-877d-91bd3ea1a858" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">{c257a965-0bf8-4934-bf85-9ebf761d1cf8}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d26e8e3d-181d-5fed-aaaf-9d962381ae76" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">{c257a965-0bf8-4934-bf85-9ebf761d1cf8}</Content>
+        <Comment>malware | malicious | Firefox - verified internal extension ID - DarkSpectre / ShadyPanda</Comment>
       </IndicatorItem>
     </Indicator>
   </definition>

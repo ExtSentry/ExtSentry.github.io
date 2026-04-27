@@ -1911,6 +1911,43 @@ detection:
             - 'bbhaganppipihlhjgaaeeeefbaoihcgi'
             - 'jkphinfhmfkckkcnifhjiplhfoiefffl'
             - 'kdenlnncndfnhkognokgfpabgkgehodd'
+            - 'browser_extension_id'
+            - '{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}'
+            - '{d61552ef-e2a6-4fb5-bf67-8990f0014957}'
+            - 'firefox@browser-security.de'
+            - 'firefox@smarttube.io'
+            - '{0fde9597-0508-47ff-ad8a-793fa059c4e7}'
+            - 'info@browser-privacy.com'
+            - '{d3b98a68-fd64-4763-8b66-e15e47ef000a}'
+            - '{36ea170d-2586-45fb-9f48-5f6b6fd59da7}'
+            - 'youtubemp3converter@yttools.io'
+            - 'simplysearch@dirtylittlehelpers.com'
+            - 'extreme@smarttube.io'
+            - 'selfdestructingcookies@dirtylittlehelpers.com'
+            - '{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}'
+            - '{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}'
+            - 'adblock@smarttube.io'
+            - '{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}'
+            - '{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}'
+            - '{8c85526d-1be9-4b96-9462-aa48a811f4cf}'
+            - 'mail@quick-buttons.de'
+            - 'youtubeadblocker@yttools.io'
+            - 'extension@browser-safety.org'
+            - 'contact@web-security.com'
+            - 'videodownloader@dirtylittlehelpers.com'
+            - 'googlenotrack@dirtylittlehelpers.com'
+            - 'develop@quick-amz.com'
+            - '{7536027f-96fb-4762-9e02-fdfaedd3bfb5}'
+            - 'xtwitterdownloader@benimaddonum.com'
+            - '{34b0d04c-29cf-473c-bb6c-c2fe94377b99}'
+            - '{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}'
+            - 'nickyfeng2@edgetranslate.com'
+            - '1305302314@qq.com'
+            - 'mail@imba97.cn'
+            - '{99d4bddd-5452-4216-83bc-fcd57857b6fb}'
+            - '{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}'
+            - '{5f246670-f5e2-45ff-b183-be21cbeb065a}'
+            - '{c257a965-0bf8-4934-bf85-9ebf761d1cf8}'
     condition: selection
 falsepositives:
     - Legitimate use of listed extensions (review each match individually)
@@ -3830,6 +3867,43 @@ detection:
             - 'bbhaganppipihlhjgaaeeeefbaoihcgi'
             - 'jkphinfhmfkckkcnifhjiplhfoiefffl'
             - 'kdenlnncndfnhkognokgfpabgkgehodd'
+            - 'browser_extension_id'
+            - '{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}'
+            - '{d61552ef-e2a6-4fb5-bf67-8990f0014957}'
+            - 'firefox@browser-security.de'
+            - 'firefox@smarttube.io'
+            - '{0fde9597-0508-47ff-ad8a-793fa059c4e7}'
+            - 'info@browser-privacy.com'
+            - '{d3b98a68-fd64-4763-8b66-e15e47ef000a}'
+            - '{36ea170d-2586-45fb-9f48-5f6b6fd59da7}'
+            - 'youtubemp3converter@yttools.io'
+            - 'simplysearch@dirtylittlehelpers.com'
+            - 'extreme@smarttube.io'
+            - 'selfdestructingcookies@dirtylittlehelpers.com'
+            - '{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}'
+            - '{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}'
+            - 'adblock@smarttube.io'
+            - '{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}'
+            - '{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}'
+            - '{8c85526d-1be9-4b96-9462-aa48a811f4cf}'
+            - 'mail@quick-buttons.de'
+            - 'youtubeadblocker@yttools.io'
+            - 'extension@browser-safety.org'
+            - 'contact@web-security.com'
+            - 'videodownloader@dirtylittlehelpers.com'
+            - 'googlenotrack@dirtylittlehelpers.com'
+            - 'develop@quick-amz.com'
+            - '{7536027f-96fb-4762-9e02-fdfaedd3bfb5}'
+            - 'xtwitterdownloader@benimaddonum.com'
+            - '{34b0d04c-29cf-473c-bb6c-c2fe94377b99}'
+            - '{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}'
+            - 'nickyfeng2@edgetranslate.com'
+            - '1305302314@qq.com'
+            - 'mail@imba97.cn'
+            - '{99d4bddd-5452-4216-83bc-fcd57857b6fb}'
+            - '{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}'
+            - '{5f246670-f5e2-45ff-b183-be21cbeb065a}'
+            - '{c257a965-0bf8-4934-bf85-9ebf761d1cf8}'
     condition: selection
 falsepositives:
     - Legitimate extensions with matching IDs (unlikely given uniqueness)
@@ -5748,6 +5822,43 @@ detection:
             - 'bbhaganppipihlhjgaaeeeefbaoihcgi'
             - 'jkphinfhmfkckkcnifhjiplhfoiefffl'
             - 'kdenlnncndfnhkognokgfpabgkgehodd'
+            - 'browser_extension_id'
+            - '{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}'
+            - '{d61552ef-e2a6-4fb5-bf67-8990f0014957}'
+            - 'firefox@browser-security.de'
+            - 'firefox@smarttube.io'
+            - '{0fde9597-0508-47ff-ad8a-793fa059c4e7}'
+            - 'info@browser-privacy.com'
+            - '{d3b98a68-fd64-4763-8b66-e15e47ef000a}'
+            - '{36ea170d-2586-45fb-9f48-5f6b6fd59da7}'
+            - 'youtubemp3converter@yttools.io'
+            - 'simplysearch@dirtylittlehelpers.com'
+            - 'extreme@smarttube.io'
+            - 'selfdestructingcookies@dirtylittlehelpers.com'
+            - '{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}'
+            - '{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}'
+            - 'adblock@smarttube.io'
+            - '{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}'
+            - '{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}'
+            - '{8c85526d-1be9-4b96-9462-aa48a811f4cf}'
+            - 'mail@quick-buttons.de'
+            - 'youtubeadblocker@yttools.io'
+            - 'extension@browser-safety.org'
+            - 'contact@web-security.com'
+            - 'videodownloader@dirtylittlehelpers.com'
+            - 'googlenotrack@dirtylittlehelpers.com'
+            - 'develop@quick-amz.com'
+            - '{7536027f-96fb-4762-9e02-fdfaedd3bfb5}'
+            - 'xtwitterdownloader@benimaddonum.com'
+            - '{34b0d04c-29cf-473c-bb6c-c2fe94377b99}'
+            - '{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}'
+            - 'nickyfeng2@edgetranslate.com'
+            - '1305302314@qq.com'
+            - 'mail@imba97.cn'
+            - '{99d4bddd-5452-4216-83bc-fcd57857b6fb}'
+            - '{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}'
+            - '{5f246670-f5e2-45ff-b183-be21cbeb065a}'
+            - '{c257a965-0bf8-4934-bf85-9ebf761d1cf8}'
     condition: selection
 falsepositives:
     - Legitimate extensions with matching IDs
@@ -7453,6 +7564,42 @@ detection:
             - 'bbhaganppipihlhjgaaeeeefbaoihcgi'
             - 'jkphinfhmfkckkcnifhjiplhfoiefffl'
             - 'kdenlnncndfnhkognokgfpabgkgehodd'
+            - '{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}'
+            - '{d61552ef-e2a6-4fb5-bf67-8990f0014957}'
+            - 'firefox@browser-security.de'
+            - 'firefox@smarttube.io'
+            - '{0fde9597-0508-47ff-ad8a-793fa059c4e7}'
+            - 'info@browser-privacy.com'
+            - '{d3b98a68-fd64-4763-8b66-e15e47ef000a}'
+            - '{36ea170d-2586-45fb-9f48-5f6b6fd59da7}'
+            - 'youtubemp3converter@yttools.io'
+            - 'simplysearch@dirtylittlehelpers.com'
+            - 'extreme@smarttube.io'
+            - 'selfdestructingcookies@dirtylittlehelpers.com'
+            - '{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}'
+            - '{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}'
+            - 'adblock@smarttube.io'
+            - '{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}'
+            - '{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}'
+            - '{8c85526d-1be9-4b96-9462-aa48a811f4cf}'
+            - 'mail@quick-buttons.de'
+            - 'youtubeadblocker@yttools.io'
+            - 'extension@browser-safety.org'
+            - 'contact@web-security.com'
+            - 'videodownloader@dirtylittlehelpers.com'
+            - 'googlenotrack@dirtylittlehelpers.com'
+            - 'develop@quick-amz.com'
+            - '{7536027f-96fb-4762-9e02-fdfaedd3bfb5}'
+            - 'xtwitterdownloader@benimaddonum.com'
+            - '{34b0d04c-29cf-473c-bb6c-c2fe94377b99}'
+            - '{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}'
+            - 'nickyfeng2@edgetranslate.com'
+            - '1305302314@qq.com'
+            - 'mail@imba97.cn'
+            - '{99d4bddd-5452-4216-83bc-fcd57857b6fb}'
+            - '{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}'
+            - '{5f246670-f5e2-45ff-b183-be21cbeb065a}'
+            - '{c257a965-0bf8-4934-bf85-9ebf761d1cf8}'
     condition: selection
 falsepositives:
     - Legitimate use of extensions in this category
@@ -7875,6 +8022,30 @@ falsepositives:
     - Legitimate use of extensions in this category
 level: medium
 ---
+title: 'metadata_category' Browser Extension Detected in CommandLine - ExtSentry
+id: f885cf6a-0c89-5824-84f7-3dcef3b9e98e
+status: experimental
+description: Detects browser extensions categorized as 'metadata_category' in the ExtSentry feed
+references:
+    - https://github.com/mthcht/awesome-lists
+author: ExtSentry / mthcht
+date: 2026-04-27
+modified: 2026-04-27
+tags:
+    - attack.persistence
+    - attack.t1176
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        CommandLine|contains:
+            - 'browser_extension_id'
+    condition: selection
+falsepositives:
+    - Legitimate use of extensions in this category
+level: medium
+---
 title: Malicious Browser Extension CRX File Hash - ExtSentry
 id: e134204b-703e-53ba-9aee-69b8fa63c28d
 status: experimental
@@ -7905,6 +8076,7 @@ detection:
             - '5629be21869a83e9b9da86ab16a2d9cebd0aed2c04a9efe2ac044dfe0d5db6b9'
             - 'cdae573ab468b24c28a42d6078daf2da1a4b4c5657a4146ad966e2fe8340cb49'
             - 'b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba'
+            - 'crx_file_sha256'
     filter_selection:
         sha256:
             - 'c46af9ae6ab0e7567573dbc950a8ffbe30ea848fac90cd15860045fe7640199c'
@@ -7917,6 +8089,7 @@ detection:
             - '5629be21869a83e9b9da86ab16a2d9cebd0aed2c04a9efe2ac044dfe0d5db6b9'
             - 'cdae573ab468b24c28a42d6078daf2da1a4b4c5657a4146ad966e2fe8340cb49'
             - 'b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba'
+            - 'crx_file_sha256'
     condition: selection or filter_selection
 falsepositives:
     - Unlikely

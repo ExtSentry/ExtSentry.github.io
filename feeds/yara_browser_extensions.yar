@@ -1691,6 +1691,42 @@ rule ExtSentry_malware_BrowserExtensions
         $ext_1679 = "bbhaganppipihlhjgaaeeeefbaoihcgi" ascii wide
         $ext_1680 = "jkphinfhmfkckkcnifhjiplhfoiefffl" ascii wide
         $ext_1681 = "kdenlnncndfnhkognokgfpabgkgehodd" ascii wide
+        $ext_1682 = "{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}" ascii wide
+        $ext_1683 = "{d61552ef-e2a6-4fb5-bf67-8990f0014957}" ascii wide
+        $ext_1684 = "firefox@browser-security.de" ascii wide
+        $ext_1685 = "firefox@smarttube.io" ascii wide
+        $ext_1686 = "{0fde9597-0508-47ff-ad8a-793fa059c4e7}" ascii wide
+        $ext_1687 = "info@browser-privacy.com" ascii wide
+        $ext_1688 = "{d3b98a68-fd64-4763-8b66-e15e47ef000a}" ascii wide
+        $ext_1689 = "{36ea170d-2586-45fb-9f48-5f6b6fd59da7}" ascii wide
+        $ext_1690 = "youtubemp3converter@yttools.io" ascii wide
+        $ext_1691 = "simplysearch@dirtylittlehelpers.com" ascii wide
+        $ext_1692 = "extreme@smarttube.io" ascii wide
+        $ext_1693 = "selfdestructingcookies@dirtylittlehelpers.com" ascii wide
+        $ext_1694 = "{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}" ascii wide
+        $ext_1695 = "{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}" ascii wide
+        $ext_1696 = "adblock@smarttube.io" ascii wide
+        $ext_1697 = "{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}" ascii wide
+        $ext_1698 = "{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}" ascii wide
+        $ext_1699 = "{8c85526d-1be9-4b96-9462-aa48a811f4cf}" ascii wide
+        $ext_1700 = "mail@quick-buttons.de" ascii wide
+        $ext_1701 = "youtubeadblocker@yttools.io" ascii wide
+        $ext_1702 = "extension@browser-safety.org" ascii wide
+        $ext_1703 = "contact@web-security.com" ascii wide
+        $ext_1704 = "videodownloader@dirtylittlehelpers.com" ascii wide
+        $ext_1705 = "googlenotrack@dirtylittlehelpers.com" ascii wide
+        $ext_1706 = "develop@quick-amz.com" ascii wide
+        $ext_1707 = "{7536027f-96fb-4762-9e02-fdfaedd3bfb5}" ascii wide
+        $ext_1708 = "xtwitterdownloader@benimaddonum.com" ascii wide
+        $ext_1709 = "{34b0d04c-29cf-473c-bb6c-c2fe94377b99}" ascii wide
+        $ext_1710 = "{7cc10397-c6f4-4a27-a1e7-83b870dd6cab}" ascii wide
+        $ext_1711 = "nickyfeng2@edgetranslate.com" ascii wide
+        $ext_1712 = "1305302314@qq.com" ascii wide
+        $ext_1713 = "mail@imba97.cn" ascii wide
+        $ext_1714 = "{99d4bddd-5452-4216-83bc-fcd57857b6fb}" ascii wide
+        $ext_1715 = "{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}" ascii wide
+        $ext_1716 = "{5f246670-f5e2-45ff-b183-be21cbeb065a}" ascii wide
+        $ext_1717 = "{c257a965-0bf8-4934-bf85-9ebf761d1cf8}" ascii wide
 
     condition:
         any of ($ext_*)
@@ -2050,6 +2086,23 @@ rule ExtSentry_PROXY_VPN_BrowserExtensions
         any of ($ext_*)
 }
 
+rule ExtSentry_metadata_category_BrowserExtensions
+{
+    meta:
+        description = "Detects browser extension IDs categorized as metadata_category by ExtSentry"
+        author = "ExtSentry / mthcht"
+        date = "2026-04-27"
+        reference = "https://github.com/mthcht/awesome-lists"
+        category = "metadata_category"
+        tlp = "WHITE"
+
+    strings:
+        $ext_0 = "browser_extension_id" ascii wide
+
+    condition:
+        any of ($ext_*)
+}
+
 import "hash"
 
 rule ExtSentry_CRX_SHA256_Hashes
@@ -2071,5 +2124,6 @@ rule ExtSentry_CRX_SHA256_Hashes
                 hash.sha256(0, filesize) == "4a2f0f1893527e4c419f36c2e4f95a61617074200bb67218fb96ae74125e433b" or
                 hash.sha256(0, filesize) == "5629be21869a83e9b9da86ab16a2d9cebd0aed2c04a9efe2ac044dfe0d5db6b9" or
                 hash.sha256(0, filesize) == "cdae573ab468b24c28a42d6078daf2da1a4b4c5657a4146ad966e2fe8340cb49" or
-        hash.sha256(0, filesize) == "b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba"
+                hash.sha256(0, filesize) == "b4b47730b62592c21368c2546e578342fff8383693e89211155c2d61d88058ba" or
+        hash.sha256(0, filesize) == "crx_file_sha256"
 }
