@@ -8,8 +8,8 @@ description: |
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -1964,8 +1964,8 @@ description: |
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -3919,8 +3919,8 @@ description: |
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -5871,8 +5871,8 @@ description: Detects browser extensions categorized as 'malware' in the ExtSentr
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -7612,8 +7612,8 @@ description: Detects browser extensions categorized as 'PUP' in the ExtSentry fe
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -7640,8 +7640,8 @@ description: Detects browser extensions categorized as 'compromised' in the ExtS
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -7755,8 +7755,8 @@ description: Detects browser extensions categorized as 'cryptocurrency' in the E
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -7868,8 +7868,8 @@ description: Detects browser extensions categorized as 'Credential Access' in th
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -7893,8 +7893,8 @@ description: Detects browser extensions categorized as 'Defense Evasion' in the 
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -7917,8 +7917,8 @@ description: Detects browser extensions categorized as 'scam' in the ExtSentry f
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -7945,8 +7945,8 @@ description: Detects browser extensions categorized as 'RMM' in the ExtSentry fe
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -7969,8 +7969,8 @@ description: Detects browser extensions categorized as 'password manager' in the
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -8001,8 +8001,8 @@ description: Detects browser extensions categorized as 'PROXY/VPN' in the ExtSen
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -8029,8 +8029,8 @@ description: Detects browser extensions categorized as 'metadata_category' in th
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry / mthcht
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
@@ -8055,8 +8055,8 @@ description: |
 references:
     - https://github.com/mthcht/awesome-lists
 author: ExtSentry
-date: 2026-04-30
-modified: 2026-04-30
+date: 2026-05-01
+modified: 2026-05-01
 tags:
     - attack.persistence
     - attack.t1176
