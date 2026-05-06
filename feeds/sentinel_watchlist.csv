@@ -1,4 +1,21 @@
 ExtensionID,ExtensionName,Category,ThreatType,Severity,CrxSHA256,Reference
+eebihieclccoidddmjcencomodomdoei,Supersonic AI,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+dcjfbgppfdokmjgajnnkgdmkdeiloigh,Picsart: AI Photo Video Editor,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+cjmhegifablecgkkncjddcgkjmgoacfd,Ask AI - GPT chat,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+bonhfflnjgdbnhcpjemkknlhimceckgb,"Agent Risk Reminder Remover - CNFans, ACBuy & More",malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+jndldoeopjgmpakgmieaeeelhnjnfgkj,NotionAI----,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+pdahnbohfcekobflehebdkoemnmmempk,Notion----,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+ljlhpcabhpjdlcjhbmgjigfceppgabmk,Notion----,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+hnppehcgmflfkcdkbkaeemjfngffmeag,AI Agent,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+pfdmleklaejjccgfhoeafapbhkjipcnj,Google AI,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+npifianbfjhobabjjpfdjjihgbdnbojh,Text Summarizer,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+ffocfibjgakneigiajpccfcdmomlbapo,Nano Banana,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+nbflcljmdbibeoaipongjgfmbapanipm,Anker AIME Copilot,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+oaldjcdohhhibelagdhoahbedekfjjjf,browser cash,malware,malicious,critical,,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+dgeiaiglmhdhajbpfbmajaajdlfdinpi,AI Agent Deep DeepSeek,malware,malicious,critical,c9754454efede2dec2fcb856faa40424b8df378706b664a5ae4847fcd0336b53,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+hmkcidjcpomiegnklmplkimmbcbklglb,AI Photo and Video Editor,malware,malicious,critical,4e38bee33237a8c8b17a2504013e506ca7cbf667a7f68a2d94d75db505c2149f,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+jhhjbaicgmecddbaobeobkikgmfffaeg,Chat AI for Chrome,malware,malicious,critical,dfe307d957724ebe32331f92d53e366b7fa85968a9564c2285c5a0142ac9e1bb,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
+iefpkdilnfhogjbkhgnliaomoldgkdlj,Reverse Recruiting — AI Job Application Assistant,malware,malicious,critical,604c7aef72892b56ac23ad54744376574239c8f0651e95dd5b6cf540eb70f7c3,https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/
 injnjbcogjhcjhnhcbmlahgikemedbko,"TikTok Downloader – Save Videos, No Watermark",malware,malicious,critical,,https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/
 ehdkeonoccndeaggbnolijnmmeohkbpf,TikTok Video Downloader – Bulk Save,malware,malicious,critical,,https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/
 pfpijacnpangmkfdpgodlbokpkhpkeka,Tiktok Downloader,malware,malicious,critical,,https://layerxsecurity.com/blog/stealtok-130k-users-compromised-by-data-stealing-tiktok-video-downloaders/

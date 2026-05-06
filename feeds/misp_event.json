@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-05-06",
-    "timestamp": "1778061701",
+    "timestamp": "1778067446",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,363 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "1f28164e-50f9-520f-81c6-8b142a0d5555",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "eebihieclccoidddmjcencomodomdoei",
+        "comment": "Supersonic AI | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "dc88873a-bd48-575f-8d3b-84ca10d78e08",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "dcjfbgppfdokmjgajnnkgdmkdeiloigh",
+        "comment": "Picsart: AI Photo Video Editor | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d2062218-e5d1-5aab-9a36-12cc5bd18c5b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cjmhegifablecgkkncjddcgkjmgoacfd",
+        "comment": "Ask AI - GPT chat | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "7b426fe0-08fd-51b7-be16-711f905f31f3",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bonhfflnjgdbnhcpjemkknlhimceckgb",
+        "comment": "Agent Risk Reminder Remover - CNFans, ACBuy & More | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6fbeeaa2-7728-5919-9189-e0f05ffb5d57",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jndldoeopjgmpakgmieaeeelhnjnfgkj",
+        "comment": "NotionAI---- | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ce3919e2-8819-52f9-a93f-329b5b48111f",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pdahnbohfcekobflehebdkoemnmmempk",
+        "comment": "Notion---- | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6a8d0362-9ec5-5c4e-ad15-93286b657ec4",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ljlhpcabhpjdlcjhbmgjigfceppgabmk",
+        "comment": "Notion---- | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f4834c9c-9c63-5e7e-99e5-14c121b205d7",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hnppehcgmflfkcdkbkaeemjfngffmeag",
+        "comment": "AI Agent | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6f5af026-f69b-58f9-a44e-dccbf5fe9468",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pfdmleklaejjccgfhoeafapbhkjipcnj",
+        "comment": "Google AI | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3b64e867-f2af-52b7-ae8f-437771b9c0a0",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "npifianbfjhobabjjpfdjjihgbdnbojh",
+        "comment": "Text Summarizer | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9e57e632-0ac2-5736-898b-02de9cea1e24",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ffocfibjgakneigiajpccfcdmomlbapo",
+        "comment": "Nano Banana | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6cdf0d55-1bdf-5cd3-b9a1-785eca0b9764",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nbflcljmdbibeoaipongjgfmbapanipm",
+        "comment": "Anker AIME Copilot | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c7d5836f-3165-575a-8d84-89167ade4ed2",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "oaldjcdohhhibelagdhoahbedekfjjjf",
+        "comment": "browser cash | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bea0f861-b4f8-5b6f-a12c-deccfeacd642",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "dgeiaiglmhdhajbpfbmajaajdlfdinpi",
+        "comment": "AI Agent Deep DeepSeek | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "302890a5-561c-5c4c-a65b-3ad4774d43c7",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "to_ids": true,
+        "value": "c9754454efede2dec2fcb856faa40424b8df378706b664a5ae4847fcd0336b53",
+        "comment": "CRX file hash for AI Agent Deep DeepSeek (dgeiaiglmhdhajbpfbmajaajdlfdinpi)",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f8e1b691-99cf-5622-a8b0-cb1201eae917",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hmkcidjcpomiegnklmplkimmbcbklglb",
+        "comment": "AI Photo and Video Editor | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "611b0972-a88e-5bf8-9b7d-2190049b439c",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "to_ids": true,
+        "value": "4e38bee33237a8c8b17a2504013e506ca7cbf667a7f68a2d94d75db505c2149f",
+        "comment": "CRX file hash for AI Photo and Video Editor (hmkcidjcpomiegnklmplkimmbcbklglb)",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "745b1522-33b1-530a-a612-453c564f8f02",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jhhjbaicgmecddbaobeobkikgmfffaeg",
+        "comment": "Chat AI for Chrome | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9ffdf5fa-8509-5b3f-946b-5fe96a587622",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "to_ids": true,
+        "value": "dfe307d957724ebe32331f92d53e366b7fa85968a9564c2285c5a0142ac9e1bb",
+        "comment": "CRX file hash for Chat AI for Chrome (jhhjbaicgmecddbaobeobkikgmfffaeg)",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "2e846f53-ed72-5fc2-a576-faffd77a316d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "iefpkdilnfhogjbkhgnliaomoldgkdlj",
+        "comment": "Reverse Recruiting \u2014 AI Job Application Assistant | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "83394ccd-980a-54b5-993d-3b7146cbf537",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "to_ids": true,
+        "value": "604c7aef72892b56ac23ad54744376574239c8f0651e95dd5b6cf540eb70f7c3",
+        "comment": "CRX file hash for Reverse Recruiting \u2014 AI Job Application Assistant (iefpkdilnfhogjbkhgnliaomoldgkdlj)",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "5c16aa99-3716-5f4f-8265-a9fc6997f518",
         "type": "text",
@@ -33009,6 +33366,799 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "0a3653cc-166b-51e3-b171-804fd73cf6f5",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Supersonic AI",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "eebihieclccoidddmjcencomodomdoei",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Supersonic AI",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "794548b4-49ea-571d-aa80-533a98b4c070",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Picsart: AI Photo Video Editor",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "dcjfbgppfdokmjgajnnkgdmkdeiloigh",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Picsart: AI Photo Video Editor",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d34ef9c3-8c68-5794-8888-e2ec0eacf1f7",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Ask AI - GPT chat",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cjmhegifablecgkkncjddcgkjmgoacfd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Ask AI - GPT chat",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "39ef50ea-1ffc-5c89-8758-726877788658",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Agent Risk Reminder Remover - CNFans, ACBuy & More",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bonhfflnjgdbnhcpjemkknlhimceckgb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Agent Risk Reminder Remover - CNFans, ACBuy & More",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6f26e71a-c7ba-5d26-b288-1e83a723f330",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: NotionAI----",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jndldoeopjgmpakgmieaeeelhnjnfgkj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "NotionAI----",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6b4df27b-9f7f-5970-8e45-f18da336ed40",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Notion----",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pdahnbohfcekobflehebdkoemnmmempk",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Notion----",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "f573771e-8593-5ad3-a2aa-fd1876881fc4",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Notion----",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ljlhpcabhpjdlcjhbmgjigfceppgabmk",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Notion----",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "38f0db32-0a1c-5521-b1aa-89515ac585ff",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: AI Agent",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hnppehcgmflfkcdkbkaeemjfngffmeag",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "AI Agent",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b06ee7ac-3566-5172-939b-11b1e414598d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Google AI",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pfdmleklaejjccgfhoeafapbhkjipcnj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Google AI",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6d028a91-faff-5bac-b411-12ffa87efeed",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Text Summarizer",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "npifianbfjhobabjjpfdjjihgbdnbojh",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Text Summarizer",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a72515b3-2e00-5162-a552-1d330f5448cb",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Nano Banana",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ffocfibjgakneigiajpccfcdmomlbapo",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Nano Banana",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "caea5370-1c8f-5330-9d52-294263f246a2",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Anker AIME Copilot",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nbflcljmdbibeoaipongjgfmbapanipm",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Anker AIME Copilot",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d7dd0cc0-542a-5faf-84b1-01d60264c10c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: browser cash",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "oaldjcdohhhibelagdhoahbedekfjjjf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "browser cash",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "f9162338-dd28-591c-bee0-c434ae39cc59",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: AI Agent Deep DeepSeek",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "dgeiaiglmhdhajbpfbmajaajdlfdinpi",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "AI Agent Deep DeepSeek",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "sha256",
+            "value": "c9754454efede2dec2fcb856faa40424b8df378706b664a5ae4847fcd0336b53",
+            "comment": "CRX File SHA-256",
+            "to_ids": true
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "9b500f9f-5ef9-5c4b-9a08-88890766e735",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: AI Photo and Video Editor",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hmkcidjcpomiegnklmplkimmbcbklglb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "AI Photo and Video Editor",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "sha256",
+            "value": "4e38bee33237a8c8b17a2504013e506ca7cbf667a7f68a2d94d75db505c2149f",
+            "comment": "CRX File SHA-256",
+            "to_ids": true
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "329698ef-28cd-545a-bf13-bfe989fd2011",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Chat AI for Chrome",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jhhjbaicgmecddbaobeobkikgmfffaeg",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Chat AI for Chrome",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "sha256",
+            "value": "dfe307d957724ebe32331f92d53e366b7fa85968a9564c2285c5a0142ac9e1bb",
+            "comment": "CRX File SHA-256",
+            "to_ids": true
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "97cea5e1-4da3-5c59-8430-14fc2692d8e6",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Reverse Recruiting \u2014 AI Job Application Assistant",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "iefpkdilnfhogjbkhgnliaomoldgkdlj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Reverse Recruiting \u2014 AI Job Application Assistant",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "sha256",
+            "value": "604c7aef72892b56ac23ad54744376574239c8f0651e95dd5b6cf540eb70f7c3",
+            "comment": "CRX File SHA-256",
+            "to_ids": true
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "4bb0d6a4-5dea-56ab-9d80-83d204c4a2d6",
         "name": "annotation",

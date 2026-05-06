@@ -19,6 +19,23 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'eebihieclccoidddmjcencomodomdoei'
+            - 'dcjfbgppfdokmjgajnnkgdmkdeiloigh'
+            - 'cjmhegifablecgkkncjddcgkjmgoacfd'
+            - 'bonhfflnjgdbnhcpjemkknlhimceckgb'
+            - 'jndldoeopjgmpakgmieaeeelhnjnfgkj'
+            - 'pdahnbohfcekobflehebdkoemnmmempk'
+            - 'ljlhpcabhpjdlcjhbmgjigfceppgabmk'
+            - 'hnppehcgmflfkcdkbkaeemjfngffmeag'
+            - 'pfdmleklaejjccgfhoeafapbhkjipcnj'
+            - 'npifianbfjhobabjjpfdjjihgbdnbojh'
+            - 'ffocfibjgakneigiajpccfcdmomlbapo'
+            - 'nbflcljmdbibeoaipongjgfmbapanipm'
+            - 'oaldjcdohhhibelagdhoahbedekfjjjf'
+            - 'dgeiaiglmhdhajbpfbmajaajdlfdinpi'
+            - 'hmkcidjcpomiegnklmplkimmbcbklglb'
+            - 'jhhjbaicgmecddbaobeobkikgmfffaeg'
+            - 'iefpkdilnfhogjbkhgnliaomoldgkdlj'
             - 'injnjbcogjhcjhnhcbmlahgikemedbko'
             - 'ehdkeonoccndeaggbnolijnmmeohkbpf'
             - 'pfpijacnpangmkfdpgodlbokpkhpkeka'
@@ -1975,6 +1992,23 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'eebihieclccoidddmjcencomodomdoei'
+            - 'dcjfbgppfdokmjgajnnkgdmkdeiloigh'
+            - 'cjmhegifablecgkkncjddcgkjmgoacfd'
+            - 'bonhfflnjgdbnhcpjemkknlhimceckgb'
+            - 'jndldoeopjgmpakgmieaeeelhnjnfgkj'
+            - 'pdahnbohfcekobflehebdkoemnmmempk'
+            - 'ljlhpcabhpjdlcjhbmgjigfceppgabmk'
+            - 'hnppehcgmflfkcdkbkaeemjfngffmeag'
+            - 'pfdmleklaejjccgfhoeafapbhkjipcnj'
+            - 'npifianbfjhobabjjpfdjjihgbdnbojh'
+            - 'ffocfibjgakneigiajpccfcdmomlbapo'
+            - 'nbflcljmdbibeoaipongjgfmbapanipm'
+            - 'oaldjcdohhhibelagdhoahbedekfjjjf'
+            - 'dgeiaiglmhdhajbpfbmajaajdlfdinpi'
+            - 'hmkcidjcpomiegnklmplkimmbcbklglb'
+            - 'jhhjbaicgmecddbaobeobkikgmfffaeg'
+            - 'iefpkdilnfhogjbkhgnliaomoldgkdlj'
             - 'injnjbcogjhcjhnhcbmlahgikemedbko'
             - 'ehdkeonoccndeaggbnolijnmmeohkbpf'
             - 'pfpijacnpangmkfdpgodlbokpkhpkeka'
@@ -3930,6 +3964,23 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'eebihieclccoidddmjcencomodomdoei'
+            - 'dcjfbgppfdokmjgajnnkgdmkdeiloigh'
+            - 'cjmhegifablecgkkncjddcgkjmgoacfd'
+            - 'bonhfflnjgdbnhcpjemkknlhimceckgb'
+            - 'jndldoeopjgmpakgmieaeeelhnjnfgkj'
+            - 'pdahnbohfcekobflehebdkoemnmmempk'
+            - 'ljlhpcabhpjdlcjhbmgjigfceppgabmk'
+            - 'hnppehcgmflfkcdkbkaeemjfngffmeag'
+            - 'pfdmleklaejjccgfhoeafapbhkjipcnj'
+            - 'npifianbfjhobabjjpfdjjihgbdnbojh'
+            - 'ffocfibjgakneigiajpccfcdmomlbapo'
+            - 'nbflcljmdbibeoaipongjgfmbapanipm'
+            - 'oaldjcdohhhibelagdhoahbedekfjjjf'
+            - 'dgeiaiglmhdhajbpfbmajaajdlfdinpi'
+            - 'hmkcidjcpomiegnklmplkimmbcbklglb'
+            - 'jhhjbaicgmecddbaobeobkikgmfffaeg'
+            - 'iefpkdilnfhogjbkhgnliaomoldgkdlj'
             - 'injnjbcogjhcjhnhcbmlahgikemedbko'
             - 'ehdkeonoccndeaggbnolijnmmeohkbpf'
             - 'pfpijacnpangmkfdpgodlbokpkhpkeka'
@@ -5882,6 +5933,23 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'eebihieclccoidddmjcencomodomdoei'
+            - 'dcjfbgppfdokmjgajnnkgdmkdeiloigh'
+            - 'cjmhegifablecgkkncjddcgkjmgoacfd'
+            - 'bonhfflnjgdbnhcpjemkknlhimceckgb'
+            - 'jndldoeopjgmpakgmieaeeelhnjnfgkj'
+            - 'pdahnbohfcekobflehebdkoemnmmempk'
+            - 'ljlhpcabhpjdlcjhbmgjigfceppgabmk'
+            - 'hnppehcgmflfkcdkbkaeemjfngffmeag'
+            - 'pfdmleklaejjccgfhoeafapbhkjipcnj'
+            - 'npifianbfjhobabjjpfdjjihgbdnbojh'
+            - 'ffocfibjgakneigiajpccfcdmomlbapo'
+            - 'nbflcljmdbibeoaipongjgfmbapanipm'
+            - 'oaldjcdohhhibelagdhoahbedekfjjjf'
+            - 'dgeiaiglmhdhajbpfbmajaajdlfdinpi'
+            - 'hmkcidjcpomiegnklmplkimmbcbklglb'
+            - 'jhhjbaicgmecddbaobeobkikgmfffaeg'
+            - 'iefpkdilnfhogjbkhgnliaomoldgkdlj'
             - 'injnjbcogjhcjhnhcbmlahgikemedbko'
             - 'ehdkeonoccndeaggbnolijnmmeohkbpf'
             - 'pfpijacnpangmkfdpgodlbokpkhpkeka'
@@ -8066,6 +8134,10 @@ logsource:
 detection:
     selection:
         Hashes|contains:
+            - 'c9754454efede2dec2fcb856faa40424b8df378706b664a5ae4847fcd0336b53'
+            - '4e38bee33237a8c8b17a2504013e506ca7cbf667a7f68a2d94d75db505c2149f'
+            - 'dfe307d957724ebe32331f92d53e366b7fa85968a9564c2285c5a0142ac9e1bb'
+            - '604c7aef72892b56ac23ad54744376574239c8f0651e95dd5b6cf540eb70f7c3'
             - 'c46af9ae6ab0e7567573dbc950a8ffbe30ea848fac90cd15860045fe7640199c'
             - '133df5ad1bd5f3c5444fc6bf15040b34372dd309d7481be708ae6445c3a20c6f'
             - '0cbf101e96f6d5c4146812f07105f8b89bd76dd994f540470cd1c4bc37df37d5'
@@ -8079,6 +8151,10 @@ detection:
             - 'crx_file_sha256'
     filter_selection:
         sha256:
+            - 'c9754454efede2dec2fcb856faa40424b8df378706b664a5ae4847fcd0336b53'
+            - '4e38bee33237a8c8b17a2504013e506ca7cbf667a7f68a2d94d75db505c2149f'
+            - 'dfe307d957724ebe32331f92d53e366b7fa85968a9564c2285c5a0142ac9e1bb'
+            - '604c7aef72892b56ac23ad54744376574239c8f0651e95dd5b6cf540eb70f7c3'
             - 'c46af9ae6ab0e7567573dbc950a8ffbe30ea848fac90cd15860045fe7640199c'
             - '133df5ad1bd5f3c5444fc6bf15040b34372dd309d7481be708ae6445c3a20c6f'
             - '0cbf101e96f6d5c4146812f07105f8b89bd76dd994f540470cd1c4bc37df37d5'
