@@ -1,7 +1,7 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-05-14T22:14:50Z",
+  "generated": "2026-05-14T23:35:59Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
   "total_indicators": 1946,
