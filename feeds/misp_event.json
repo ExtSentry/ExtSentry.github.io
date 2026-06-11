@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-06-11",
-    "timestamp": "1781162212",
+    "timestamp": "1781179134",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,1162 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "2d8d1566-8ec4-518a-973f-e814b178502f",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "abcidfelbbfbijdeilhlgmgejdbappaj",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3987537f-bf1b-5fa5-8cb9-d9e7bbf92a60",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "adiolfenpimdeonhngpkbjbjjcopdfdp",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bacf3b14-a475-5e03-8c85-5dbc77938dca",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bbbbneobfdbkipmlgpapfjabfggogdij",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ec1cc580-5fde-5038-acc9-d805c4d83d2d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bbdejfjnpbdjbdnibpmiegbdfbngbahn",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "939ae5f5-edd0-53de-825d-3ef1d764bc36",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bdnlfekadefohaaphlndnnieaolmpaao",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "a60e6a1c-a5c4-57c7-b0bd-814d362143ca",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "belplhjdnniinakggihimnikmhiijenk",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "da8680f7-13ec-5c47-9f25-1412ae5dd586",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bfkaeaehpekfmfkbindbledlfcbammaa",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "87d77cf0-dcbe-579a-9599-b353edd636e5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cdfjefamdaghbhmlddgnfneonpjbbehp",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9d0c9bed-ccef-59a3-a72b-77b608d38ada",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cgopijlpehalkmakdjmhjonljokilban",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "b5577634-bd03-5f86-bba8-32a40cc9b320",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "clddibaehbcaahnmhnjbnbkccbmghago",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9fb774e5-854e-5227-9906-fd684b60ea2c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cnlabipcnjebmibdelcindmhkkchndpd",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "fc0a18c3-3a58-5c9f-9a9f-c84f4054c606",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cpddjnopcpkpdhkhnimmgnniiglambdl",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "34093719-6029-56d8-a69b-5c0ec191dcbd",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "dbfgidnodecgmmademfkaddkjidikobd",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6e5eb8e3-d421-5ced-8cb0-ac8c5d32fdc9",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "dhllmgbdfgblbeckhcidmbcamonplgmg",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3c60e58e-871e-5d85-b17a-3f75ee182e94",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "djlolemkfmghdipoalonefccpgjbfanc",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f6912320-7677-56ce-b465-272dacf20118",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "dligcnabijlnmgbamdiakeoencoomaef",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f83ba6e6-74be-54f7-99b5-7f1f2ae460b9",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ecbkfpnhjofeoimpihdlbcjcedjdllin",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ec96bb71-a03f-5eb2-988a-64290ad388c9",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "eeicldodfhmgcjedepfmmpdpibebgkbl",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c59d9004-85e9-5ee0-8738-bef93057a5c0",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ekgffgmnoaclljkicakkmobeoeeahmac",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ee459554-68c9-5635-b638-60b6c14966db",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "enbiohidhjmepichhkjgbgppabjembml",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "b26af929-75e7-563a-aa5e-f2d516d9e089",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "famoeaahdjkggighmjpagpjmcmbinkia",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "15697f28-e1cd-5234-9ee6-7dad1e5f9c02",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fipehnelbojemafmdmhdkphjnafdnfle",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "89c2cd0f-7443-5611-ae50-9637ba34cb78",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "flomkgojkgpbholngecnpopgafijhenn",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3d9eda12-702a-5c34-873d-81c90e59413a",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fnfaggodhehejkigojefdehaffoneokd",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "5ae4039d-e7ed-5aed-ae10-51accae3ec80",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fnfhdeimoegdjjpnmlpfjpchpmndamii",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "922447d1-e31c-5aad-bdf0-70db3e7392df",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gejcmgekakacmlccopnlhanpipkfggcn",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "b5409db3-e650-5b2e-8ff3-4fa7d2a4b6d6",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gljmgepjbkfkcgepikciaeiihgfbfljf",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "1f61e45d-3f7c-5887-8ed5-19c98a136a13",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gpkgjopaiakcnokecmocecnbpghkkjhg",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "2b1bc700-b7e5-5d64-946e-b9fa98761ec7",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hnhdhliichckphekkkgpopiicfdbcocc",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "7e45943c-460b-5359-b843-8ac614b63cb9",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "iagfghcakcckojogakhmdeebmkkjldfb",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f483f480-b871-5b38-ae4b-1eb4fc2ec690",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "iccidfcfcknibmadeplfehdinbeghbej",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6f2d6c35-2f84-52df-a470-12e53ca39650",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ichbopbcihgldmgbgijfllfikfpeamlo",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3f80b314-ea67-5b04-b94a-a251114d24de",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "imaibfagcdapbapmnepebaamfgjpdidk",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "b47bf67b-a070-5711-92b1-e482dc598cf8",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ippdfgpdnmndlebdgggkgpapaffdcabp",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "114032c0-8dd5-5588-bf7d-e46b48d1181d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jbaghkaihalnmkknemcgjikkimiecgpn",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3a8732b3-19e5-595c-9198-080502110a46",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jeoonjgjpiepmdcmgcdnadamojoefbad",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bee65dfe-a2f1-51ca-8083-0004002b90e5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jneelgnlhodkmclkcnooopnfmamckbgf",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "86000092-540f-5295-89b7-bb48cee46935",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jnnkcihkpoljaejgnmaohgbodpdmfmdg",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bfef07d6-a147-5b26-8aa3-23df380f7258",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kjdbfkbkiepbabfjncinoeclenkcgbmf",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "fb81b851-c29e-5c3b-8efe-7396cb296860",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kjhnajdlflnfmfdghcckbngdchajaime",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ce5895fa-95b0-574c-836a-0793fbdf894d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "klgebnlgcgpinhblnheofececjjaaofd",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "73bbbc6e-99eb-52d4-ae5f-618df10f345c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kocbandikoadlapjnhpgbimaoncpnkpi",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e67ca2e7-a529-54b3-a427-7baff98ec001",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "laombeiddkmdfbnfobjgebnfaedefidp",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f4019f82-ced0-5ee8-a302-c2768c4f01ed",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "lappfnpdgnphiodelgopbncadpoldica",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c1fbc105-0d3b-5b5b-9e09-65327d49cd05",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "liimhladbmdgppodfomkkcppkfbkmjbm",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3d671c07-2ed3-52a7-a440-3d669aaba525",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ljpapggfdnpbagfbfnlolopaiknkbbmb",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "84d3adcf-99ad-50ef-8e8e-fabdb4eae9fa",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mefpdeoonpdjecmnekooffdonpllblnb",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "760c1620-c479-59c9-b5e2-f1a117bd37e3",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mifhdbomjebcedjhoclccddgmmjhpkne",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "32d285bf-a9bc-5ac1-85c0-0be5c57500bd",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mjoehhmchapliffjeiopgilfhmphfpbp",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f86b124c-cf25-5e63-bbb4-a7022dd9fd50",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mjojolnflneijogfbcoficpkmldhamba",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d57f749e-61e8-5137-971b-22c443b8c8c5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mmlpmfnhfgjpogjjleoklkfeipnnojgd",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "af76340b-b6a1-56ad-a1a6-1c159d1df851",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mphkmheooambmkecalfljbkchadlfhap",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "2dd606ef-91bc-5fa4-8639-c891098d0acb",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nbmkfpfhpmajmnkihgkmbgbnalncdnna",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "b5fb7734-f122-5438-bdc5-6a6fd66382e8",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ndeeopioahgjcemhhbgdoednmaleeemp",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3f63bfd2-59ef-5e78-bd26-ca89abdde876",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nfpdlagnobaebggdhbflhiobfhondmdb",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "896adf94-8ce5-5dff-8705-d6b3c261cc0d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ngnfdhfeccjahkpielcjbjebipckhoii",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "54c2fe96-7da4-5e1e-8e62-76e76fe4edb8",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nipbcfdkdiccemcmnfeebgmlnejmhbpd",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "7b18b275-ebf2-5f84-bb86-a824c9aacf5b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "njggjookikiachbndaocbijjpddcijkf",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f63fe7e7-a20c-5f53-a384-f63aff42833e",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "obdcmkbifgehdkjacmndbapoiiabnjlo",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "788b4df0-a89f-52ba-8146-08744f74eb85",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "oeaifghbbhjomcgbgpihadpbfnpidggi",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0deea70b-be9a-5c2e-a010-3847277a7c66",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ooepolkedgpkhojiihdjoajnjohciajl",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9fba19a8-d33c-513f-9811-766d3c23a989",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "oojlpfnmoijaiephcdakeggdbbfdbanb",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "4e45beff-1352-596f-a6c1-b6ce2f4d81a6",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "opdcfknedcfgiophhnojmnljpndojbom",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "a6b3d914-f166-5c14-a30c-07b411132d18",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "phcfjgnhnpfjhpghiacilpocpcdcgljm",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bed57a32-062d-5fc5-b8e6-f5d55dbc9ff0",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "phpjgmopmomaokbddkjpnnffmchbnagh",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "731ade35-33c0-5477-8ba2-d461cac3c269",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pkadlokfbobblmiclilbgajkjcpaaopk",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "70771256-50b6-5a3f-b3e1-59150c4b60d6",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pkmjadcejhbaahnlaooacmfkfflpkcic",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "09ff4c50-003b-5c0d-98fe-90ddd7c2ea92",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pnlahghdcgkecfkeeiekinacgmbdcabk",
+        "comment": "wallpaper adwares | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "1f28164e-50f9-520f-81c6-8b142a0d5555",
         "type": "text",
@@ -33366,6 +34522,3066 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "14906195-299d-51a0-bf0c-5919bd7b1fa3",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "abcidfelbbfbijdeilhlgmgejdbappaj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "548ecd19-ccef-54d2-99a7-50c502434b32",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "adiolfenpimdeonhngpkbjbjjcopdfdp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "342d6cfc-f04f-56e8-9325-d258515b8624",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bbbbneobfdbkipmlgpapfjabfggogdij",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "307a5bb8-1625-5759-9d2f-19ab099a5a57",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bbdejfjnpbdjbdnibpmiegbdfbngbahn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "deb5f31c-1067-557a-a106-61ef84d9cd81",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bdnlfekadefohaaphlndnnieaolmpaao",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c665a8d1-6a35-5049-8c8a-cf6292f4adda",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "belplhjdnniinakggihimnikmhiijenk",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c7dfb9a3-5a32-588e-bd4f-0ce9fd52c495",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bfkaeaehpekfmfkbindbledlfcbammaa",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "0518d977-9dfc-5104-83e6-688249e3e565",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cdfjefamdaghbhmlddgnfneonpjbbehp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c10c3aff-e369-59b4-9ad5-f052c3b14013",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cgopijlpehalkmakdjmhjonljokilban",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d857f460-3e11-5765-83ff-ed0b119c540f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "clddibaehbcaahnmhnjbnbkccbmghago",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "0a71c6c4-aea9-505f-8b04-e88881bea05a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cnlabipcnjebmibdelcindmhkkchndpd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "0ab79fd2-e92e-5f9e-b875-26230e6719f6",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cpddjnopcpkpdhkhnimmgnniiglambdl",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "e1bb5ffd-546c-5ec1-a78b-4feb4118b7c3",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "dbfgidnodecgmmademfkaddkjidikobd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "445e0bc3-3ade-557c-aa8c-fc749fd0813b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "dhllmgbdfgblbeckhcidmbcamonplgmg",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "39dd3326-60de-57d3-9511-14095ced045e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "djlolemkfmghdipoalonefccpgjbfanc",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "4cc6d13a-3e78-58a7-a6d1-ab4915e2ac22",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "dligcnabijlnmgbamdiakeoencoomaef",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "7b10d0f4-4312-58cd-970a-ebba9ac3a127",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ecbkfpnhjofeoimpihdlbcjcedjdllin",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "0ae1be15-7a6a-56f8-bc13-cdab7515f3fa",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "eeicldodfhmgcjedepfmmpdpibebgkbl",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "02576405-e2ba-5d8e-8041-ed3c4fd15b92",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ekgffgmnoaclljkicakkmobeoeeahmac",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "766a40b3-c051-5eb6-85a1-3c2d07815d95",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "enbiohidhjmepichhkjgbgppabjembml",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "2f312e77-2f18-5a4c-81bf-e2125d8235ab",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "famoeaahdjkggighmjpagpjmcmbinkia",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "11d523e5-949f-5703-81a7-565f3d0be5c2",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fipehnelbojemafmdmhdkphjnafdnfle",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c95cb695-17c2-525d-9262-105ebf66cf59",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "flomkgojkgpbholngecnpopgafijhenn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c26d8023-d808-5c6b-a848-034a4efbeb7c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fnfaggodhehejkigojefdehaffoneokd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d443a1a0-d23c-5164-9991-8cd774e96504",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fnfhdeimoegdjjpnmlpfjpchpmndamii",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "3c3c1e90-c3a4-5d2b-8973-3badbafd895a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gejcmgekakacmlccopnlhanpipkfggcn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "dcbf079d-2cfe-5d89-a78d-a93cbf529c9b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gljmgepjbkfkcgepikciaeiihgfbfljf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "60cb1a8f-74b6-5144-85cb-3e7bb4bd2c41",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gpkgjopaiakcnokecmocecnbpghkkjhg",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "82d7818a-6ab5-5825-8d64-1e0a6b38da07",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hnhdhliichckphekkkgpopiicfdbcocc",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "de9de033-4812-5ae8-a60e-f108e36af9b6",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "iagfghcakcckojogakhmdeebmkkjldfb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "e017ad04-cb14-5d8e-8be8-0199edd08583",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "iccidfcfcknibmadeplfehdinbeghbej",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "9a6fe5b6-36b9-58a6-b21a-3a894ea1d844",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ichbopbcihgldmgbgijfllfikfpeamlo",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b0dfcf9b-4bc9-50db-abaf-99398fd422b1",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "imaibfagcdapbapmnepebaamfgjpdidk",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "9e91db63-3b34-5512-ba7d-e3e3e92b68d3",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ippdfgpdnmndlebdgggkgpapaffdcabp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "5db1a940-e2db-599b-ab94-07cb188e70c4",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jbaghkaihalnmkknemcgjikkimiecgpn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "70b63140-81f1-59ef-8874-0d00106eb55c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jeoonjgjpiepmdcmgcdnadamojoefbad",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "eab06772-e787-5450-8b48-97ccb46c4e26",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jneelgnlhodkmclkcnooopnfmamckbgf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "97486d34-86f9-5849-b417-645925aaf3ac",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jnnkcihkpoljaejgnmaohgbodpdmfmdg",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "352454b3-e87f-595b-9f3e-5a13d588c43c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kjdbfkbkiepbabfjncinoeclenkcgbmf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "eb0e37ee-8091-5bb6-b61f-2f4593c96ad5",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kjhnajdlflnfmfdghcckbngdchajaime",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "8216d5b6-2a97-5ea2-bbac-5e22ca49d191",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "klgebnlgcgpinhblnheofececjjaaofd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "8b1e6dab-33ab-5b35-8cd0-1c7e679eaa78",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kocbandikoadlapjnhpgbimaoncpnkpi",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "4c91fb70-d343-593b-9546-f14e9ada4ff7",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "laombeiddkmdfbnfobjgebnfaedefidp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "bc158857-4c85-518c-84af-2b18e883975f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "lappfnpdgnphiodelgopbncadpoldica",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "18b759f9-5066-515b-9f80-9855133733bc",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "liimhladbmdgppodfomkkcppkfbkmjbm",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "4d0c88a0-5d9c-5e06-be3d-fcbf0cebeb5e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ljpapggfdnpbagfbfnlolopaiknkbbmb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "3b9f18db-04e5-58ba-b12e-3142bd81235a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mefpdeoonpdjecmnekooffdonpllblnb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "91b33b11-f240-57b0-8704-1627b6008504",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mifhdbomjebcedjhoclccddgmmjhpkne",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "1ef8c2dd-bc61-5cfe-afc8-58f86c3534db",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mjoehhmchapliffjeiopgilfhmphfpbp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a25fff0c-204e-5b32-8ae8-f2740c1a94d1",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mjojolnflneijogfbcoficpkmldhamba",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "734ec0e9-ef76-50f0-bc1a-85df6f8fb5cc",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mmlpmfnhfgjpogjjleoklkfeipnnojgd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "bd3191f9-cef4-5922-a659-e5ead7a94936",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mphkmheooambmkecalfljbkchadlfhap",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "28f2951b-6bbc-59b4-9a91-5bf340927c3d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nbmkfpfhpmajmnkihgkmbgbnalncdnna",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "af4a671d-7508-5a1f-a5f0-66e9279b7346",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ndeeopioahgjcemhhbgdoednmaleeemp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "fa009eb7-62bf-5bc4-a9f1-dbcb6729085d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nfpdlagnobaebggdhbflhiobfhondmdb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6db1a567-e32b-5a43-8fe0-1ad7e3d8b5de",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ngnfdhfeccjahkpielcjbjebipckhoii",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "e3c502c4-5d1c-577d-80f0-ff3a6a700ab8",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nipbcfdkdiccemcmnfeebgmlnejmhbpd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "e172b46e-33b9-5de2-ac8e-3ba66568f7cd",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "njggjookikiachbndaocbijjpddcijkf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "e4561473-b6dd-5796-82a2-7e149e1c4b7e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "obdcmkbifgehdkjacmndbapoiiabnjlo",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "8f8cde67-8aab-58eb-9ba8-0a104dd098a2",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "oeaifghbbhjomcgbgpihadpbfnpidggi",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "e02c4281-b250-5df9-b37c-8a482f4f687e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ooepolkedgpkhojiihdjoajnjohciajl",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "457c3c0b-dd0e-52ae-a40b-d2985fcc167f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "oojlpfnmoijaiephcdakeggdbbfdbanb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "2a655b77-9807-57ba-96d5-4187dcfdace4",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "opdcfknedcfgiophhnojmnljpndojbom",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "44c6c502-206c-5d4c-baeb-5f27d1e41039",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "phcfjgnhnpfjhpghiacilpocpcdcgljm",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "276a997e-24f7-5c28-9749-8313c9675667",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "phpjgmopmomaokbddkjpnnffmchbnagh",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "775044fe-6c09-5ddf-80d6-93ca5ab2b267",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pkadlokfbobblmiclilbgajkjcpaaopk",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "42e69dd5-e8d8-59b1-b719-48786c9f89b0",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pkmjadcejhbaahnlaooacmfkfflpkcic",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "cc75e109-e6f2-5810-90e2-fb5b33a809b8",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: wallpaper adwares",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pnlahghdcgkecfkeeiekinacgmbdcabk",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "wallpaper adwares",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "0a3653cc-166b-51e3-b171-804fd73cf6f5",
         "name": "annotation",
