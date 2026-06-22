@@ -19,6 +19,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'pamnlaoeobcmhkliljfaofekeddpmfoh'
             - 'abcidfelbbfbijdeilhlgmgejdbappaj'
             - 'adiolfenpimdeonhngpkbjbjjcopdfdp'
             - 'bbbbneobfdbkipmlgpapfjabfggogdij'
@@ -2060,6 +2061,7 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'pamnlaoeobcmhkliljfaofekeddpmfoh'
             - 'abcidfelbbfbijdeilhlgmgejdbappaj'
             - 'adiolfenpimdeonhngpkbjbjjcopdfdp'
             - 'bbbbneobfdbkipmlgpapfjabfggogdij'
@@ -4100,6 +4102,7 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'pamnlaoeobcmhkliljfaofekeddpmfoh'
             - 'abcidfelbbfbijdeilhlgmgejdbappaj'
             - 'adiolfenpimdeonhngpkbjbjjcopdfdp'
             - 'bbbbneobfdbkipmlgpapfjabfggogdij'
@@ -6137,6 +6140,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'pamnlaoeobcmhkliljfaofekeddpmfoh'
             - 'abcidfelbbfbijdeilhlgmgejdbappaj'
             - 'adiolfenpimdeonhngpkbjbjjcopdfdp'
             - 'bbbbneobfdbkipmlgpapfjabfggogdij'
@@ -8406,6 +8410,7 @@ logsource:
 detection:
     selection:
         Hashes|contains:
+            - 'c3c45ac09dbda8cb8b7e1cd347e0cac30736e485d8f2606668c7902d8ec4930b'
             - 'c9754454efede2dec2fcb856faa40424b8df378706b664a5ae4847fcd0336b53'
             - '4e38bee33237a8c8b17a2504013e506ca7cbf667a7f68a2d94d75db505c2149f'
             - 'dfe307d957724ebe32331f92d53e366b7fa85968a9564c2285c5a0142ac9e1bb'
@@ -8423,6 +8428,7 @@ detection:
             - 'crx_file_sha256'
     filter_selection:
         sha256:
+            - 'c3c45ac09dbda8cb8b7e1cd347e0cac30736e485d8f2606668c7902d8ec4930b'
             - 'c9754454efede2dec2fcb856faa40424b8df378706b664a5ae4847fcd0336b53'
             - '4e38bee33237a8c8b17a2504013e506ca7cbf667a7f68a2d94d75db505c2149f'
             - 'dfe307d957724ebe32331f92d53e366b7fa85968a9564c2285c5a0142ac9e1bb'

@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-06-22",
-    "timestamp": "1782121540",
+    "timestamp": "1782141550",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,40 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "3573e29c-d61b-5582-b430-24b084c7e798",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pamnlaoeobcmhkliljfaofekeddpmfoh",
+        "comment": "Web to PDF | Category: malware | Type: malicious | linked to LevelBlue Labs report: Infrastructure of Interest: Medium Confidence InfoStealer - blocking just in case",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "5f55efa8-9a51-5a7f-955e-abba0912e1e2",
+        "type": "sha256",
+        "category": "Payload delivery",
+        "to_ids": true,
+        "value": "c3c45ac09dbda8cb8b7e1cd347e0cac30736e485d8f2606668c7902d8ec4930b",
+        "comment": "CRX file hash for Web to PDF (pamnlaoeobcmhkliljfaofekeddpmfoh)",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "2d8d1566-8ec4-518a-973f-e814b178502f",
         "type": "text",
@@ -34522,6 +34556,58 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "1c67db75-aaf1-599f-9399-85c8232f75fc",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Web to PDF",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pamnlaoeobcmhkliljfaofekeddpmfoh",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Web to PDF",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "sha256",
+            "value": "c3c45ac09dbda8cb8b7e1cd347e0cac30736e485d8f2606668c7902d8ec4930b",
+            "comment": "CRX File SHA-256",
+            "to_ids": true
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/web-to-pdf/pamnlaoeobcmhkliljfaofekeddpmfoh",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "14906195-299d-51a0-bf0c-5919bd7b1fa3",
         "name": "annotation",

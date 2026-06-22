@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-06-22T09:45:39Z",
+  "generated": "2026-06-22T15:19:10Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2014,
+  "total_indicators": 2015,
   "categories": {
-    "malware": 1803,
+    "malware": 1804,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -19,6 +19,17 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "pamnlaoeobcmhkliljfaofekeddpmfoh",
+      "extension_name": "Web to PDF",
+      "wildcard_pattern": "*pamnlaoeobcmhkliljfaofekeddpmfoh*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://chromewebstore.google.com/detail/web-to-pdf/pamnlaoeobcmhkliljfaofekeddpmfoh",
+      "description": "linked to LevelBlue Labs report: Infrastructure of Interest: Medium Confidence InfoStealer - blocking just in case",
+      "crx_sha256": "c3c45ac09dbda8cb8b7e1cd347e0cac30736e485d8f2606668c7902d8ec4930b",
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/pamnlaoeobcmhkliljfaofekeddpmfoh"
+    },
     {
       "extension_id": "abcidfelbbfbijdeilhlgmgejdbappaj",
       "extension_name": "wallpaper adwares",

@@ -1,4 +1,5 @@
 ExtensionID,ExtensionName,Category,ThreatType,Severity,CrxSHA256,Reference
+pamnlaoeobcmhkliljfaofekeddpmfoh,Web to PDF,malware,malicious,critical,c3c45ac09dbda8cb8b7e1cd347e0cac30736e485d8f2606668c7902d8ec4930b,https://chromewebstore.google.com/detail/web-to-pdf/pamnlaoeobcmhkliljfaofekeddpmfoh
 abcidfelbbfbijdeilhlgmgejdbappaj,wallpaper adwares,malware,malicious,critical,,https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt
 adiolfenpimdeonhngpkbjbjjcopdfdp,wallpaper adwares,malware,malicious,critical,,https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt
 bbbbneobfdbkipmlgpapfjabfggogdij,wallpaper adwares,malware,malicious,critical,,https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2026-06-01-Adware-Wallpaper-Chrome-Extension-Campaign.txt

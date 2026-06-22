@@ -1,10 +1,25 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-06-22T09:45:39Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-06-22T15:19:10Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-06-22T09:45:39Z</authored_date>
+  <authored_date>2026-06-22T15:19:10Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="70905fdf-c670-5737-884d-1b0f13015208" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">pamnlaoeobcmhkliljfaofekeddpmfoh</Content>
+        <Comment>malware | malicious | linked to LevelBlue Labs report: Infrastructure of Interest: Medium Confidence InfoStealer - blocking just in case</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="7b0353a5-712a-5c02-b5f3-cc100a4cb8fd" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">pamnlaoeobcmhkliljfaofekeddpmfoh</Content>
+        <Comment>malware | malicious | linked to LevelBlue Labs report: Infrastructure of Interest: Medium Confidence InfoStealer - blocking just in case</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="50841ada-0e53-5885-baa3-bc0f5c3c5855" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="string">c3c45ac09dbda8cb8b7e1cd347e0cac30736e485d8f2606668c7902d8ec4930b</Content>
+        <Comment>CRX SHA-256 for malware | malicious | linked to LevelBlue Labs report: Infrastructure of Interest: Medium Confidence InfoStealer - blocking just in case</Comment>
+      </IndicatorItem>
       <IndicatorItem id="077e97ed-632b-58b2-89b5-107b4ac4f000" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">abcidfelbbfbijdeilhlgmgejdbappaj</Content>
