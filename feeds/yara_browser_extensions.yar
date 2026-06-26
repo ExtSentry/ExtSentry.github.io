@@ -3,7 +3,7 @@ rule ExtSentry_malware_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as malware by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "malware"
         tlp = "WHITE"
@@ -1823,7 +1823,7 @@ rule ExtSentry_PUP_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as PUP by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "PUP"
         tlp = "WHITE"
@@ -1844,7 +1844,7 @@ rule ExtSentry_compromised_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as compromised by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "compromised"
         tlp = "WHITE"
@@ -1952,7 +1952,7 @@ rule ExtSentry_cryptocurrency_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as cryptocurrency by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "cryptocurrency"
         tlp = "WHITE"
@@ -2058,7 +2058,7 @@ rule ExtSentry_Credential_Access_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as Credential_Access by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "Credential_Access"
         tlp = "WHITE"
@@ -2076,7 +2076,7 @@ rule ExtSentry_Defense_Evasion_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as Defense_Evasion by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "Defense_Evasion"
         tlp = "WHITE"
@@ -2093,7 +2093,7 @@ rule ExtSentry_scam_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as scam by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "scam"
         tlp = "WHITE"
@@ -2114,7 +2114,7 @@ rule ExtSentry_RMM_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as RMM by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "RMM"
         tlp = "WHITE"
@@ -2131,7 +2131,7 @@ rule ExtSentry_password_manager_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as password_manager by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "password_manager"
         tlp = "WHITE"
@@ -2156,7 +2156,7 @@ rule ExtSentry_PROXY_VPN_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as PROXY_VPN by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "PROXY_VPN"
         tlp = "WHITE"
@@ -2177,7 +2177,7 @@ rule ExtSentry_metadata_category_BrowserExtensions
     meta:
         description = "Detects browser extension IDs categorized as metadata_category by ExtSentry"
         author = "ExtSentry / mthcht"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         category = "metadata_category"
         tlp = "WHITE"
@@ -2196,7 +2196,7 @@ rule ExtSentry_CRX_SHA256_Hashes
     meta:
         description = "Detects known malicious CRX files by SHA-256 hash"
         author = "ExtSentry"
-        date = "2026-06-25"
+        date = "2026-06-26"
         reference = "https://github.com/mthcht/awesome-lists"
         tlp = "WHITE"
 
