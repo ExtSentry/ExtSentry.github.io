@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-07-01T13:32:15Z",
+  "generated": "2026-07-01T16:09:22Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2015,
+  "total_indicators": 2018,
   "categories": {
-    "malware": 1804,
+    "malware": 1807,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -19,6 +19,39 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "nlfkaldinolmacagmiddfpnfaeclfibn",
+      "extension_name": "AI Chat to PDF",
+      "wildcard_pattern": "*nlfkaldinolmacagmiddfpnfaeclfibn*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://www.island.io/blog/badblocker-11-million-users-one-server-call-away-from-compromise",
+      "description": "This extension inject malicious scripts to capture users credentials - email content and browsing activity and send that sensitive data to attacker-controlled infrastructure for unauthorized access and theft.",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/nlfkaldinolmacagmiddfpnfaeclfibn"
+    },
+    {
+      "extension_id": "cmedhionkhpnakcndndgjdbohmhepckk",
+      "extension_name": "Adblock for Youtube\u2122",
+      "wildcard_pattern": "*cmedhionkhpnakcndndgjdbohmhepckk*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://www.island.io/blog/badblocker-11-million-users-one-server-call-away-from-compromise",
+      "description": "arbitrary JavaScript execution on any website",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/cmedhionkhpnakcndndgjdbohmhepckk"
+    },
+    {
+      "extension_id": "gekoepiplklhniacchbbgbhilidiojmb",
+      "extension_name": "AdBlock Suite",
+      "wildcard_pattern": "*gekoepiplklhniacchbbgbhilidiojmb*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://www.island.io/blog/badblocker-11-million-users-one-server-call-away-from-compromise",
+      "description": "arbitrary JavaScript execution on any website",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/gekoepiplklhniacchbbgbhilidiojmb"
+    },
     {
       "extension_id": "pamnlaoeobcmhkliljfaofekeddpmfoh",
       "extension_name": "Web to PDF",

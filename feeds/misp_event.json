@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-07-01",
-    "timestamp": "1782912736",
+    "timestamp": "1782922163",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,57 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "33d428f1-779e-5609-81e7-5579d47507f7",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nlfkaldinolmacagmiddfpnfaeclfibn",
+        "comment": "AI Chat to PDF | Category: malware | Type: malicious | This extension inject malicious scripts to capture users credentials - email content and browsing activity and send that sensitive data to attacker-controlled infrastructure for unauthorized access and theft.",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "2c355bfc-0ce0-5e53-bff1-bc0e991cb013",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cmedhionkhpnakcndndgjdbohmhepckk",
+        "comment": "Adblock for Youtube\u2122 | Category: malware | Type: malicious | arbitrary JavaScript execution on any website",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d9509bcf-20b0-5642-b93d-0f2578507608",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gekoepiplklhniacchbbgbhilidiojmb",
+        "comment": "AdBlock Suite | Category: malware | Type: malicious | arbitrary JavaScript execution on any website",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "3573e29c-d61b-5582-b430-24b084c7e798",
         "type": "text",
@@ -34556,6 +34607,141 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "1f3a59dc-48ad-546d-b69e-f751d8c45ad8",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: AI Chat to PDF",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nlfkaldinolmacagmiddfpnfaeclfibn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "AI Chat to PDF",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.island.io/blog/badblocker-11-million-users-one-server-call-away-from-compromise",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6df6050d-7b67-5fb7-9be4-53cccf11bfec",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Adblock for Youtube\u2122",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cmedhionkhpnakcndndgjdbohmhepckk",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Adblock for Youtube\u2122",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.island.io/blog/badblocker-11-million-users-one-server-call-away-from-compromise",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "198c2ac7-82f6-5b76-a377-404e914a1a5f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: AdBlock Suite",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gekoepiplklhniacchbbgbhilidiojmb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "AdBlock Suite",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.island.io/blog/badblocker-11-million-users-one-server-call-away-from-compromise",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "1c67db75-aaf1-599f-9399-85c8232f75fc",
         "name": "annotation",
