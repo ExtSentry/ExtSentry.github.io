@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-07-02",
-    "timestamp": "1782993922",
+    "timestamp": "1782998976",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,329 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "3b567817-2d02-53fa-8462-aff97ac42074",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pmdjjeplkafhkdjebfaoaljknbmilfgo",
+        "comment": "Picture in Picture for Videos | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c78326f1-c613-50fd-a661-8b7ef4750daa",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "okepkpmjhegbhmnnondmminfgfbjddpb",
+        "comment": "Video Ad Block Youtube | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "fae7d31c-2659-5b59-8c9e-f7c657256198",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "njjbfkooniaeodkimaidbpginjcmhmbm",
+        "comment": "Free adblocker | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "827989bd-9999-580c-8984-6cce2c3f94a5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mmnbenehknklpbendgmgngeaignppnbe",
+        "comment": "Netflix Party | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c9d6f5ce-0163-58d6-8a74-930a9bcf1ab6",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jcbjcocinigpbgfpnhlpagidbmlngnnn",
+        "comment": "Adblock for Browser | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d4f88deb-4153-5da6-bf29-669f8b3f9bd1",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "iojpcjjdfhlcbgjnpngcmaojmlokmeii",
+        "comment": "Smart Adblocker | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "754bf601-a810-5a54-99bc-62d8bddfb290",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hmbnhhcgiecenbbkgdoaoafjpeaboine",
+        "comment": "Autoskip for Youtube\u2122 Ads | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9420d67d-e207-5141-84e6-d28f1b283db6",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gbnahglfafmhaehbdmjedfhdmimjcbed",
+        "comment": "AutoBuy Flash Sales, Deals, and Coupons | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "6fb07c03-138d-5ccf-a3f2-aa0002ffe028",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gbdjcgalliefpinpmggefbloehmmknca",
+        "comment": "Adblock all advertisement - No Ads extension | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f0bd76ae-9fa8-55c2-aaf8-87bcde66706e",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fkjngjgmgbfelejhbjblhjkehchifpcj",
+        "comment": "Smart Auto Refresh | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e2435952-d56f-5b52-b128-f950a7960fd1",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ffejlioijcokmblckiijnjcmfidjppdn",
+        "comment": "Auto Refresh Plus | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "1e55337e-a7b5-5912-a0c7-135113908016",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bihmplhobchoageeokmgbdihknkjbknd",
+        "comment": "Touch VPN - Secure and unlimited VPN proxy | Category: PROXY/VPN | Type: Defense Evasion | Bypassing enterprise security",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "02593692-05dd-560a-b314-92b675e3f97c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcfhplploccackoneaefokcmbjfbkenj",
+        "comment": "Free VPN for Chrome - VPN Proxy 1clickVPN | Category: PROXY/VPN | Type: Defense Evasion | Bypassing enterprise security",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "ef0143c8-8f07-5ddb-870a-5f4ac2378182",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "adlpodnneegcnbophopdmhedicjbcgco",
+        "comment": "Free VPN for Chrome - Troywell VPN | Category: PROXY/VPN | Type: Defense Evasion | Bypassing enterprise security",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "6829922e-2797-5ea6-8ee0-2b1b2922369f",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jplgfhpmjnbigmhklmmbgecoobifkmpa",
+        "comment": "Proton VPN: Fast & Secure | Category: PROXY/VPN | Type: Defense Evasion | Bypassing enterprise security",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "423fdb84-f71a-5da5-b307-30178f371752",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bfidboloedlamgdmenmlbipfnccokknp",
+        "comment": "PureVPN Proxy - Best VPN for Chrome | Category: PROXY/VPN | Type: Defense Evasion | Bypassing enterprise security",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "6511cb7c-7067-5345-aa06-61a090f7de25",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "oofgbpoabipfcfjapgnbbjjaenockbdp",
+        "comment": "SetupVPN - Lifetime Free VPN | Category: PROXY/VPN | Type: Defense Evasion | Bypassing enterprise security",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "2cc01f17-ad3f-5835-a364-1fc8cf5c5436",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fdcgdnkidjaadafnichfpabhfomcebme",
+        "comment": "Free VPN ZenMate-Best VPN for Chrome | Category: PROXY/VPN | Type: Defense Evasion | Bypassing enterprise security",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "d4b97e87-ad41-5b62-a9e9-7d227d02ed9c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "omdakjcmkglenbhjadbccaookpfjihpa",
+        "comment": "TunnelBear VPN | Category: PROXY/VPN | Type: Defense Evasion | Bypassing enterprise security",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
       {
         "uuid": "33d428f1-779e-5609-81e7-5579d47507f7",
         "type": "text",
@@ -34607,6 +34930,861 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "b072f9d3-7c9a-50bf-b8e5-f4972101ab3c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Picture in Picture for Videos",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pmdjjeplkafhkdjebfaoaljknbmilfgo",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Picture in Picture for Videos",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b6fa00d9-d760-594b-9ae1-cecaafa50e3d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Video Ad Block Youtube",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "okepkpmjhegbhmnnondmminfgfbjddpb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Video Ad Block Youtube",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d9369a45-fbc4-54bb-9fb8-d1dd1fc5d4f3",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Free adblocker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "njjbfkooniaeodkimaidbpginjcmhmbm",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Free adblocker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a283ae81-4036-5fa4-930d-34d1dea878a0",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Netflix Party",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mmnbenehknklpbendgmgngeaignppnbe",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Netflix Party",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "16e7818a-8182-5484-9bdd-c45634263915",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Adblock for Browser",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jcbjcocinigpbgfpnhlpagidbmlngnnn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Adblock for Browser",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "993c7a34-a5cf-59b6-9616-4252b7e76a4f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Smart Adblocker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "iojpcjjdfhlcbgjnpngcmaojmlokmeii",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Smart Adblocker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "02f137ec-9d80-5dff-b529-73c3bfba1984",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Autoskip for Youtube\u2122 Ads",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hmbnhhcgiecenbbkgdoaoafjpeaboine",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Autoskip for Youtube\u2122 Ads",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "0b6d50a0-f741-5623-ac09-e7ada06e0a9e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: AutoBuy Flash Sales, Deals, and Coupons",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gbnahglfafmhaehbdmjedfhdmimjcbed",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "AutoBuy Flash Sales, Deals, and Coupons",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c7601605-0197-55c2-83a5-b24087c7731d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Adblock all advertisement - No Ads extension",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gbdjcgalliefpinpmggefbloehmmknca",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Adblock all advertisement - No Ads extension",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "8ae78e0c-4650-5bb7-944f-a81cf6d6a649",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Smart Auto Refresh",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fkjngjgmgbfelejhbjblhjkehchifpcj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Smart Auto Refresh",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "13d744be-636f-5fb2-80a9-f7fec0351d3e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Auto Refresh Plus",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ffejlioijcokmblckiijnjcmfidjppdn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Auto Refresh Plus",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "387c627b-5000-5a79-af7c-5aaeef2fe28e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Touch VPN - Secure and unlimited VPN proxy",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bihmplhobchoageeokmgbdihknkjbknd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Touch VPN - Secure and unlimited VPN proxy",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "571459cd-251f-5f2d-9d79-cc7e7604e670",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Free VPN for Chrome - VPN Proxy 1clickVPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcfhplploccackoneaefokcmbjfbkenj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Free VPN for Chrome - VPN Proxy 1clickVPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c1bd3544-a02b-5d64-a789-f54647738f9d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Free VPN for Chrome - Troywell VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "adlpodnneegcnbophopdmhedicjbcgco",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Free VPN for Chrome - Troywell VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "ea9a10fc-074d-5d3d-8771-336c27daca82",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Proton VPN: Fast & Secure",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jplgfhpmjnbigmhklmmbgecoobifkmpa",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Proton VPN: Fast & Secure",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "f45b695c-c46f-5798-8d91-b48135ae5afe",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: PureVPN Proxy - Best VPN for Chrome",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bfidboloedlamgdmenmlbipfnccokknp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PureVPN Proxy - Best VPN for Chrome",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "ba257d5f-35a3-54df-bc16-eac8779dbc49",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: SetupVPN - Lifetime Free VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "oofgbpoabipfcfjapgnbbjjaenockbdp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "SetupVPN - Lifetime Free VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "46b451aa-a3b3-5190-b3a5-3f49156728de",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Free VPN ZenMate-Best VPN for Chrome",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fdcgdnkidjaadafnichfpabhfomcebme",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Free VPN ZenMate-Best VPN for Chrome",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "f699d983-7bab-5fc9-aff4-f8188060d066",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: TunnelBear VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "TunnelBear VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/omdakjcmkglenbhjadbccaookpfjihpa",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "1f3a59dc-48ad-546d-b69e-f751d8c45ad8",
         "name": "annotation",

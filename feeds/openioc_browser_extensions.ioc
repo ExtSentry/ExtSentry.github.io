@@ -1,10 +1,200 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-07-02T12:05:22Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-07-02T13:29:36Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-07-02T12:05:22Z</authored_date>
+  <authored_date>2026-07-02T13:29:36Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="77cd5e76-1286-5cf3-9f54-ae25b0404a72" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">pmdjjeplkafhkdjebfaoaljknbmilfgo</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4f68c84e-74c1-5843-ae1f-91f6e19d580d" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">pmdjjeplkafhkdjebfaoaljknbmilfgo</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1f733101-81a5-54e4-9ce8-2856dfa1e9be" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">okepkpmjhegbhmnnondmminfgfbjddpb</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="9a044356-b614-5317-a33c-9343f7d71f15" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">okepkpmjhegbhmnnondmminfgfbjddpb</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3dc6e523-911e-52d9-bbd6-ead48aa1627c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">njjbfkooniaeodkimaidbpginjcmhmbm</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d2f762da-9b6c-5015-9c60-e112a05439fd" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">njjbfkooniaeodkimaidbpginjcmhmbm</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="620531b6-447c-5632-baee-16dad9a3ee34" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">mmnbenehknklpbendgmgngeaignppnbe</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="42cd0219-2dac-5e60-8b4f-951d37340f74" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">mmnbenehknklpbendgmgngeaignppnbe</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e130abb1-5dfb-514c-af6d-0a0c3ad43b76" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jcbjcocinigpbgfpnhlpagidbmlngnnn</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="47152c73-159b-56e1-8779-7340083325d4" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jcbjcocinigpbgfpnhlpagidbmlngnnn</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4897b31c-4ea2-5c60-bb4d-f428a7aaca1c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">iojpcjjdfhlcbgjnpngcmaojmlokmeii</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="40e2a525-7dd6-5622-ad34-5af8193be0b4" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">iojpcjjdfhlcbgjnpngcmaojmlokmeii</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="bc4efff4-ef59-503c-9a21-c5e3a52d22ee" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">hmbnhhcgiecenbbkgdoaoafjpeaboine</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="7edc232c-4346-57e2-a394-bf9e15f2fe50" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">hmbnhhcgiecenbbkgdoaoafjpeaboine</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e6e6efaa-b4f6-5ea4-bb37-81a351c2818c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">gbnahglfafmhaehbdmjedfhdmimjcbed</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="9b286de9-6da1-5a34-84e4-9c256011ec8f" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">gbnahglfafmhaehbdmjedfhdmimjcbed</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="ebca3141-e974-5806-a4e0-2a2c4216888b" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">gbdjcgalliefpinpmggefbloehmmknca</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f62a68a0-4b6c-544d-9a28-30e362f074e1" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">gbdjcgalliefpinpmggefbloehmmknca</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="cfd42452-013b-5335-93f3-f42b62ea5fdc" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">fkjngjgmgbfelejhbjblhjkehchifpcj</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d9097e0a-4852-5747-b2c8-df4c8f6dcde7" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">fkjngjgmgbfelejhbjblhjkehchifpcj</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="867ab3ec-7acd-5f30-b370-8b323a58802c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ffejlioijcokmblckiijnjcmfidjppdn</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="63c28e2e-6784-5b97-8ec2-352e2fe0c1fd" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ffejlioijcokmblckiijnjcmfidjppdn</Content>
+        <Comment>malware | malicious | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="db73155c-0b8c-5d22-bfcb-6caade5d3045" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">bihmplhobchoageeokmgbdihknkjbknd</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="42f121b4-0cd6-5eac-b122-84fc1507c121" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">bihmplhobchoageeokmgbdihknkjbknd</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1cd6f357-1517-5fde-a17a-498d5afd60d2" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">fcfhplploccackoneaefokcmbjfbkenj</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b4e3ec25-3e59-57d8-92c1-a292062ec9a8" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">fcfhplploccackoneaefokcmbjfbkenj</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="585e8cc6-a14a-569e-a707-a4a0b89648b6" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">adlpodnneegcnbophopdmhedicjbcgco</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4e43bdc9-f9c7-51d0-8ae2-f5406dc6608a" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">adlpodnneegcnbophopdmhedicjbcgco</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="0324b4b0-ee87-554f-a1f5-15a10c691c72" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jplgfhpmjnbigmhklmmbgecoobifkmpa</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1a455f8b-3e09-5e06-9d0b-c231cd1d48a7" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jplgfhpmjnbigmhklmmbgecoobifkmpa</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="63562184-0f8c-5082-b865-9d13cadff4b0" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">bfidboloedlamgdmenmlbipfnccokknp</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="89f39c41-1dd8-5dff-9788-522d6862d3ff" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">bfidboloedlamgdmenmlbipfnccokknp</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6d1dd61d-827c-5665-bbac-a7bae185ad1b" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">oofgbpoabipfcfjapgnbbjjaenockbdp</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="22e51f4a-8bbb-5931-83b3-d2d9efeb9183" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">oofgbpoabipfcfjapgnbbjjaenockbdp</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="29dc7fd0-ba31-509e-999c-b1b4b7a47961" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">fdcgdnkidjaadafnichfpabhfomcebme</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d75ce30a-2173-5950-9709-a3c3cf963688" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">fdcgdnkidjaadafnichfpabhfomcebme</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a24a9038-f89a-500a-a241-95efb947cbe1" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">omdakjcmkglenbhjadbccaookpfjihpa</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="fe2c4c3f-b25c-5b4e-903d-c19ef0ea3fba" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">omdakjcmkglenbhjadbccaookpfjihpa</Content>
+        <Comment>PROXY/VPN | Defense Evasion | Bypassing enterprise security</Comment>
+      </IndicatorItem>
       <IndicatorItem id="0fe50f1a-e4db-5c6f-8762-bf65673220a3" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">nlfkaldinolmacagmiddfpnfaeclfibn</Content>
