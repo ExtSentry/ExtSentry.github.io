@@ -1,4 +1,8 @@
 browser_extension_id,browser_extension_id_wildcard,extension_name,category,threat_type,severity,crx_sha256,description,reference_url
+jkhapebnlgocjncbbfccgiepjlghehmj,*jkhapebnlgocjncbbfccgiepjlghehmj*,Surfshark VPN,PROXY/VPN,Defense Evasion,high,,,https://microsoftedge.microsoft.com/addons/detail/jkhapebnlgocjncbbfccgiepjlghehmj
+jplnlifepflhkbkgonidnobkakhmpnmh,*jplnlifepflhkbkgonidnobkakhmpnmh*,Private Internet Access – Proxy for Chrome,PROXY/VPN,Defense Evasion,high,,,https://chromewebstore.google.com/detail/private-internet-access-%E2%80%93/jplnlifepflhkbkgonidnobkakhmpnmh
+hhdobjgopfphlmjbmnpglhfcgppchgje,*hhdobjgopfphlmjbmnpglhfcgppchgje*,AdGuard VPN: free & secure proxy,PROXY/VPN,Defense Evasion,high,,,https://chromewebstore.google.com/detail/adguard-vpn-free-secure-p/hhdobjgopfphlmjbmnpglhfcgppchgje
+ighhnpmaabelnfcbbkijikgghajbiaml,*ighhnpmaabelnfcbbkijikgghajbiaml*,Touch VPN - Secure and unlimited VPN proxy,PROXY/VPN,Defense Evasion,high,,,https://microsoftedge.microsoft.com/addons/detail/touch-vpn-secure-and-un/ighhnpmaabelnfcbbkijikgghajbiaml
 pmdjjeplkafhkdjebfaoaljknbmilfgo,*pmdjjeplkafhkdjebfaoaljknbmilfgo*,Picture in Picture for Videos,malware,malicious,critical,,,https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party
 okepkpmjhegbhmnnondmminfgfbjddpb,*okepkpmjhegbhmnnondmminfgfbjddpb*,Video Ad Block Youtube,malware,malicious,critical,,,https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party
 njjbfkooniaeodkimaidbpginjcmhmbm,*njjbfkooniaeodkimaidbpginjcmhmbm*,Free adblocker,malware,malicious,critical,,,https://palant.info/2025/01/20/malicious-extensions-circumvent-googles-remote-code-ban/#netflix-party

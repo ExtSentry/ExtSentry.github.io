@@ -1,10 +1,50 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-07-09T14:14:51Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-07-09T17:05:39Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-07-09T14:14:51Z</authored_date>
+  <authored_date>2026-07-09T17:05:39Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="83608b69-935a-5150-ba42-03e4f64bc950" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jkhapebnlgocjncbbfccgiepjlghehmj</Content>
+        <Comment>PROXY/VPN | Defense Evasion | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4627c39c-f47b-5bb0-862f-60e68a84e175" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jkhapebnlgocjncbbfccgiepjlghehmj</Content>
+        <Comment>PROXY/VPN | Defense Evasion | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1aaaeb37-0755-59a8-9901-fcd1bc9ade29" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jplnlifepflhkbkgonidnobkakhmpnmh</Content>
+        <Comment>PROXY/VPN | Defense Evasion | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="0a89adb3-b727-57da-8320-c101229608d4" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jplnlifepflhkbkgonidnobkakhmpnmh</Content>
+        <Comment>PROXY/VPN | Defense Evasion | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3a2ea6c6-b8d9-5b56-be66-c36a4d096a42" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">hhdobjgopfphlmjbmnpglhfcgppchgje</Content>
+        <Comment>PROXY/VPN | Defense Evasion | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a6ac9cb7-87c5-50c3-b332-ca80d99cea6e" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">hhdobjgopfphlmjbmnpglhfcgppchgje</Content>
+        <Comment>PROXY/VPN | Defense Evasion | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5bcdfafa-bca6-51d5-9f4f-f2cd4ed137a7" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ighhnpmaabelnfcbbkijikgghajbiaml</Content>
+        <Comment>PROXY/VPN | Defense Evasion | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e4c19ce4-e584-553c-bb4c-e58b8a343ef8" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ighhnpmaabelnfcbbkijikgghajbiaml</Content>
+        <Comment>PROXY/VPN | Defense Evasion | </Comment>
+      </IndicatorItem>
       <IndicatorItem id="77cd5e76-1286-5cf3-9f54-ae25b0404a72" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">pmdjjeplkafhkdjebfaoaljknbmilfgo</Content>

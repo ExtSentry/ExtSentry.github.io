@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-07-09",
-    "timestamp": "1783606492",
+    "timestamp": "1783616740",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,74 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "6e017e6b-f9e2-5bee-bea5-b00dbbd1915a",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jkhapebnlgocjncbbfccgiepjlghehmj",
+        "comment": "Surfshark VPN | Category: PROXY/VPN | Type: Defense Evasion | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "95acb725-50bb-5f2d-b744-56d29450322e",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jplnlifepflhkbkgonidnobkakhmpnmh",
+        "comment": "Private Internet Access \u2013 Proxy for Chrome | Category: PROXY/VPN | Type: Defense Evasion | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "19df0996-e421-5c8d-bc1d-22bd9bad24dd",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hhdobjgopfphlmjbmnpglhfcgppchgje",
+        "comment": "AdGuard VPN: free & secure proxy | Category: PROXY/VPN | Type: Defense Evasion | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
+      {
+        "uuid": "b7744c2e-5cdf-5869-bc09-d8d9db757a57",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ighhnpmaabelnfcbbkijikgghajbiaml",
+        "comment": "Touch VPN - Secure and unlimited VPN proxy | Category: PROXY/VPN | Type: Defense Evasion | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PROXY/VPN\""
+          },
+          {
+            "name": "extsentry:type=\"Defense Evasion\""
+          }
+        ]
+      },
       {
         "uuid": "3b567817-2d02-53fa-8462-aff97ac42074",
         "type": "text",
@@ -34930,6 +34998,186 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "401212c5-e813-5a84-938c-48e8f64c848a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Surfshark VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jkhapebnlgocjncbbfccgiepjlghehmj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Surfshark VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://microsoftedge.microsoft.com/addons/detail/jkhapebnlgocjncbbfccgiepjlghehmj",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "5d9f9bbd-e679-55a2-b9c3-314a1312c36a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Private Internet Access \u2013 Proxy for Chrome",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jplnlifepflhkbkgonidnobkakhmpnmh",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Private Internet Access \u2013 Proxy for Chrome",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/private-internet-access-%E2%80%93/jplnlifepflhkbkgonidnobkakhmpnmh",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "579641d5-7b7d-5e80-bc57-8b77fbbcc073",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: AdGuard VPN: free & secure proxy",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hhdobjgopfphlmjbmnpglhfcgppchgje",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "AdGuard VPN: free & secure proxy",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://chromewebstore.google.com/detail/adguard-vpn-free-secure-p/hhdobjgopfphlmjbmnpglhfcgppchgje",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "5ad3f268-3809-56db-a35d-6f15664020ff",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Touch VPN - Secure and unlimited VPN proxy",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ighhnpmaabelnfcbbkijikgghajbiaml",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Touch VPN - Secure and unlimited VPN proxy",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PROXY/VPN",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Defense Evasion",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://microsoftedge.microsoft.com/addons/detail/touch-vpn-secure-and-un/ighhnpmaabelnfcbbkijikgghajbiaml",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "b072f9d3-7c9a-50bf-b8e5-f4972101ab3c",
         "name": "annotation",

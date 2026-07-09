@@ -1,3 +1,36 @@
+rule ExtSentry_PROXY_VPN_BrowserExtensions
+{
+    meta:
+        description = "Detects browser extension IDs categorized as PROXY_VPN by ExtSentry"
+        author = "ExtSentry / mthcht"
+        date = "2026-07-09"
+        reference = "https://github.com/mthcht/awesome-lists"
+        category = "PROXY_VPN"
+        tlp = "WHITE"
+
+    strings:
+        $ext_0 = "jkhapebnlgocjncbbfccgiepjlghehmj" ascii wide
+        $ext_1 = "jplnlifepflhkbkgonidnobkakhmpnmh" ascii wide
+        $ext_2 = "hhdobjgopfphlmjbmnpglhfcgppchgje" ascii wide
+        $ext_3 = "ighhnpmaabelnfcbbkijikgghajbiaml" ascii wide
+        $ext_4 = "bihmplhobchoageeokmgbdihknkjbknd" ascii wide
+        $ext_5 = "fcfhplploccackoneaefokcmbjfbkenj" ascii wide
+        $ext_6 = "adlpodnneegcnbophopdmhedicjbcgco" ascii wide
+        $ext_7 = "jplgfhpmjnbigmhklmmbgecoobifkmpa" ascii wide
+        $ext_8 = "bfidboloedlamgdmenmlbipfnccokknp" ascii wide
+        $ext_9 = "oofgbpoabipfcfjapgnbbjjaenockbdp" ascii wide
+        $ext_10 = "fdcgdnkidjaadafnichfpabhfomcebme" ascii wide
+        $ext_11 = "omdakjcmkglenbhjadbccaookpfjihpa" ascii wide
+        $ext_12 = "fjoaledfpmneenckfbpdfhkmimnjocfa" ascii wide
+        $ext_13 = "fphgeikpdcdcheaochkhldmnfblfogla" ascii wide
+        $ext_14 = "ffbkglfijbcbgblgflchnbphjdllaogb" ascii wide
+        $ext_15 = "akcocjjpkmlniicdeemdceeajlmoabhg" ascii wide
+        $ext_16 = "fgddmllnllkalaagkghckoinaemmogpe" ascii wide
+
+    condition:
+        any of ($ext_*)
+}
+
 rule ExtSentry_malware_BrowserExtensions
 {
     meta:
@@ -1827,35 +1860,6 @@ rule ExtSentry_malware_BrowserExtensions
         $ext_1815 = "{f7d2c8aa-e06e-4117-8b99-52a145eb7d23}" ascii wide
         $ext_1816 = "{5f246670-f5e2-45ff-b183-be21cbeb065a}" ascii wide
         $ext_1817 = "{c257a965-0bf8-4934-bf85-9ebf761d1cf8}" ascii wide
-
-    condition:
-        any of ($ext_*)
-}
-
-rule ExtSentry_PROXY_VPN_BrowserExtensions
-{
-    meta:
-        description = "Detects browser extension IDs categorized as PROXY_VPN by ExtSentry"
-        author = "ExtSentry / mthcht"
-        date = "2026-07-09"
-        reference = "https://github.com/mthcht/awesome-lists"
-        category = "PROXY_VPN"
-        tlp = "WHITE"
-
-    strings:
-        $ext_0 = "bihmplhobchoageeokmgbdihknkjbknd" ascii wide
-        $ext_1 = "fcfhplploccackoneaefokcmbjfbkenj" ascii wide
-        $ext_2 = "adlpodnneegcnbophopdmhedicjbcgco" ascii wide
-        $ext_3 = "jplgfhpmjnbigmhklmmbgecoobifkmpa" ascii wide
-        $ext_4 = "bfidboloedlamgdmenmlbipfnccokknp" ascii wide
-        $ext_5 = "oofgbpoabipfcfjapgnbbjjaenockbdp" ascii wide
-        $ext_6 = "fdcgdnkidjaadafnichfpabhfomcebme" ascii wide
-        $ext_7 = "omdakjcmkglenbhjadbccaookpfjihpa" ascii wide
-        $ext_8 = "fjoaledfpmneenckfbpdfhkmimnjocfa" ascii wide
-        $ext_9 = "fphgeikpdcdcheaochkhldmnfblfogla" ascii wide
-        $ext_10 = "ffbkglfijbcbgblgflchnbphjdllaogb" ascii wide
-        $ext_11 = "akcocjjpkmlniicdeemdceeajlmoabhg" ascii wide
-        $ext_12 = "fgddmllnllkalaagkghckoinaemmogpe" ascii wide
 
     condition:
         any of ($ext_*)

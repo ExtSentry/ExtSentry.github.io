@@ -1,13 +1,13 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-07-09T14:14:51Z",
+  "generated": "2026-07-09T17:05:39Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2037,
+  "total_indicators": 2041,
   "categories": {
+    "PROXY/VPN": 17,
     "malware": 1818,
-    "PROXY/VPN": 13,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -19,6 +19,50 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "jkhapebnlgocjncbbfccgiepjlghehmj",
+      "extension_name": "Surfshark VPN",
+      "wildcard_pattern": "*jkhapebnlgocjncbbfccgiepjlghehmj*",
+      "category": "PROXY/VPN",
+      "threat_type": "Defense Evasion",
+      "reference_url": "https://microsoftedge.microsoft.com/addons/detail/jkhapebnlgocjncbbfccgiepjlghehmj",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/jkhapebnlgocjncbbfccgiepjlghehmj"
+    },
+    {
+      "extension_id": "jplnlifepflhkbkgonidnobkakhmpnmh",
+      "extension_name": "Private Internet Access \u2013 Proxy for Chrome",
+      "wildcard_pattern": "*jplnlifepflhkbkgonidnobkakhmpnmh*",
+      "category": "PROXY/VPN",
+      "threat_type": "Defense Evasion",
+      "reference_url": "https://chromewebstore.google.com/detail/private-internet-access-%E2%80%93/jplnlifepflhkbkgonidnobkakhmpnmh",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/jplnlifepflhkbkgonidnobkakhmpnmh"
+    },
+    {
+      "extension_id": "hhdobjgopfphlmjbmnpglhfcgppchgje",
+      "extension_name": "AdGuard VPN: free & secure proxy",
+      "wildcard_pattern": "*hhdobjgopfphlmjbmnpglhfcgppchgje*",
+      "category": "PROXY/VPN",
+      "threat_type": "Defense Evasion",
+      "reference_url": "https://chromewebstore.google.com/detail/adguard-vpn-free-secure-p/hhdobjgopfphlmjbmnpglhfcgppchgje",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/hhdobjgopfphlmjbmnpglhfcgppchgje"
+    },
+    {
+      "extension_id": "ighhnpmaabelnfcbbkijikgghajbiaml",
+      "extension_name": "Touch VPN - Secure and unlimited VPN proxy",
+      "wildcard_pattern": "*ighhnpmaabelnfcbbkijikgghajbiaml*",
+      "category": "PROXY/VPN",
+      "threat_type": "Defense Evasion",
+      "reference_url": "https://microsoftedge.microsoft.com/addons/detail/touch-vpn-secure-and-un/ighhnpmaabelnfcbbkijikgghajbiaml",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ighhnpmaabelnfcbbkijikgghajbiaml"
+    },
     {
       "extension_id": "pmdjjeplkafhkdjebfaoaljknbmilfgo",
       "extension_name": "Picture in Picture for Videos",
