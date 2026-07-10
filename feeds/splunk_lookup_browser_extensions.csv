@@ -1,4 +1,8 @@
 browser_extension_id,browser_extension_id_wildcard,extension_name,category,threat_type,severity,crx_sha256,description,reference_url
+kghcdbkokgjghlfeojcpeoclfnljkbdk,*kghcdbkokgjghlfeojcpeoclfnljkbdk*,Video Downloader,malware,malicious,critical,,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store
+ndhaplegimoabombidcdfogcnpmcicik,*ndhaplegimoabombidcdfogcnpmcicik*,Bass Booster,malware,malicious,critical,,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store
+ompafndkajgkoldjbgnbikogdkljinlb,*ompafndkajgkoldjbgnbikogdkljinlb*,Downloader For Instagram,malware,malicious,critical,,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store
+bhfelhfpjghfmhogedjnlmdpkbhmjhlf,*bhfelhfpjghfmhogedjnlmdpkbhmjhlf*,Downloader For Instagram,malware,malicious,critical,,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store
 jkhapebnlgocjncbbfccgiepjlghehmj,*jkhapebnlgocjncbbfccgiepjlghehmj*,Surfshark VPN,PROXY/VPN,Defense Evasion,high,,,https://microsoftedge.microsoft.com/addons/detail/jkhapebnlgocjncbbfccgiepjlghehmj
 jplnlifepflhkbkgonidnobkakhmpnmh,*jplnlifepflhkbkgonidnobkakhmpnmh*,Private Internet Access – Proxy for Chrome,PROXY/VPN,Defense Evasion,high,,,https://chromewebstore.google.com/detail/private-internet-access-%E2%80%93/jplnlifepflhkbkgonidnobkakhmpnmh
 hhdobjgopfphlmjbmnpglhfcgppchgje,*hhdobjgopfphlmjbmnpglhfcgppchgje*,AdGuard VPN: free & secure proxy,PROXY/VPN,Defense Evasion,high,,,https://chromewebstore.google.com/detail/adguard-vpn-free-secure-p/hhdobjgopfphlmjbmnpglhfcgppchgje

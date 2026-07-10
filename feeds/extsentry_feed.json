@@ -1,13 +1,13 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-07-10T12:56:46Z",
+  "generated": "2026-07-10T15:30:47Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2041,
+  "total_indicators": 2045,
   "categories": {
+    "malware": 1822,
     "PROXY/VPN": 17,
-    "malware": 1818,
     "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -19,6 +19,50 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "kghcdbkokgjghlfeojcpeoclfnljkbdk",
+      "extension_name": "Video Downloader",
+      "wildcard_pattern": "*kghcdbkokgjghlfeojcpeoclfnljkbdk*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/kghcdbkokgjghlfeojcpeoclfnljkbdk"
+    },
+    {
+      "extension_id": "ndhaplegimoabombidcdfogcnpmcicik",
+      "extension_name": "Bass Booster",
+      "wildcard_pattern": "*ndhaplegimoabombidcdfogcnpmcicik*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ndhaplegimoabombidcdfogcnpmcicik"
+    },
+    {
+      "extension_id": "ompafndkajgkoldjbgnbikogdkljinlb",
+      "extension_name": "Downloader For Instagram",
+      "wildcard_pattern": "*ompafndkajgkoldjbgnbikogdkljinlb*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ompafndkajgkoldjbgnbikogdkljinlb"
+    },
+    {
+      "extension_id": "bhfelhfpjghfmhogedjnlmdpkbhmjhlf",
+      "extension_name": "Downloader For Instagram",
+      "wildcard_pattern": "*bhfelhfpjghfmhogedjnlmdpkbhmjhlf*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/bhfelhfpjghfmhogedjnlmdpkbhmjhlf"
+    },
     {
       "extension_id": "jkhapebnlgocjncbbfccgiepjlghehmj",
       "extension_name": "Surfshark VPN",
