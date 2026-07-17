@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-07-17",
-    "timestamp": "1784272344",
+    "timestamp": "1784280580",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,57 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "7a18ec6c-df0a-55a5-ae18-1a5f55751406",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mknbkgdikangjebcpfcbkiioojainjnh",
+        "comment": "ModHeader | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e88182f3-099a-5c4a-b14f-6ac161ce78ec",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "idgpnmonknjnojddfkpgkljpfnnfcklj",
+        "comment": "ModHeader | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "18487f11-6ab7-5079-ac97-6bedf7bb70cf",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "opgbiafapkbbnbnjcdomjaghbckfkglc",
+        "comment": "ModHeader | Category: malware | Type: malicious | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "97d3d526-e3f3-5e70-8f70-2bd15c645364",
         "type": "text",
@@ -35066,6 +35117,141 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "20a0a72f-f22f-54f3-a88d-6d122a8f29f9",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ModHeader",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mknbkgdikangjebcpfcbkiioojainjnh",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ModHeader",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://hackindex.io/research/modheader-malware-chrome-spyware",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "001db3f3-2da6-519d-896b-cb7e4fbcb9a4",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ModHeader",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "idgpnmonknjnojddfkpgkljpfnnfcklj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ModHeader",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://hackindex.io/research/modheader-malware-chrome-spyware",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "4df59f31-eaec-5e24-b4f8-06bdcf56fa44",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ModHeader",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "opgbiafapkbbnbnjcdomjaghbckfkglc",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ModHeader",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://hackindex.io/research/modheader-malware-chrome-spyware",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "55d6a9d5-4ca9-5aad-aeb6-9fb8d537f86a",
         "name": "annotation",

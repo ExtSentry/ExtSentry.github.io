@@ -1,4 +1,7 @@
 ExtensionID,ExtensionName,Category,ThreatType,Severity,CrxSHA256,Reference
+mknbkgdikangjebcpfcbkiioojainjnh,ModHeader,malware,malicious,critical,,https://hackindex.io/research/modheader-malware-chrome-spyware
+idgpnmonknjnojddfkpgkljpfnnfcklj,ModHeader,malware,malicious,critical,,https://hackindex.io/research/modheader-malware-chrome-spyware
+opgbiafapkbbnbnjcdomjaghbckfkglc,ModHeader,malware,malicious,critical,,https://hackindex.io/research/modheader-malware-chrome-spyware
 kghcdbkokgjghlfeojcpeoclfnljkbdk,Video Downloader,malware,malicious,critical,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store
 ndhaplegimoabombidcdfogcnpmcicik,Bass Booster,malware,malicious,critical,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store
 ompafndkajgkoldjbgnbikogdkljinlb,Downloader For Instagram,malware,malicious,critical,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store

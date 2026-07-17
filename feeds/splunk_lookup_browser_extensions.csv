@@ -1,4 +1,7 @@
 browser_extension_id,browser_extension_id_wildcard,extension_name,category,threat_type,severity,crx_sha256,description,reference_url
+mknbkgdikangjebcpfcbkiioojainjnh,*mknbkgdikangjebcpfcbkiioojainjnh*,ModHeader,malware,malicious,critical,,,https://hackindex.io/research/modheader-malware-chrome-spyware
+idgpnmonknjnojddfkpgkljpfnnfcklj,*idgpnmonknjnojddfkpgkljpfnnfcklj*,ModHeader,malware,malicious,critical,,,https://hackindex.io/research/modheader-malware-chrome-spyware
+opgbiafapkbbnbnjcdomjaghbckfkglc,*opgbiafapkbbnbnjcdomjaghbckfkglc*,ModHeader,malware,malicious,critical,,,https://hackindex.io/research/modheader-malware-chrome-spyware
 kghcdbkokgjghlfeojcpeoclfnljkbdk,*kghcdbkokgjghlfeojcpeoclfnljkbdk*,Video Downloader,malware,malicious,critical,,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store
 ndhaplegimoabombidcdfogcnpmcicik,*ndhaplegimoabombidcdfogcnpmcicik*,Bass Booster,malware,malicious,critical,,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store
 ompafndkajgkoldjbgnbikogdkljinlb,*ompafndkajgkoldjbgnbikogdkljinlb*,Downloader For Instagram,malware,malicious,critical,,,https://www.koi.ai/blog/a-month-of-malware-in-the-chrome-web-store

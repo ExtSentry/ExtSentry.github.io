@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-07-17T07:12:24Z",
+  "generated": "2026-07-17T09:29:40Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2045,
+  "total_indicators": 2048,
   "categories": {
-    "malware": 1822,
+    "malware": 1825,
     "PROXY/VPN": 17,
     "PUP": 5,
     "compromised": 92,
@@ -19,6 +19,39 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "mknbkgdikangjebcpfcbkiioojainjnh",
+      "extension_name": "ModHeader",
+      "wildcard_pattern": "*mknbkgdikangjebcpfcbkiioojainjnh*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://hackindex.io/research/modheader-malware-chrome-spyware",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/mknbkgdikangjebcpfcbkiioojainjnh"
+    },
+    {
+      "extension_id": "idgpnmonknjnojddfkpgkljpfnnfcklj",
+      "extension_name": "ModHeader",
+      "wildcard_pattern": "*idgpnmonknjnojddfkpgkljpfnnfcklj*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://hackindex.io/research/modheader-malware-chrome-spyware",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/idgpnmonknjnojddfkpgkljpfnnfcklj"
+    },
+    {
+      "extension_id": "opgbiafapkbbnbnjcdomjaghbckfkglc",
+      "extension_name": "ModHeader",
+      "wildcard_pattern": "*opgbiafapkbbnbnjcdomjaghbckfkglc*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://hackindex.io/research/modheader-malware-chrome-spyware",
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/opgbiafapkbbnbnjcdomjaghbckfkglc"
+    },
     {
       "extension_id": "kghcdbkokgjghlfeojcpeoclfnljkbdk",
       "extension_name": "Video Downloader",
