@@ -1,4 +1,5 @@
 browser_extension_id,browser_extension_id_wildcard,extension_name,category,threat_type,severity,crx_sha256,description,reference_url
+jcbiifklmgnkppebelchllpdbnibihel,*jcbiifklmgnkppebelchllpdbnibihel*,FreeVPN,malware,malicious,critical,,spyware activity,
 mknbkgdikangjebcpfcbkiioojainjnh,*mknbkgdikangjebcpfcbkiioojainjnh*,ModHeader,malware,malicious,critical,,,https://hackindex.io/research/modheader-malware-chrome-spyware
 idgpnmonknjnojddfkpgkljpfnnfcklj,*idgpnmonknjnojddfkpgkljpfnnfcklj*,ModHeader,malware,malicious,critical,,,https://hackindex.io/research/modheader-malware-chrome-spyware
 opgbiafapkbbnbnjcdomjaghbckfkglc,*opgbiafapkbbnbnjcdomjaghbckfkglc*,ModHeader,malware,malicious,critical,,,https://hackindex.io/research/modheader-malware-chrome-spyware

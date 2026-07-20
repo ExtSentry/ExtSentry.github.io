@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-07-20T11:27:08Z",
+  "generated": "2026-07-20T13:29:00Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2048,
+  "total_indicators": 2049,
   "categories": {
-    "malware": 1825,
+    "malware": 1826,
     "PROXY/VPN": 17,
     "PUP": 5,
     "compromised": 92,
@@ -19,6 +19,17 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "jcbiifklmgnkppebelchllpdbnibihel",
+      "extension_name": "FreeVPN",
+      "wildcard_pattern": "*jcbiifklmgnkppebelchllpdbnibihel*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": null,
+      "description": "spyware activity",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/jcbiifklmgnkppebelchllpdbnibihel"
+    },
     {
       "extension_id": "mknbkgdikangjebcpfcbkiioojainjnh",
       "extension_name": "ModHeader",
