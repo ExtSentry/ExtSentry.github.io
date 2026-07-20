@@ -1,10 +1,810 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-07-20T13:29:00Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-07-20T15:31:14Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-07-20T13:29:00Z</authored_date>
+  <authored_date>2026-07-20T15:31:14Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="d5824bef-912d-5d50-9e38-aee641d01e7a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ppemikmneckkgmmbedecgnclmcgfhemf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b9ee5371-3bed-51c9-a6fc-9ae1f6aaba74" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ppemikmneckkgmmbedecgnclmcgfhemf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="083646ab-94af-5def-9267-5da9311973e6" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">pmjfbdnpbhfgeioabfahbheefebeiehp</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="329d9f42-15aa-5a4b-8ac9-530e7f803dd8" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">pmjfbdnpbhfgeioabfahbheefebeiehp</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="faebd5bf-0710-56f4-9e1e-cc86a0db9b44" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">noamdmpakpnhegiadckcbjacfcinaaih</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="492008b9-6bd7-5262-ac58-3060f82510e5" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">noamdmpakpnhegiadckcbjacfcinaaih</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="51a39cd7-bcb2-5842-8789-3c43cf3ae3cb" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">molhgnmmgandgcphadkejgpmbdelblbf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f712c6fe-5c47-55ac-b393-fff0130f0130" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">molhgnmmgandgcphadkejgpmbdelblbf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f462c429-628e-520e-ae7b-1c7edab9865e" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">moaepgbhoepmpnmkjedfkepbfigjplfo</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="8eb8db1b-217d-5128-aa80-3c98dc4c48c0" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">moaepgbhoepmpnmkjedfkepbfigjplfo</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a3d7af48-0483-5c20-bd29-840f01a6be3c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">mlaonedihngoginmmlaacpihnojcoocl</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3b1c3be6-869b-5ad1-898c-5aa343f4ad75" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">mlaonedihngoginmmlaacpihnojcoocl</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6d68b3fa-8e9e-5d17-9f36-d3bad1f5df4e" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">linflaofbnlhpakjpohmfnkkkmpngnck</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="04acb086-581a-5cda-b627-a270567bd004" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">linflaofbnlhpakjpohmfnkkkmpngnck</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2620f416-89c9-5f69-b9c6-415827683cbe" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kgaleicefmhgoefglnbdfpmbgbngnnmd</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="764cf07f-be3a-5142-9793-ab7c0aac0e59" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kgaleicefmhgoefglnbdfpmbgbngnnmd</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="864ff155-853c-5fb7-9e8d-2e3b5c5a8b9a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jollepgbbbblfcnlnpohjmjjnmhcjaik</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="01d08dca-024d-547d-a57a-87b0f9ca3ac7" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jollepgbbbblfcnlnpohjmjjnmhcjaik</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="611b3d9e-1e84-5ecb-a578-7363151363a2" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jnednbilgloghpmmjcaaikkoajcklalm</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2afb117f-6536-5822-9087-bd1b252f8c98" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jnednbilgloghpmmjcaaikkoajcklalm</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="bf495a01-4b07-593c-b288-20e9b2b51136" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jacapfdcamanncjmobhiimfiempggoid</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5b4be717-f7b6-5065-9ebf-abc47d377c9d" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jacapfdcamanncjmobhiimfiempggoid</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="fc957f6c-6f61-5709-b41d-9dcc38f52a21" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">gffafiabcifddagoobhnapcambklhmkh</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6589b642-c8c4-521a-85e2-dd90c7474d25" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">gffafiabcifddagoobhnapcambklhmkh</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="17d6dcf1-2041-5f21-99be-c5ccbf01d309" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">hmdjcinnollmgfieppkodcgjekoldlde</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="575d40c6-6ec9-5d21-b62a-e2c3b51c0d55" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">hmdjcinnollmgfieppkodcgjekoldlde</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2daa3577-98c1-51ec-93f3-448c79045c5f" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">gmmbcogjfolpbonhldnkcajpmgknkdbb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a2202caa-33bf-5c24-a941-f38db907f0a2" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">gmmbcogjfolpbonhldnkcajpmgknkdbb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4e0aa745-8370-52bb-92d0-227fa22b5f17" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">gflodpomcgkoplepioifngjcffdgfabp</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f452a426-d054-5e8f-ae35-e8721968a762" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">gflodpomcgkoplepioifngjcffdgfabp</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="ad078486-31bd-5aff-bfae-8700ed4f51c1" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">foljknabefdkeifdkapmaenecijjmlom</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="63d1b170-9f8e-5f97-bff3-bdf296fc01ad" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">foljknabefdkeifdkapmaenecijjmlom</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c2410483-fd4c-5d56-9be0-e147e691678b" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">enjdjejaijiebcikjmcmejgbobdkiflf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a328bdb4-c852-5fac-b930-06f593ec74d6" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">enjdjejaijiebcikjmcmejgbobdkiflf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="844ffb6e-e7a4-5033-9230-387f19996e5e" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">cmlbghnlnbjkdgfjlegkbjmadpbmlgjb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="8c15d12b-a712-5275-b2fd-e152bdfb008b" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">cmlbghnlnbjkdgfjlegkbjmadpbmlgjb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1d4f315e-effd-5cf9-b6ef-9475d2e9f807" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">cjkmdmgcomefpihnfkhnohfccikdlpli</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5318ac96-b02d-5262-8108-5ac75df5db9f" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">cjkmdmgcomefpihnfkhnohfccikdlpli</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2728762a-9c48-5dbe-ac60-43cff1dbb979" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">chdcepakhbkbgcljkaoikoopjkphphbd</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="77d1f43f-eb3b-5c3e-a027-f9d31cba3cd9" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">chdcepakhbkbgcljkaoikoopjkphphbd</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="37c9faa9-3184-5c83-855d-0fc27f97ea4f" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">bbhaganppipihlhjgaaeeeefbaoihcgi</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e3f4be64-fa67-545d-9559-1700e40ad776" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">bbhaganppipihlhjgaaeeeefbaoihcgi</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f9a23e93-d316-5376-bd46-28db49913b8c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">gbbfiogknfkmkiihmdifbenmflboageg</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d10a818e-94db-5fb4-a006-402e385f3007" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">gbbfiogknfkmkiihmdifbenmflboageg</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="04b8042c-0747-5acc-bb89-7d6a9a858c94" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ioflbileeadfgndimfogiadmicpbfafn</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="69cbd371-c563-5a89-98b4-b7ee115fe91c" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ioflbileeadfgndimfogiadmicpbfafn</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a88e1066-25be-50ed-891b-bddde297d922" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">aknipljacjndlpkpbpakbcchmdgoblcf</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="162f2ffc-4c62-5ac7-92cd-99aa87d2de79" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">aknipljacjndlpkpbpakbcchmdgoblcf</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5cca2da3-dc42-5dc5-93f5-d7652b97780a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jifhfjebdojpeofhjbldhmojmajnedgo</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="cfe9b074-27b7-5b2d-acea-5c2fd72c24db" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jifhfjebdojpeofhjbldhmojmajnedgo</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="18fdcf5f-f9b9-5dbf-a1e7-d595b302e770" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">hlidpdhiafeejnmjbpjkbdpohocfjicf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="820d91b1-ea9d-5493-b762-e496f817372c" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">hlidpdhiafeejnmjbpjkbdpohocfjicf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e40a65df-c0fe-5b11-b6d5-b65d0d6f586d" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">clgemeijamgdpmilcegplfihfbkhbank</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c5242f50-8e28-5575-aee1-306b774ef9a2" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">clgemeijamgdpmilcegplfihfbkhbank</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6337da62-61c5-51e7-b39a-fa41753e7f35" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">bnapbdlppkcagdebgodflflkganenmam</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="12022156-7aac-590c-8906-fbbba1661b30" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">bnapbdlppkcagdebgodflflkganenmam</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="916ace8f-0e8f-58e7-8b77-b6a49d8895df" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">llgabammdchaeghapldlbhemdhofbkec</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="439ebdf8-9334-562f-8240-272c9610c7c7" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">llgabammdchaeghapldlbhemdhofbkec</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="afead949-ba8b-5500-a1d1-fd0e6d967ae2" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">aobncdfcdpeicfkghjjffdicafmhanee</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="8214cae9-2f0f-5e6d-8504-eb7c9b1059c0" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">aobncdfcdpeicfkghjjffdicafmhanee</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f87da3f5-ef3b-5dab-aa1b-c07e68ffc16d" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">hcllfblgjihnjmmdjhnahnoegopnllab</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="349d49da-30e2-578b-be64-e062d695b23d" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">hcllfblgjihnjmmdjhnahnoegopnllab</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="70cebd36-660d-52d1-b98b-6e17e743c068" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kbjiajimoeapacbebclicbmibgcgceok</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="02d1b16f-ad01-5f63-a702-e3f4e2e47bbf" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kbjiajimoeapacbebclicbmibgcgceok</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="48217ba2-45b0-54f1-a1df-0b3e9acc8ca5" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ciegppinlanbdjdlpkpgdlepffeliofa</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1a6fc587-fe1f-545b-875d-c79f398a2bc5" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ciegppinlanbdjdlpkpgdlepffeliofa</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1ab88811-0af4-533b-ac9d-4d8ccb4b8f2a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ilgdgaajigobnmcmbieobelchldlaplf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="79e8c972-7cc6-5e94-91d5-e4949a09d2b6" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ilgdgaajigobnmcmbieobelchldlaplf</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d859c4da-a727-5d3f-913a-a0e64fd0eae4" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kocajemligblhdpjmcoplaaogcendpcb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="87457314-a5a1-5ac0-a97e-114d7d8745a4" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kocajemligblhdpjmcoplaaogcendpcb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f0363c56-8439-5d2f-93c0-8f8022831af4" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">aahhemfjdkjamblajnjcddcffpcpmlia</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="72afeb9b-83c2-5802-ba06-e6cbcc79a355" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">aahhemfjdkjamblajnjcddcffpcpmlia</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6ef368d1-df4c-5172-8505-a989b799b8cb" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">hpamjldgeadmapkdklhndmcdankicnch</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="ea20aa55-2150-5e55-9884-d48f778cbb91" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">hpamjldgeadmapkdklhndmcdankicnch</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e12877a1-2fc3-5677-8f48-70d546f38416" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">bagfjpcfejdcfnhckcjcpekcjbencfeb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="51efcce8-5576-5e24-827f-8aacc6f6b05f" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">bagfjpcfejdcfnhckcjcpekcjbencfeb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6bf5cd34-4605-5fcd-a15c-a24e19b6e5a4" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kmcdpinedoopehidpionkcmifkginapk</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="191e1164-0c86-5ec9-8b56-ab47de6d39ad" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kmcdpinedoopehidpionkcmifkginapk</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a64c2546-c9a0-5aab-aa7d-aa5e74daf22c" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">fjpobenajidogfpilgbjgbglcanfjnoa</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5eaf3367-d991-5b7e-a9c4-2ec4c20fa3b5" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">fjpobenajidogfpilgbjgbglcanfjnoa</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="488ca2c4-840e-5e15-a179-d775e01b2c91" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">bpljfbcejldmgeoodnogeefaihjdgbam</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f747ef10-833b-5a69-b5d1-45f3b17eca37" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">bpljfbcejldmgeoodnogeefaihjdgbam</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5cfac780-6662-5619-b35c-f63a0c2cbfbf" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ldiogmbmanedcgkhejlejjooboikinki</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="46542f73-07bc-52ba-8774-34941f50170d" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ldiogmbmanedcgkhejlejjooboikinki</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a4154810-d72f-5b9b-b43f-abaab87d78cd" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">bjdilcmajpmmjlmnfojgkincnekmhohb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2d82cdcd-12f6-5221-9ffe-a242ea831884" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">bjdilcmajpmmjlmnfojgkincnekmhohb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="152438f9-cbc9-5c19-a800-482a6423981f" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">elcfpmpgobljibnhecmkmpgdmljdfbbg</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c90ba002-e816-513b-ab05-f0f9a48d9153" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">elcfpmpgobljibnhecmkmpgdmljdfbbg</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c02a2036-c908-598e-90f5-f3634ab11b13" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">nlogodaofdghipmbdclajkkpheneldjd</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="69d25e54-c36f-50c6-b5cb-b5e809ec5f5e" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">nlogodaofdghipmbdclajkkpheneldjd</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b85350ec-eaed-5150-be0f-448a24004505" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">cldemkeecebhnjipedpghophnhhhdebi</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="0fcec506-3925-5796-854a-5e9475d296fb" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">cldemkeecebhnjipedpghophnhhhdebi</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b0e1d790-6b7d-5b6e-b7bd-c3cac396c2b4" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">fakkphkbmjbknmockignahjhlopcdnof</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="495088d4-e522-517e-90ae-ae76e2e49a60" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">fakkphkbmjbknmockignahjhlopcdnof</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="63f21eb7-0164-5fa0-a16c-409014bfab3f" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">iihglaelfepbbnohanfefalhflkkblmb</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="bc13bd7e-652c-5ca1-9997-3ff4f97ad069" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">iihglaelfepbbnohanfefalhflkkblmb</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6da6dac7-7a02-583a-9f24-7f4245316aa0" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">hhldcfhioabacdbbaggcllphmmfkeioi</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4c36160f-e8df-5bbb-8e27-8302796471d0" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">hhldcfhioabacdbbaggcllphmmfkeioi</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="9bb4497f-74e4-54f9-ae36-0db0b4b9cbb0" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">fagjmplkfdopalfkkajedcgmhnlfdjjc</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1e05ccaf-14cf-58e5-b93d-60e01e5a53b5" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">fagjmplkfdopalfkkajedcgmhnlfdjjc</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f2332e6d-75a9-50ec-8277-ca72f3f5fde7" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">abpppenajdmdganodlmoeocldojbbjgp</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c7433fd4-c053-561e-ab32-69249f40f629" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">abpppenajdmdganodlmoeocldojbbjgp</Content>
+        <Comment>malware | malicious | used for phishing</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="3e471d4f-317c-5586-acbd-d8914358daeb" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">pfgfbflpcekpehdblfgmffbfnmoljknc</Content>
+        <Comment>malware | malicious | used for clickfix attackls</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="73c4bc44-025c-510e-bca0-49f11bcf9b2a" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">pfgfbflpcekpehdblfgmffbfnmoljknc</Content>
+        <Comment>malware | malicious | used for clickfix attackls</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="64201421-8d13-573e-a9d6-1ceda66e7ded" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jjijhajiibghbdnmbkeidhgkafliocja</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="6b458088-30d8-5486-a156-40ff57a2ecd0" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jjijhajiibghbdnmbkeidhgkafliocja</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="dc17035b-8a7f-5585-8b13-14f8356bc5b2" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ebhcbenbgjmaebpgbldimndmfomjmphd</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="286f498a-fbeb-54e5-8547-f1d8726a744e" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ebhcbenbgjmaebpgbldimndmfomjmphd</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="02abf3df-9daf-5afd-968f-25db5cb3b4f3" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">mdjlfpofidinookippfogekcboinmgnj</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f1d26b57-498e-57ca-9c82-5c911d014e39" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">mdjlfpofidinookippfogekcboinmgnj</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4fdbc9fd-26ac-52e2-9b49-85474e4adb17" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">lehpamhljefeohdanffoailfekikjjad</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="678c2489-6c8f-526c-abf4-a01879037dfe" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">lehpamhljefeohdanffoailfekikjjad</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="658e9e02-7f92-56bd-95e1-a419e6213a8a" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kopglboechnehmjoggncbnbmabekcbfb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="7c3bbb52-975f-5d13-9e97-3a7686658fd6" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kopglboechnehmjoggncbnbmabekcbfb</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="5d65797d-94ac-5916-82eb-5537001c77b7" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">gcogiddcejmejahafmiohkijbfjpheni</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="2bb15887-35da-556c-bc97-9b69c00159f9" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">gcogiddcejmejahafmiohkijbfjpheni</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e11fbdc5-e35b-55b9-b71c-e75cf6163bc4" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">amfdgdlcdglpolkldbjahpgnpeimakjd</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="23f45e5e-c3c7-5441-a1f9-b6d1230e8c23" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">amfdgdlcdglpolkldbjahpgnpeimakjd</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="ce25578d-3255-5b1d-b632-3a874d9d871e" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">joejamlmdlfhlefljkooaapbhihjhmbj</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="9c404e48-890a-5536-9f2c-2690f5903467" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">joejamlmdlfhlefljkooaapbhihjhmbj</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f46f863f-7ab9-5af8-af73-4dc569be9de5" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jeokhfhofmjmdagaehbkkkaajfnofnen</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="afdcac41-1e69-5b9d-9dcc-ff47600f535e" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jeokhfhofmjmdagaehbkkkaajfnofnen</Content>
+        <Comment>malware | malicious | credentials stealer</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="59e73abb-da42-5038-882b-c753527ade6d" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">nfeifdedjonpiciadhaajilmbnfagkff</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="8585ad4c-39c9-51e6-b0cd-2c561ff35943" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">nfeifdedjonpiciadhaajilmbnfagkff</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b3ad7667-7d5a-5d02-aeda-653b8d73694d" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">mknabnjbhfamkfcpfjgoilkoechakclb</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="85ef870b-3405-598d-ac76-52845e4804dd" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">mknabnjbhfamkfcpfjgoilkoechakclb</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d69b4961-34f0-5ce1-8a76-c4eb1ae4fec7" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ffeeaccmegmlgjboppflieinleebdjfj</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="87b76955-34fb-56e8-8fa2-ce7f40ef83a2" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ffeeaccmegmlgjboppflieinleebdjfj</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="62f8cef3-4291-57c4-b39d-92b8737f54c5" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kphikjjhfimbdookdcfcfoflfgeflmcl</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4215478c-b300-59de-b65e-9cbad837fb82" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kphikjjhfimbdookdcfcfoflfgeflmcl</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="9903563b-f681-5d80-8c80-37c45ffddae0" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kiojeclcnhejliaagjfoalgdmgdmniac</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="578c634f-a4f3-553d-ae96-e324b9f35b14" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kiojeclcnhejliaagjfoalgdmgdmniac</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="799f7f9b-ba57-51e4-b731-f7fba0ea3770" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">kndpnpbcnbmgmeafbmpefkhbnfnpkpdb</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a327e944-a817-5dba-aa34-b5fbb11f6095" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">kndpnpbcnbmgmeafbmpefkhbnfnpkpdb</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="b7f74788-92b3-5e8b-bea3-d0fa4502e833" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">faihnblmeedkfdeghdhimhgcdkhcaphb</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="cda88c77-e47e-52d0-b465-d23607c89759" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">faihnblmeedkfdeghdhimhgcdkhcaphb</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="f4290cbd-f70b-5410-9498-96d87c77aaf2" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">bnbeodkfjfmfmoajcoecnckjjfeobbmd</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="0210b0ae-369d-5b56-a78f-d5328b050d6a" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">bnbeodkfjfmfmoajcoecnckjjfeobbmd</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="63384161-5d76-5567-a8b6-58bc456e215f" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">dhhmopcmpiadcgchhhldcpoeppcofdic</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="7ace68a8-7b8e-5450-862c-77c9f0f135f8" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">dhhmopcmpiadcgchhhldcpoeppcofdic</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a0cb94a1-86a5-5a11-b601-7049b88c5017" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">lkolfehkajahlomeongnkilfngfmabhd</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="bfa3bd0d-0dbc-552a-b4a0-5e818fec5579" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">lkolfehkajahlomeongnkilfngfmabhd</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="bbeefb64-47c3-52e8-82c7-81c7f3cb372d" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">djhdoinjgecheiekbdmhcebijnaikonl</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="1b3f2307-cad6-50e3-b018-0c889d1dd806" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">djhdoinjgecheiekbdmhcebijnaikonl</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="0d81c19c-d901-5448-8734-46de9f850e52" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">hghhhfmjdmdgfjnpkmfbelagbdcjamek</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="688564ec-f390-5cbc-b0cb-cec4b45b82ee" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">hghhhfmjdmdgfjnpkmfbelagbdcjamek</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="979694a2-32ec-598b-97a2-e154b39bb804" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">mofnafclpcapghpjdoaanahkgcjfcece</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d072b125-c671-52ee-912f-37ef563e0d40" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">mofnafclpcapghpjdoaanahkgcjfcece</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="a5cb38bb-4691-584a-8a1e-7c35e93e1708" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">goecghjfhmlckpbnhoaliaolfhgmemal</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e7fa224f-3a40-5b2a-8a61-376d43ccdea7" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">goecghjfhmlckpbnhoaliaolfhgmemal</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="56f55094-3a39-5f2c-af60-6445cf1a555f" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">knajdeaocbpmfghhmijicidfcmdgbdpm</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="fe7c9417-b3de-553e-8df6-7975a57edc97" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">knajdeaocbpmfghhmijicidfcmdgbdpm</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c1601015-2f07-5db0-aae7-0fee790b5783" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">pmecbbbdpikphhheojiiojjmcckdkink</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="e9e19b48-ebf7-56c2-94d5-16743af1e357" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">pmecbbbdpikphhheojiiojjmcckdkink</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="953acebb-4c9a-5bde-8fb6-40c8aab97207" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">igahhbkcppaollcjeaaoapkijbnphfhb</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="ca16b64b-3abb-5d09-8992-3f7902f195bb" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">igahhbkcppaollcjeaaoapkijbnphfhb</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4b0cb119-e095-5027-995e-24f40cdf0541" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">ofbgjmmbmmdehioamfhccohdgiajbajj</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="d241c122-4221-5986-9e64-b914cdc322df" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">ofbgjmmbmmdehioamfhccohdgiajbajj</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="c92db114-1ee6-519d-87a3-3cabb37611bb" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">nmbgmmidnmpoebaopgafhmomioefilof</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="53476215-9a05-5484-beb7-ebb1fc4c28c9" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">nmbgmmidnmpoebaopgafhmomioefilof</Content>
+        <Comment>malware | malicious | spyware activity</Comment>
+      </IndicatorItem>
       <IndicatorItem id="0a13c9ea-a2a3-5a3d-873d-6ca62e7c6230" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">jcbiifklmgnkppebelchllpdbnibihel</Content>

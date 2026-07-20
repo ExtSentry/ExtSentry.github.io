@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-07-20",
-    "timestamp": "1784554141",
+    "timestamp": "1784561475",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,1366 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "b85f8c9b-fa6c-56e9-af48-bf70bdc3e752",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ppemikmneckkgmmbedecgnclmcgfhemf",
+        "comment": "360Airo LinkedIn Automation | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "7bb96a29-a72b-507b-b4af-b16a288b4de3",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pmjfbdnpbhfgeioabfahbheefebeiehp",
+        "comment": "Contrast Flip - Dark & Light Switcher | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "38cb0fff-2430-5a24-886c-f90c4bd65426",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "noamdmpakpnhegiadckcbjacfcinaaih",
+        "comment": "Kai Kai Extension | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "4c2953c2-d5d7-52e4-bac6-e2a833693713",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "molhgnmmgandgcphadkejgpmbdelblbf",
+        "comment": "Reels downloader | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "b65263d6-21d5-548d-a6bb-2834eba1ae2b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "moaepgbhoepmpnmkjedfkepbfigjplfo",
+        "comment": "Extrator de token \u2022 Ace Bot | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "f9a56a98-2a62-58ce-b6b7-bd918c433721",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mlaonedihngoginmmlaacpihnojcoocl",
+        "comment": "PageGuard - Phishing Protection | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c956b322-371e-5f5d-866b-5959b2fdb7d5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "linflaofbnlhpakjpohmfnkkkmpngnck",
+        "comment": "Market Owl \u2014 Your Crypto Intelligence Hub | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "2b2f4534-c4c2-5163-a1eb-3fe2f870da2b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kgaleicefmhgoefglnbdfpmbgbngnnmd",
+        "comment": "Adblock King | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0ae1dbbc-ebb7-5da4-8618-37952cf001c3",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jollepgbbbblfcnlnpohjmjjnmhcjaik",
+        "comment": "PixVerse: AI Video Generator | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d01a4ee1-a87d-5c9e-a4e6-4dcce9f43160",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jnednbilgloghpmmjcaaikkoajcklalm",
+        "comment": "Streaming Skipper works with Paramount Plus [QVI] | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "21e83456-1947-5f8b-91d8-fdbea3a2317d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jacapfdcamanncjmobhiimfiempggoid",
+        "comment": "rynzen token ext | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "96578a8b-ebb0-5d15-a7e2-32a520e4f3d9",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gffafiabcifddagoobhnapcambklhmkh",
+        "comment": "HOLA VPN - \u0420\u0430\u0431\u043e\u0447\u0438\u0439 VPN \u0432 2026 \u0434\u043b\u044f Chrome \u044e\u0442\u0443\u0431 | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "991eee27-070b-5f55-8d23-6e9cda1b35ed",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hmdjcinnollmgfieppkodcgjekoldlde",
+        "comment": "Cookie Manager Pro | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ebcfe9e0-0a71-5032-b943-52b55a7e05c1",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gmmbcogjfolpbonhldnkcajpmgknkdbb",
+        "comment": "dpv | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "790e88b7-9a37-5665-a464-46e627b9920d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gflodpomcgkoplepioifngjcffdgfabp",
+        "comment": "Muun | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "cbf5b259-c0b6-5f15-9ba0-a6cf61ecf43a",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "foljknabefdkeifdkapmaenecijjmlom",
+        "comment": "Kamino | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e6c9c638-2e5b-5f08-9c16-4721829e88fe",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "enjdjejaijiebcikjmcmejgbobdkiflf",
+        "comment": "Digiskills Quiz Helper | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "46c6470a-08dc-5bf3-b88e-85c97c7e56c2",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cmlbghnlnbjkdgfjlegkbjmadpbmlgjb",
+        "comment": "*Donuts - Slot Machine* | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "64f2632f-b54b-5d8c-b0bc-8142e8801222",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cjkmdmgcomefpihnfkhnohfccikdlpli",
+        "comment": "Cookie Master | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c11c4c1a-07bd-5f85-93ad-a74199fac2da",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "chdcepakhbkbgcljkaoikoopjkphphbd",
+        "comment": "Starlink | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "5d97998c-537c-57ab-b60f-44900ce784c1",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bbhaganppipihlhjgaaeeeefbaoihcgi",
+        "comment": "lm\u03a4oken Chromophore | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ab72cc63-daaa-56df-98d5-39e67957c821",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gbbfiogknfkmkiihmdifbenmflboageg",
+        "comment": "ActionReplay Pro | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "da937133-c7c6-58a5-b40f-dc91f123496f",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ioflbileeadfgndimfogiadmicpbfafn",
+        "comment": "Amazon \u4e8c\u6bb5\u968e\u8a8d\u8a3c | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "b9aabfcd-f996-530b-b56d-759a963d0448",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "aknipljacjndlpkpbpakbcchmdgoblcf",
+        "comment": "Wiwana | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "514af12a-026d-50a2-bd19-eeb43ac07789",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jifhfjebdojpeofhjbldhmojmajnedgo",
+        "comment": "HyperBank | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "7221f8d5-4320-512d-b499-2a0d0b012ce6",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hlidpdhiafeejnmjbpjkbdpohocfjicf",
+        "comment": "\u4f34\u5f71 (Shadow Mate): Daily Web Journal & Recap | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "1f2a022f-5ed3-5ad7-b6fd-f70182cdcb39",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "clgemeijamgdpmilcegplfihfbkhbank",
+        "comment": "Tabby Cat - any new tab | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "4b28b9f2-dd64-59a1-969f-834cdadf457f",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bnapbdlppkcagdebgodflflkganenmam",
+        "comment": "LucidPay QR Connect | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "dabedeb4-42f0-5a15-8cca-1d9d51b16573",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "llgabammdchaeghapldlbhemdhofbkec",
+        "comment": "BypassTools Helper | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "862ed583-b270-55c1-9f72-1c2417b175d2",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "aobncdfcdpeicfkghjjffdicafmhanee",
+        "comment": "Spoonfeeder | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9dba193c-1750-5e9f-9c7c-b5dfd8c8c895",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hcllfblgjihnjmmdjhnahnoegopnllab",
+        "comment": "Schedulebeats Sync | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "93611645-1b77-5cd8-ba92-0b1458fd97d0",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kbjiajimoeapacbebclicbmibgcgceok",
+        "comment": "Pinboard Extension | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "188b26f7-7407-5ffc-99b4-8ac7d785a9df",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ciegppinlanbdjdlpkpgdlepffeliofa",
+        "comment": "Discord ID Lookup | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "436fe024-958a-5ec6-9584-4c673809aad7",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ilgdgaajigobnmcmbieobelchldlaplf",
+        "comment": "WhatsApp Free Rotate | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "aaf98264-2766-515d-9e44-0d501da23898",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kocajemligblhdpjmcoplaaogcendpcb",
+        "comment": "Cryptonit Sniper | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "428c1ce3-6e36-54b4-9694-d6c7bb4f7414",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "aahhemfjdkjamblajnjcddcffpcpmlia",
+        "comment": "Best Snake | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "a98d2c6a-70df-5202-8864-64fe09ac8b99",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hpamjldgeadmapkdklhndmcdankicnch",
+        "comment": "Matrix Tunnel VPN - Your Digital Fortress | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "313dfedd-4c9f-5eef-8c67-de23dabfe388",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bagfjpcfejdcfnhckcjcpekcjbencfeb",
+        "comment": "LightDownload | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "411783be-5cca-5ce3-ba04-459051d8b9b1",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kmcdpinedoopehidpionkcmifkginapk",
+        "comment": "avistorm | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ca35cacf-bb16-5077-85b2-d6677d973b4c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fjpobenajidogfpilgbjgbglcanfjnoa",
+        "comment": "DAT GO | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "8c7ce6e1-9eea-5b31-9295-e39aa7da6273",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bpljfbcejldmgeoodnogeefaihjdgbam",
+        "comment": "Speed test - wifi speed test | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bc30a1b4-d99d-551c-8d22-da8d9f459dc4",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ldiogmbmanedcgkhejlejjooboikinki",
+        "comment": "Roblox Hacker Pro | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "69b8fb10-26df-535d-8c9b-54d3f38ddd17",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bjdilcmajpmmjlmnfojgkincnekmhohb",
+        "comment": "App Store to iTunes Opener | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "06ae05c7-93e7-5bbe-b34b-18307fd35168",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "elcfpmpgobljibnhecmkmpgdmljdfbbg",
+        "comment": "TrueMoji | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bb1ce041-bc42-541f-8774-8a14f65f59da",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nlogodaofdghipmbdclajkkpheneldjd",
+        "comment": "Pixel Shield - Block Ads | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "1cfef754-a469-5211-be29-a71ec5818b54",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "cldemkeecebhnjipedpghophnhhhdebi",
+        "comment": "MarsConnect | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "1343dec1-a670-59d9-8737-0a664a3ee178",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fakkphkbmjbknmockignahjhlopcdnof",
+        "comment": "Keystone | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "586a702d-b0bc-5054-a33f-ca6045d5b2cb",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "iihglaelfepbbnohanfefalhflkkblmb",
+        "comment": "Gimkit Hacker | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d5ba7d38-8503-58e2-93a0-aa93fa5f730c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hhldcfhioabacdbbaggcllphmmfkeioi",
+        "comment": "Ad-Blocking - YouTube & Websites | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d19c5182-1eaa-5b90-8e29-7e1315c208c2",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fagjmplkfdopalfkkajedcgmhnlfdjjc",
+        "comment": "Obelisk VPN \u2014 The Fastest & Most Reliable Proxy | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "fc76298c-fc5e-551b-bbac-e28f9513209c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "abpppenajdmdganodlmoeocldojbbjgp",
+        "comment": "Kahoot Hacker Auto Answer | Category: malware | Type: malicious | used for phishing",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "88d6d6a9-bec9-5d49-8459-6faa2357b448",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pfgfbflpcekpehdblfgmffbfnmoljknc",
+        "comment": "SiteArmor - Malware Protection | Category: malware | Type: malicious | used for clickfix attackls",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ccb77420-c174-5cbd-893a-e90d1cea18e5",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jjijhajiibghbdnmbkeidhgkafliocja",
+        "comment": "\u0410\u043c\u043d\u0435\u0437\u0438\u044f \u2014 \u0431\u044b\u0441\u0442\u0440\u044b\u0439 \u0438 \u043d\u0430\u0434\u0451\u0436\u043d\u044b\u0439 VPN \u0441 Premium-\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u043c\u0438 | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "20efecdb-f65b-56fe-9025-15766ebb684f",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ebhcbenbgjmaebpgbldimndmfomjmphd",
+        "comment": "2FA Authenticator | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c0a8ab29-342f-5412-9ed1-d93b07a6e9e7",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mdjlfpofidinookippfogekcboinmgnj",
+        "comment": "BakersMathClass Kiosk | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "d0bc21ff-9d44-511d-bc84-75b6309cc12c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "lehpamhljefeohdanffoailfekikjjad",
+        "comment": "Privacy Extension For WhatsApp Web - Lucky Dev | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c7feb9fe-9fa1-5913-b5bf-42226a413261",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kopglboechnehmjoggncbnbmabekcbfb",
+        "comment": "Swift Solutions | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "979f6c99-b5fd-5146-93ba-44b76e521dfe",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "gcogiddcejmejahafmiohkijbfjpheni",
+        "comment": "SafeLink Checker | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "5d4dda21-4c65-585d-b5ad-648e901ba2c6",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "amfdgdlcdglpolkldbjahpgnpeimakjd",
+        "comment": "Lumora \u2014 Reader Mode & Translation | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bdb76926-f030-5819-95fc-457d0b62416e",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "joejamlmdlfhlefljkooaapbhihjhmbj",
+        "comment": "Axiom Wallet | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "813d9493-78e9-5b7c-8b92-fb18b1174ae2",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jeokhfhofmjmdagaehbkkkaajfnofnen",
+        "comment": "Digital Hunters Flow | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e8493508-27db-5266-955a-89713e03cbaa",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nfeifdedjonpiciadhaajilmbnfagkff",
+        "comment": "IlbonVPN Extension | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9438a767-79db-56ae-82d7-569d7ee5282a",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mknabnjbhfamkfcpfjgoilkoechakclb",
+        "comment": "Realtime VPN Per-Tab Speed & IP Flag | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e333951e-0cf4-5bf4-8d6f-669ebd1dd6bb",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ffeeaccmegmlgjboppflieinleebdjfj",
+        "comment": "Piligrim \u2014 Free Gamified VPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "3b7a8965-6ea3-597c-ba83-e297a9e23998",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kphikjjhfimbdookdcfcfoflfgeflmcl",
+        "comment": "Kryon VPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "89d40a7c-9cec-55ec-b3ed-54b7baf5b902",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kiojeclcnhejliaagjfoalgdmgdmniac",
+        "comment": "iceguard VPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "57b5bec4-6b4b-5713-99be-6d08f522348c",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kndpnpbcnbmgmeafbmpefkhbnfnpkpdb",
+        "comment": "IPSECVPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9e93dea4-409a-560a-b9b9-6074d11d2ba0",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "faihnblmeedkfdeghdhimhgcdkhcaphb",
+        "comment": "Iron Tunnel | Unlimited VPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "fd73987c-0578-5116-b6d5-b5152dafa7e3",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bnbeodkfjfmfmoajcoecnckjjfeobbmd",
+        "comment": "CoProxy Free Proxy VPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "52441cb5-41af-5ad6-90cf-b28324adb958",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "dhhmopcmpiadcgchhhldcpoeppcofdic",
+        "comment": "Free VPN - Orchid | Unlimited VPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0afd926e-28d3-5a03-ba94-f59e9f4444d0",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "lkolfehkajahlomeongnkilfngfmabhd",
+        "comment": "Vpn chrome extension | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "5e90907b-7de2-562c-8f53-5c27fffa081e",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "djhdoinjgecheiekbdmhcebijnaikonl",
+        "comment": "Roamly: Free VPN Proxy for Chrome - Unblock Sites, Hide IP, Privacy | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "e8bda650-b3b9-5189-a00f-4c6303955604",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "hghhhfmjdmdgfjnpkmfbelagbdcjamek",
+        "comment": "Accel VPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "77510d90-2be2-5529-b339-2ab6fe992f65",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "mofnafclpcapghpjdoaanahkgcjfcece",
+        "comment": "Swift Proton VPN: Fast & Secure | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "75b92b1c-edc6-5a6f-935f-c5644e77876a",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "goecghjfhmlckpbnhoaliaolfhgmemal",
+        "comment": "Free vpn | Access to Notion | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "18df7743-8b1b-5575-a356-f0c16f840214",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "knajdeaocbpmfghhmijicidfcmdgbdpm",
+        "comment": "Guru VPN & Proxy, VPN to Unblock any sites | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "4eb47a30-c913-5316-848f-4c77a074584f",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pmecbbbdpikphhheojiiojjmcckdkink",
+        "comment": "VPN GLOBAL -Free VPN Extension for Windows | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c4163324-7434-58f1-b246-2e66deee306d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "igahhbkcppaollcjeaaoapkijbnphfhb",
+        "comment": "Social VPN | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "9611f070-503c-593f-9660-18551c247c4d",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ofbgjmmbmmdehioamfhccohdgiajbajj",
+        "comment": "Squid VPN - Hotspot VPN & Private Browser | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "06d8ccae-4704-5d3c-b1ee-7486b8114b78",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nmbgmmidnmpoebaopgafhmomioefilof",
+        "comment": "VPN Master | Category: malware | Type: malicious | spyware activity",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "79bdf3a4-3cc9-580f-8408-d2fa846a537e",
         "type": "text",
@@ -35134,6 +36494,3046 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "30d16393-5f72-50fb-aa4b-8f9f95c8970e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: 360Airo LinkedIn Automation",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ppemikmneckkgmmbedecgnclmcgfhemf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "360Airo LinkedIn Automation",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d890d2fc-6a65-5265-bd82-05b10c7a6f0f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Contrast Flip - Dark & Light Switcher",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pmjfbdnpbhfgeioabfahbheefebeiehp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Contrast Flip - Dark & Light Switcher",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "2e53b493-d278-57ca-86ac-0a8cc60adb04",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Kai Kai Extension",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "noamdmpakpnhegiadckcbjacfcinaaih",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Kai Kai Extension",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a400e13b-1b18-5306-ae59-53243d1f5b44",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Reels downloader",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "molhgnmmgandgcphadkejgpmbdelblbf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Reels downloader",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "dcac93a6-b2ae-57de-ace0-e644a814f150",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Extrator de token \u2022 Ace Bot",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "moaepgbhoepmpnmkjedfkepbfigjplfo",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Extrator de token \u2022 Ace Bot",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "f92c7641-e7ef-560e-8341-d63272612ee9",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: PageGuard - Phishing Protection",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mlaonedihngoginmmlaacpihnojcoocl",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PageGuard - Phishing Protection",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "ee98f36e-72f0-5bfd-965d-20bbe1025d9f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Market Owl \u2014 Your Crypto Intelligence Hub",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "linflaofbnlhpakjpohmfnkkkmpngnck",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Market Owl \u2014 Your Crypto Intelligence Hub",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "df18d0e3-75ae-5747-9c39-71acb4d08b25",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Adblock King",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kgaleicefmhgoefglnbdfpmbgbngnnmd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Adblock King",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "9eadf398-b4f8-549d-80d7-78089f8d4cb9",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: PixVerse: AI Video Generator",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jollepgbbbblfcnlnpohjmjjnmhcjaik",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PixVerse: AI Video Generator",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "07e64277-4501-5213-a030-bf6cf6523f73",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Streaming Skipper works with Paramount Plus [QVI]",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jnednbilgloghpmmjcaaikkoajcklalm",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Streaming Skipper works with Paramount Plus [QVI]",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "7899c651-e402-527f-88bb-186bcca7a704",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: rynzen token ext",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jacapfdcamanncjmobhiimfiempggoid",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "rynzen token ext",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "0b4fb25f-eabe-53a3-a9b9-bc22d939f8cd",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: HOLA VPN - \u0420\u0430\u0431\u043e\u0447\u0438\u0439 VPN \u0432 2026 \u0434\u043b\u044f Chrome \u044e\u0442\u0443\u0431",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gffafiabcifddagoobhnapcambklhmkh",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "HOLA VPN - \u0420\u0430\u0431\u043e\u0447\u0438\u0439 VPN \u0432 2026 \u0434\u043b\u044f Chrome \u044e\u0442\u0443\u0431",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "759ad151-ab09-586c-bc2c-acb734899f0d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Cookie Manager Pro",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hmdjcinnollmgfieppkodcgjekoldlde",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Cookie Manager Pro",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "790d66db-640c-52af-ab35-04cb07d136f6",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: dpv",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gmmbcogjfolpbonhldnkcajpmgknkdbb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "dpv",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6354816e-df2d-5f96-87a3-d0d303dd15ba",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Muun",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gflodpomcgkoplepioifngjcffdgfabp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Muun",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "347d3de9-83b7-585f-af71-97795a3eb0a7",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Kamino",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "foljknabefdkeifdkapmaenecijjmlom",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Kamino",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "47e3ff9c-3a27-5504-bc58-6a0671895c9b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Digiskills Quiz Helper",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "enjdjejaijiebcikjmcmejgbobdkiflf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Digiskills Quiz Helper",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b5499b34-a48d-5430-99c2-423533825ca9",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: *Donuts - Slot Machine*",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cmlbghnlnbjkdgfjlegkbjmadpbmlgjb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "*Donuts - Slot Machine*",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "1d52532a-a4fa-5811-ad52-c648e0f1a421",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Cookie Master",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cjkmdmgcomefpihnfkhnohfccikdlpli",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Cookie Master",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b81e735b-5c94-574c-9ddb-f0d7081b669a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Starlink",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "chdcepakhbkbgcljkaoikoopjkphphbd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Starlink",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "e7485105-5f4c-5932-82bc-1ee8a9f66c5f",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: lm\u03a4oken Chromophore",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bbhaganppipihlhjgaaeeeefbaoihcgi",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "lm\u03a4oken Chromophore",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "0b8bc72e-d2f8-55db-ae74-5736074c484a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: ActionReplay Pro",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gbbfiogknfkmkiihmdifbenmflboageg",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ActionReplay Pro",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "7aaacd24-158b-5d5a-8370-05262d0adac1",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Amazon \u4e8c\u6bb5\u968e\u8a8d\u8a3c",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ioflbileeadfgndimfogiadmicpbfafn",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Amazon \u4e8c\u6bb5\u968e\u8a8d\u8a3c",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "8f1d4abe-f69c-5fbc-80fe-caa975e34b70",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Wiwana",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "aknipljacjndlpkpbpakbcchmdgoblcf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Wiwana",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "4d38b899-200f-5a3f-b01b-37dec9bcea2b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: HyperBank",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jifhfjebdojpeofhjbldhmojmajnedgo",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "HyperBank",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "01568ed9-7e40-5e71-86a7-edf12adabd05",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: \u4f34\u5f71 (Shadow Mate): Daily Web Journal & Recap",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hlidpdhiafeejnmjbpjkbdpohocfjicf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "\u4f34\u5f71 (Shadow Mate): Daily Web Journal & Recap",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c19bb4f3-7cfc-58d1-991e-a76497cd2424",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Tabby Cat - any new tab",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "clgemeijamgdpmilcegplfihfbkhbank",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Tabby Cat - any new tab",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6bbc61c3-8d7d-5ed5-ada7-a471b7566210",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: LucidPay QR Connect",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bnapbdlppkcagdebgodflflkganenmam",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "LucidPay QR Connect",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "67740605-9e44-5c1e-b564-038cdbe13f77",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: BypassTools Helper",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "llgabammdchaeghapldlbhemdhofbkec",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "BypassTools Helper",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "1230e7e1-8fb9-5f40-8413-2eddb43fd5c4",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Spoonfeeder",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "aobncdfcdpeicfkghjjffdicafmhanee",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Spoonfeeder",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a00b6f05-d354-55ce-89e6-9f62b9156372",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Schedulebeats Sync",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hcllfblgjihnjmmdjhnahnoegopnllab",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Schedulebeats Sync",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b341ea2d-62c2-5acb-9ac0-a32240768707",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Pinboard Extension",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kbjiajimoeapacbebclicbmibgcgceok",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Pinboard Extension",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "ad5592e7-244b-539d-b133-a680466f1012",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Discord ID Lookup",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ciegppinlanbdjdlpkpgdlepffeliofa",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Discord ID Lookup",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "0fc4a628-fb53-5a2a-98e8-511316cfa472",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: WhatsApp Free Rotate",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ilgdgaajigobnmcmbieobelchldlaplf",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "WhatsApp Free Rotate",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "ee50ae7e-5354-59a6-ad47-695711f941aa",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Cryptonit Sniper",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kocajemligblhdpjmcoplaaogcendpcb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Cryptonit Sniper",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "18e3214c-3a8b-5a0d-93cf-ff10683e4183",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Best Snake",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "aahhemfjdkjamblajnjcddcffpcpmlia",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Best Snake",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6c5d07dd-6614-5ad3-a18c-d7babdfcc3a5",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Matrix Tunnel VPN - Your Digital Fortress",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hpamjldgeadmapkdklhndmcdankicnch",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Matrix Tunnel VPN - Your Digital Fortress",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "68470430-8f70-5ab2-b0dc-49b97a7e4bc1",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: LightDownload",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bagfjpcfejdcfnhckcjcpekcjbencfeb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "LightDownload",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "5ea618e8-a566-5719-b21e-4ebb4050bc3d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: avistorm",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kmcdpinedoopehidpionkcmifkginapk",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "avistorm",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "02597ca0-0f9d-54d9-b83c-fcd539c60509",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: DAT GO",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fjpobenajidogfpilgbjgbglcanfjnoa",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "DAT GO",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "49d853c0-c00d-5dad-86b8-de2508dd6ff9",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Speed test - wifi speed test",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bpljfbcejldmgeoodnogeefaihjdgbam",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Speed test - wifi speed test",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d9a75394-071a-5807-9dcc-c5c2a20b6ba2",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Roblox Hacker Pro",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ldiogmbmanedcgkhejlejjooboikinki",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Roblox Hacker Pro",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d1379bc0-47ef-54a2-8c4f-86a16c773c59",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: App Store to iTunes Opener",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bjdilcmajpmmjlmnfojgkincnekmhohb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "App Store to iTunes Opener",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "9de6cfb1-5197-5292-b60c-12526dfe139a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: TrueMoji",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "elcfpmpgobljibnhecmkmpgdmljdfbbg",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "TrueMoji",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "1a464960-026d-50cb-9494-ce5a2e5e0b2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Pixel Shield - Block Ads",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nlogodaofdghipmbdclajkkpheneldjd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Pixel Shield - Block Ads",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "f526505c-6348-556d-9e16-8e45a76ec539",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: MarsConnect",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "cldemkeecebhnjipedpghophnhhhdebi",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "MarsConnect",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "ec60ddc9-48ff-5edf-a44a-b764a35fc68a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Keystone",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fakkphkbmjbknmockignahjhlopcdnof",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Keystone",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d9be3b80-9041-5042-bc93-b5ad3a33eacb",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Gimkit Hacker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "iihglaelfepbbnohanfefalhflkkblmb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Gimkit Hacker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a2f850a0-7c3e-5b3a-8394-eb9a33eefbb7",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Ad-Blocking - YouTube & Websites",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hhldcfhioabacdbbaggcllphmmfkeioi",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Ad-Blocking - YouTube & Websites",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d3c762f5-9cc9-5464-a733-cadf42833496",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Obelisk VPN \u2014 The Fastest & Most Reliable Proxy",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fagjmplkfdopalfkkajedcgmhnlfdjjc",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Obelisk VPN \u2014 The Fastest & Most Reliable Proxy",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "68c2c741-050a-5105-a130-534b0ce0aaad",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Kahoot Hacker Auto Answer",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "abpppenajdmdganodlmoeocldojbbjgp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Kahoot Hacker Auto Answer",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6642cd3c-bf52-5180-8bfc-0c2dce291fe0",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: SiteArmor - Malware Protection",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pfgfbflpcekpehdblfgmffbfnmoljknc",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "SiteArmor - Malware Protection",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c83c4220-6a04-5eda-932c-07ce43b5a6bd",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: \u0410\u043c\u043d\u0435\u0437\u0438\u044f \u2014 \u0431\u044b\u0441\u0442\u0440\u044b\u0439 \u0438 \u043d\u0430\u0434\u0451\u0436\u043d\u044b\u0439 VPN \u0441 Premium-\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u043c\u0438",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jjijhajiibghbdnmbkeidhgkafliocja",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "\u0410\u043c\u043d\u0435\u0437\u0438\u044f \u2014 \u0431\u044b\u0441\u0442\u0440\u044b\u0439 \u0438 \u043d\u0430\u0434\u0451\u0436\u043d\u044b\u0439 VPN \u0441 Premium-\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u043c\u0438",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "e179fb85-8497-5728-be3e-a21865f9ceda",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: 2FA Authenticator",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ebhcbenbgjmaebpgbldimndmfomjmphd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "2FA Authenticator",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "c3ec8f7c-0b43-5f78-bb2b-ea64c757be54",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: BakersMathClass Kiosk",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mdjlfpofidinookippfogekcboinmgnj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "BakersMathClass Kiosk",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "f8beb194-8d64-5cc1-a06d-36410e10565c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Privacy Extension For WhatsApp Web - Lucky Dev",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "lehpamhljefeohdanffoailfekikjjad",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Privacy Extension For WhatsApp Web - Lucky Dev",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b35da7f0-a2b2-514f-8c41-a1a8ac4e615e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Swift Solutions",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kopglboechnehmjoggncbnbmabekcbfb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Swift Solutions",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "59ffd899-90a7-56f3-aa37-5b3e6328e252",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: SafeLink Checker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "gcogiddcejmejahafmiohkijbfjpheni",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "SafeLink Checker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d12c869b-6ea2-5c3f-9d7f-ddd0534f070e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Lumora \u2014 Reader Mode & Translation",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "amfdgdlcdglpolkldbjahpgnpeimakjd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Lumora \u2014 Reader Mode & Translation",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "8a55ecd7-06c8-52d4-9e45-45892d7f8bb1",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Axiom Wallet",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "joejamlmdlfhlefljkooaapbhihjhmbj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Axiom Wallet",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "3e82bc53-572e-56e5-8bf9-0b9cd11a16d3",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Digital Hunters Flow",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jeokhfhofmjmdagaehbkkkaajfnofnen",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Digital Hunters Flow",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d241c29a-b162-5fe0-99e3-13c1e2fd4cd8",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: IlbonVPN Extension",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nfeifdedjonpiciadhaajilmbnfagkff",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "IlbonVPN Extension",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "1e6d6e03-8b07-5681-bcb0-952976be0d26",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Realtime VPN Per-Tab Speed & IP Flag",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mknabnjbhfamkfcpfjgoilkoechakclb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Realtime VPN Per-Tab Speed & IP Flag",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "36b480de-926c-576e-9559-d224461faa59",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Piligrim \u2014 Free Gamified VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ffeeaccmegmlgjboppflieinleebdjfj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Piligrim \u2014 Free Gamified VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "88d80702-b8e3-52e9-9da7-c577376dbe06",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Kryon VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kphikjjhfimbdookdcfcfoflfgeflmcl",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Kryon VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "481b06fb-8bfe-575a-9bde-1d66a535edfa",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: iceguard VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kiojeclcnhejliaagjfoalgdmgdmniac",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "iceguard VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "deebe0f2-d02a-5d1e-8480-add41c9b8198",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: IPSECVPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kndpnpbcnbmgmeafbmpefkhbnfnpkpdb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "IPSECVPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "5ed78504-7205-5f8a-b97d-54c5901e8c83",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Iron Tunnel | Unlimited VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "faihnblmeedkfdeghdhimhgcdkhcaphb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Iron Tunnel | Unlimited VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b73ffa68-321e-5c0e-a7e8-c967d1af4031",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: CoProxy Free Proxy VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bnbeodkfjfmfmoajcoecnckjjfeobbmd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "CoProxy Free Proxy VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "763b174d-4708-5313-b79f-11ef1be6e915",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Free VPN - Orchid | Unlimited VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "dhhmopcmpiadcgchhhldcpoeppcofdic",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Free VPN - Orchid | Unlimited VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "7527cc14-8fb7-5c60-9652-ceace67a5979",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Vpn chrome extension",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "lkolfehkajahlomeongnkilfngfmabhd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Vpn chrome extension",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "86a5db01-75e4-50ee-9b37-77a4a03681e4",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Roamly: Free VPN Proxy for Chrome - Unblock Sites, Hide IP, Privacy",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "djhdoinjgecheiekbdmhcebijnaikonl",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Roamly: Free VPN Proxy for Chrome - Unblock Sites, Hide IP, Privacy",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "7180bc4c-150d-5018-a5a4-7ce1a58d2287",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Accel VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "hghhhfmjdmdgfjnpkmfbelagbdcjamek",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Accel VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a3462de5-782d-5325-9905-b448a156982d",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Swift Proton VPN: Fast & Secure",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "mofnafclpcapghpjdoaanahkgcjfcece",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Swift Proton VPN: Fast & Secure",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "236eec09-a0c2-5ff3-97ad-2f2fda11324b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Free vpn | Access to Notion",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "goecghjfhmlckpbnhoaliaolfhgmemal",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Free vpn | Access to Notion",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "1eff0dfd-87fb-5577-a64c-b846081b1092",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Guru VPN & Proxy, VPN to Unblock any sites",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "knajdeaocbpmfghhmijicidfcmdgbdpm",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Guru VPN & Proxy, VPN to Unblock any sites",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "d19acd9a-8754-55bd-8fbe-c68d10839a31",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: VPN GLOBAL -Free VPN Extension for Windows",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pmecbbbdpikphhheojiiojjmcckdkink",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "VPN GLOBAL -Free VPN Extension for Windows",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "99bf89ca-cad9-5f59-8f6d-d20430347d9c",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Social VPN",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "igahhbkcppaollcjeaaoapkijbnphfhb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Social VPN",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "b9469a53-d844-5aaa-aeac-5e3787948327",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Squid VPN - Hotspot VPN & Private Browser",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ofbgjmmbmmdehioamfhccohdgiajbajj",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Squid VPN - Hotspot VPN & Private Browser",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "2c0ae47c-fd21-5b33-8012-80c4a669fc0e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: VPN Master",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nmbgmmidnmpoebaopgafhmomioefilof",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "VPN Master",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "bad01595-6fe6-50bc-8e0c-6edfc3a8bd5a",
         "name": "annotation",
