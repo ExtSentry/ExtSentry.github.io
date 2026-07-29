@@ -1,24 +1,46 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-07-29T11:07:48Z",
+  "generated": "2026-07-29T13:22:10Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2129,
+  "total_indicators": 2132,
   "categories": {
+    "PUP": 7,
     "malware": 1906,
     "PROXY/VPN": 17,
-    "PUP": 5,
     "compromised": 92,
     "cryptocurrency": 90,
     "Credential Access": 2,
     "Defense Evasion": 1,
     "scam": 5,
-    "RMM": 1,
+    "RMM": 2,
     "password manager": 9,
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "caacbgbklghmpodbdafajbgdnegacfmo",
+      "extension_name": "Gradient Sentry Node",
+      "wildcard_pattern": "*caacbgbklghmpodbdafajbgdnegacfmo*",
+      "category": "PUP",
+      "threat_type": "privacy",
+      "reference_url": null,
+      "description": "used for cryptomining",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/caacbgbklghmpodbdafajbgdnegacfmo"
+    },
+    {
+      "extension_id": "jbmdcnidiaknboflpljihfnbonjgegah",
+      "extension_name": "NodeGo.Ai DePIN Connect",
+      "wildcard_pattern": "*jbmdcnidiaknboflpljihfnbonjgegah*",
+      "category": "PUP",
+      "threat_type": "privacy",
+      "reference_url": null,
+      "description": "used for cryptomining",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/jbmdcnidiaknboflpljihfnbonjgegah"
+    },
     {
       "extension_id": "ppemikmneckkgmmbedecgnclmcgfhemf",
       "extension_name": "360Airo LinkedIn Automation",
@@ -8829,6 +8851,17 @@
       "description": "Shwmae (shuh-my) is a Windows Hello abuse tool - webauthn-inject.js browser extension id",
       "crx_sha256": null,
       "chrome_webstore_url": "https://chromewebstore.google.com/detail/ijacbjjjpmhencpkoghphdgbooifplmn"
+    },
+    {
+      "extension_id": "inomeogfingihgjfjlpeplalcfajhgai",
+      "extension_name": "Chrome Remote Desktop",
+      "wildcard_pattern": "*inomeogfingihgjfjlpeplalcfajhgai*",
+      "category": "RMM",
+      "threat_type": "greyware",
+      "reference_url": null,
+      "description": "",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/inomeogfingihgjfjlpeplalcfajhgai"
     },
     {
       "extension_id": "bfleegjcoffelppfmadimianphbcdjkb",

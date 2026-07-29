@@ -1,10 +1,30 @@
 <?xml version="1.0" ?>
-<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-07-29T11:07:48Z">
+<ioc xmlns="http://schemas.mandiant.com/2010/ioc" id="3678fd2f-03b8-5532-a002-c96e7c7abd1e" last-modified="2026-07-29T13:22:10Z">
   <short_description>ExtSentry - Malicious Browser Extension IOCs</short_description>
   <description>Browser extension IDs flagged as malicious/suspicious. Matches extension IDs in file paths and registry entries. Source: github.com/mthcht/awesome-lists</description>
-  <authored_date>2026-07-29T11:07:48Z</authored_date>
+  <authored_date>2026-07-29T13:22:10Z</authored_date>
   <definition>
     <Indicator operator="OR" id="5fd27988-48b0-53ea-88c2-7e57099fd433">
+      <IndicatorItem id="6298c8ef-9900-5b59-85fe-6718363cb602" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">caacbgbklghmpodbdafajbgdnegacfmo</Content>
+        <Comment>PUP | privacy | used for cryptomining</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="867e9607-8c98-5eb6-803f-c8649fdefdc9" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">caacbgbklghmpodbdafajbgdnegacfmo</Content>
+        <Comment>PUP | privacy | used for cryptomining</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="4a121c65-e798-5ccf-9328-cf44a08a0e25" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">jbmdcnidiaknboflpljihfnbonjgegah</Content>
+        <Comment>PUP | privacy | used for cryptomining</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="ae08b5eb-8a77-5e1d-b2fd-ca911a5bbb82" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">jbmdcnidiaknboflpljihfnbonjgegah</Content>
+        <Comment>PUP | privacy | used for cryptomining</Comment>
+      </IndicatorItem>
       <IndicatorItem id="d5824bef-912d-5d50-9e38-aee641d01e7a" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
         <Content type="string">ppemikmneckkgmmbedecgnclmcgfhemf</Content>
@@ -8084,6 +8104,16 @@
         <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
         <Content type="string">ijacbjjjpmhencpkoghphdgbooifplmn</Content>
         <Comment>Credential Access | offensive | Shwmae (shuh-my) is a Windows Hello abuse tool - webauthn-inject.js browser extension id</Comment>
+      </IndicatorItem>
+      <IndicatorItem id="bf1dc1a3-391a-54e1-bb43-e8bd7fd29a91" condition="contains">
+        <Context document="FileItem" search="FileItem/FullPath" type="mir"/>
+        <Content type="string">inomeogfingihgjfjlpeplalcfajhgai</Content>
+        <Comment>RMM | greyware | </Comment>
+      </IndicatorItem>
+      <IndicatorItem id="96d8e1c9-1d81-5fb6-8814-6a5f91b2975c" condition="contains">
+        <Context document="RegistryItem" search="RegistryItem/Path" type="mir"/>
+        <Content type="string">inomeogfingihgjfjlpeplalcfajhgai</Content>
+        <Comment>RMM | greyware | </Comment>
       </IndicatorItem>
       <IndicatorItem id="784d92c1-ab19-571e-9ad0-7f1f4f1af32b" condition="contains">
         <Context document="FileItem" search="FileItem/FullPath" type="mir"/>

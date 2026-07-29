@@ -1,3 +1,26 @@
+rule ExtSentry_PUP_BrowserExtensions
+{
+    meta:
+        description = "Detects browser extension IDs categorized as PUP by ExtSentry"
+        author = "ExtSentry / mthcht"
+        date = "2026-07-29"
+        reference = "https://github.com/mthcht/awesome-lists"
+        category = "PUP"
+        tlp = "WHITE"
+
+    strings:
+        $ext_0 = "caacbgbklghmpodbdafajbgdnegacfmo" ascii wide
+        $ext_1 = "jbmdcnidiaknboflpljihfnbonjgegah" ascii wide
+        $ext_2 = "gogbiohkminacikoppmljeolgccpmlop" ascii wide
+        $ext_3 = "bcjindcccaagfpapjjmafapmmgkkhgoa" ascii wide
+        $ext_4 = "dhkplhfnhceodhffomolpfigojocbpcb" ascii wide
+        $ext_5 = "pfmopbbadnfoelckkcmjjeaaegjpjjbk" ascii wide
+        $ext_6 = "aaaailpifkkekipiachodfkfmgmiapmp" ascii wide
+
+    condition:
+        any of ($ext_*)
+}
+
 rule ExtSentry_malware_BrowserExtensions
 {
     meta:
@@ -1953,27 +1976,6 @@ rule ExtSentry_PROXY_VPN_BrowserExtensions
         any of ($ext_*)
 }
 
-rule ExtSentry_PUP_BrowserExtensions
-{
-    meta:
-        description = "Detects browser extension IDs categorized as PUP by ExtSentry"
-        author = "ExtSentry / mthcht"
-        date = "2026-07-29"
-        reference = "https://github.com/mthcht/awesome-lists"
-        category = "PUP"
-        tlp = "WHITE"
-
-    strings:
-        $ext_0 = "gogbiohkminacikoppmljeolgccpmlop" ascii wide
-        $ext_1 = "bcjindcccaagfpapjjmafapmmgkkhgoa" ascii wide
-        $ext_2 = "dhkplhfnhceodhffomolpfigojocbpcb" ascii wide
-        $ext_3 = "pfmopbbadnfoelckkcmjjeaaegjpjjbk" ascii wide
-        $ext_4 = "aaaailpifkkekipiachodfkfmgmiapmp" ascii wide
-
-    condition:
-        any of ($ext_*)
-}
-
 rule ExtSentry_compromised_BrowserExtensions
 {
     meta:
@@ -2255,7 +2257,8 @@ rule ExtSentry_RMM_BrowserExtensions
         tlp = "WHITE"
 
     strings:
-        $ext_0 = "bfleegjcoffelppfmadimianphbcdjkb" ascii wide
+        $ext_0 = "inomeogfingihgjfjlpeplalcfajhgai" ascii wide
+        $ext_1 = "bfleegjcoffelppfmadimianphbcdjkb" ascii wide
 
     condition:
         any of ($ext_*)

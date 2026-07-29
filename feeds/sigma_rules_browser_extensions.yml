@@ -19,6 +19,8 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'caacbgbklghmpodbdafajbgdnegacfmo'
+            - 'jbmdcnidiaknboflpljihfnbonjgegah'
             - 'ppemikmneckkgmmbedecgnclmcgfhemf'
             - 'pmjfbdnpbhfgeioabfahbheefebeiehp'
             - 'noamdmpakpnhegiadckcbjacfcinaaih'
@@ -820,6 +822,7 @@ detection:
             - 'didhgeamncokiaegffipckhhcpnmlcbl'
             - 'gcmjkmgdlgnkkcocmoeiminaijmmjnii'
             - 'ijacbjjjpmhencpkoghphdgbooifplmn'
+            - 'inomeogfingihgjfjlpeplalcfajhgai'
             - 'bfleegjcoffelppfmadimianphbcdjkb'
             - 'heamnjbnflcikcggoiplibfommfbkjpj'
             - 'ibnejdfjmmkpcnlpebklmnkoeoihofec'
@@ -2175,6 +2178,8 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'caacbgbklghmpodbdafajbgdnegacfmo'
+            - 'jbmdcnidiaknboflpljihfnbonjgegah'
             - 'ppemikmneckkgmmbedecgnclmcgfhemf'
             - 'pmjfbdnpbhfgeioabfahbheefebeiehp'
             - 'noamdmpakpnhegiadckcbjacfcinaaih'
@@ -2976,6 +2981,7 @@ detection:
             - 'didhgeamncokiaegffipckhhcpnmlcbl'
             - 'gcmjkmgdlgnkkcocmoeiminaijmmjnii'
             - 'ijacbjjjpmhencpkoghphdgbooifplmn'
+            - 'inomeogfingihgjfjlpeplalcfajhgai'
             - 'bfleegjcoffelppfmadimianphbcdjkb'
             - 'heamnjbnflcikcggoiplibfommfbkjpj'
             - 'ibnejdfjmmkpcnlpebklmnkoeoihofec'
@@ -4330,6 +4336,8 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'caacbgbklghmpodbdafajbgdnegacfmo'
+            - 'jbmdcnidiaknboflpljihfnbonjgegah'
             - 'ppemikmneckkgmmbedecgnclmcgfhemf'
             - 'pmjfbdnpbhfgeioabfahbheefebeiehp'
             - 'noamdmpakpnhegiadckcbjacfcinaaih'
@@ -5131,6 +5139,7 @@ detection:
             - 'didhgeamncokiaegffipckhhcpnmlcbl'
             - 'gcmjkmgdlgnkkcocmoeiminaijmmjnii'
             - 'ijacbjjjpmhencpkoghphdgbooifplmn'
+            - 'inomeogfingihgjfjlpeplalcfajhgai'
             - 'bfleegjcoffelppfmadimianphbcdjkb'
             - 'heamnjbnflcikcggoiplibfommfbkjpj'
             - 'ibnejdfjmmkpcnlpebklmnkoeoihofec'
@@ -6462,6 +6471,36 @@ detection:
     condition: selection
 falsepositives:
     - Legitimate extensions with matching IDs
+level: medium
+---
+title: 'PUP' Browser Extension Detected in CommandLine - ExtSentry
+id: 20daa50a-1abf-5221-a707-a5271a33dee8
+status: experimental
+description: Detects browser extensions categorized as 'PUP' in the ExtSentry feed
+references:
+    - https://github.com/mthcht/awesome-lists
+author: ExtSentry / mthcht
+date: 2026-07-29
+modified: 2026-07-29
+tags:
+    - attack.persistence
+    - attack.t1176
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        CommandLine|contains:
+            - 'caacbgbklghmpodbdafajbgdnegacfmo'
+            - 'jbmdcnidiaknboflpljihfnbonjgegah'
+            - 'gogbiohkminacikoppmljeolgccpmlop'
+            - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
+            - 'dhkplhfnhceodhffomolpfigojocbpcb'
+            - 'pfmopbbadnfoelckkcmjjeaaegjpjjbk'
+            - 'aaaailpifkkekipiachodfkfmgmiapmp'
+    condition: selection
+falsepositives:
+    - Legitimate use of extensions in this category
 level: medium
 ---
 title: 'malware' Browser Extension Detected in CommandLine - ExtSentry
@@ -8433,34 +8472,6 @@ falsepositives:
     - Legitimate use of extensions in this category
 level: medium
 ---
-title: 'PUP' Browser Extension Detected in CommandLine - ExtSentry
-id: 20daa50a-1abf-5221-a707-a5271a33dee8
-status: experimental
-description: Detects browser extensions categorized as 'PUP' in the ExtSentry feed
-references:
-    - https://github.com/mthcht/awesome-lists
-author: ExtSentry / mthcht
-date: 2026-07-29
-modified: 2026-07-29
-tags:
-    - attack.persistence
-    - attack.t1176
-logsource:
-    category: process_creation
-    product: windows
-detection:
-    selection:
-        CommandLine|contains:
-            - 'gogbiohkminacikoppmljeolgccpmlop'
-            - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
-            - 'dhkplhfnhceodhffomolpfigojocbpcb'
-            - 'pfmopbbadnfoelckkcmjjeaaegjpjjbk'
-            - 'aaaailpifkkekipiachodfkfmgmiapmp'
-    condition: selection
-falsepositives:
-    - Legitimate use of extensions in this category
-level: medium
----
 title: 'compromised' Browser Extension Detected in CommandLine - ExtSentry
 id: b10f6cd1-8470-506f-ac5b-8b8257709a56
 status: experimental
@@ -8784,6 +8795,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'inomeogfingihgjfjlpeplalcfajhgai'
             - 'bfleegjcoffelppfmadimianphbcdjkb'
     condition: selection
 falsepositives:

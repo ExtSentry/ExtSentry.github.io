@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-07-29",
-    "timestamp": "1785323268",
+    "timestamp": "1785331331",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,40 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "4b2b3fc8-202a-5d29-b82d-4223b2b3b378",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "caacbgbklghmpodbdafajbgdnegacfmo",
+        "comment": "Gradient Sentry Node | Category: PUP | Type: privacy | used for cryptomining",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PUP\""
+          },
+          {
+            "name": "extsentry:type=\"privacy\""
+          }
+        ]
+      },
+      {
+        "uuid": "bcf3cb30-a82a-5a52-b965-e46a74aa9c12",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "jbmdcnidiaknboflpljihfnbonjgegah",
+        "comment": "NodeGo.Ai DePIN Connect | Category: PUP | Type: privacy | used for cryptomining",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"PUP\""
+          },
+          {
+            "name": "extsentry:type=\"privacy\""
+          }
+        ]
+      },
       {
         "uuid": "b85f8c9b-fa6c-56e9-af48-bf70bdc3e752",
         "type": "text",
@@ -13879,6 +13913,23 @@
           },
           {
             "name": "extsentry:type=\"offensive\""
+          }
+        ]
+      },
+      {
+        "uuid": "24b8f5d4-f683-534c-bd0e-0319ba950a48",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "inomeogfingihgjfjlpeplalcfajhgai",
+        "comment": "Chrome Remote Desktop | Category: RMM | Type: greyware | ",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"RMM\""
+          },
+          {
+            "name": "extsentry:type=\"greyware\""
           }
         ]
       },
@@ -36494,6 +36545,82 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "87c8c627-28ff-5d7c-8ae5-ba9602c0dca2",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Gradient Sentry Node",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "caacbgbklghmpodbdafajbgdnegacfmo",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Gradient Sentry Node",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PUP",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "privacy",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "cd4a96c3-20c5-58aa-bbde-9f42ca84da87",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: NodeGo.Ai DePIN Connect",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "jbmdcnidiaknboflpljihfnbonjgegah",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "NodeGo.Ai DePIN Connect",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PUP",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "privacy",
+            "comment": "Threat Type",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "30d16393-5f72-50fb-aa4b-8f9f95c8970e",
         "name": "annotation",
@@ -72059,6 +72186,44 @@
             "type": "link",
             "value": "https://github.com/CCob/Shwmae/blob/73415c28a0ac01727a1fde46e208ba5759b2ff23/ShwmaeExt/webauthn-inject.js#L34",
             "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "eb77dacd-08d5-5689-b6ce-195f9a3932bc",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Chrome Remote Desktop",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "inomeogfingihgjfjlpeplalcfajhgai",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Chrome Remote Desktop",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "RMM",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "greyware",
+            "comment": "Threat Type",
             "to_ids": false
           }
         ]

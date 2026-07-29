@@ -1,4 +1,6 @@
 ExtensionID,ExtensionName,Category,ThreatType,Severity,CrxSHA256,Reference
+caacbgbklghmpodbdafajbgdnegacfmo,Gradient Sentry Node,PUP,privacy,low,,
+jbmdcnidiaknboflpljihfnbonjgegah,NodeGo.Ai DePIN Connect,PUP,privacy,low,,
 ppemikmneckkgmmbedecgnclmcgfhemf,360Airo LinkedIn Automation,malware,malicious,critical,,
 pmjfbdnpbhfgeioabfahbheefebeiehp,Contrast Flip - Dark & Light Switcher,malware,malicious,critical,,
 noamdmpakpnhegiadckcbjacfcinaaih,Kai Kai Extension,malware,malicious,critical,,
@@ -800,6 +802,7 @@ emedckhdnioeieppmeojgegjfkhdlaeo,compromised extensions,compromised,malicious,cr
 didhgeamncokiaegffipckhhcpnmlcbl,compromised extensions,compromised,malicious,critical,,https://www.extensiontotal.com/cyberhaven-incident-live
 gcmjkmgdlgnkkcocmoeiminaijmmjnii,Often targeted by stealers - installed by localxpose,cryptocurrency,sensitive,low,,https://www.virustotal.com/gui/file/17a9356024d2fa2ae8f327fc5babc10eb859e0c433e768cd03a50dd9c7880601
 ijacbjjjpmhencpkoghphdgbooifplmn,Shwmae,Credential Access,offensive,medium,,https://github.com/CCob/Shwmae/blob/73415c28a0ac01727a1fde46e208ba5759b2ff23/ShwmaeExt/webauthn-inject.js#L34
+inomeogfingihgjfjlpeplalcfajhgai,Chrome Remote Desktop,RMM,greyware,medium,,
 bfleegjcoffelppfmadimianphbcdjkb,Fleetd,RMM,greyware,medium,,https://github.com/fleetdm/fleet/blob/80e60433482a34c6f0e758a2ff300b43f4a3a1a5/ee/fleetd-chrome/README.md?plain=1#L81
 heamnjbnflcikcggoiplibfommfbkjpj,Zeal,cryptocurrency,sensitive,low,,fixme
 ibnejdfjmmkpcnlpebklmnkoeoihofec,TronLink,cryptocurrency,sensitive,low,,https://www.unpac.me/results/2556d787-13e4-47d5-80d9-23522332a0b1/
