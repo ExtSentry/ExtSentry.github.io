@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-08-28",
-    "timestamp": "1787898045",
+    "timestamp": "1787943607",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,244 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "PixelCheck | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Creative Library - Ad Spy Tool | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Website Traffic Checker: MirrorSphere SEO Stats | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Site Signal Website Traffic & SEO Checker | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "SEO Pulse Pro Website Traffic & SEO Analyzer | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Private Crypto News Reader | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Blockfolio: Address Monitor | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Crypto Rates & Fiat Converter | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Crypto Alerter: Price Alarms & Volatility Warnings | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "DeFi Pulse Tracker | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Crypto Price Badge: Quick Glance | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Multi-Chain Explorer | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "LedgerLook: Wallet Checker | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+        "comment": "Meta & Facebook Ad Library Spy \u2014 Save Ads, Finder, Downloader | FeedX-Ray | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "4b2b3fc8-202a-5d29-b82d-4223b2b3b378",
         "type": "text",
@@ -36545,6 +36783,636 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: PixelCheck",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PixelCheck",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Creative Library - Ad Spy Tool",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Creative Library - Ad Spy Tool",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Website Traffic Checker: MirrorSphere SEO Stats",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Website Traffic Checker: MirrorSphere SEO Stats",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Site Signal Website Traffic & SEO Checker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Site Signal Website Traffic & SEO Checker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: SEO Pulse Pro Website Traffic & SEO Analyzer",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "SEO Pulse Pro Website Traffic & SEO Analyzer",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Private Crypto News Reader",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Private Crypto News Reader",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Blockfolio: Address Monitor",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Blockfolio: Address Monitor",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Crypto Rates & Fiat Converter",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Crypto Rates & Fiat Converter",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Crypto Alerter: Price Alarms & Volatility Warnings",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Crypto Alerter: Price Alarms & Volatility Warnings",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: DeFi Pulse Tracker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "DeFi Pulse Tracker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Crypto Price Badge: Quick Glance",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Crypto Price Badge: Quick Glance",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Multi-Chain Explorer",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Multi-Chain Explorer",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: LedgerLook: Wallet Checker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "LedgerLook: Wallet Checker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Meta & Facebook Ad Library Spy \u2014 Save Ads, Finder, Downloader | FeedX-Ray",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "fcgdejjichpgfaaafflplhfijcnieopb",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Meta & Facebook Ad Library Spy \u2014 Save Ads, Finder, Downloader | FeedX-Ray",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "87c8c627-28ff-5d7c-8ae5-ba9602c0dca2",
         "name": "annotation",

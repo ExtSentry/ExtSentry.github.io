@@ -19,6 +19,20 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'caacbgbklghmpodbdafajbgdnegacfmo'
             - 'jbmdcnidiaknboflpljihfnbonjgegah'
             - 'ppemikmneckkgmmbedecgnclmcgfhemf'
@@ -2178,6 +2192,20 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'caacbgbklghmpodbdafajbgdnegacfmo'
             - 'jbmdcnidiaknboflpljihfnbonjgegah'
             - 'ppemikmneckkgmmbedecgnclmcgfhemf'
@@ -4336,6 +4364,20 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'caacbgbklghmpodbdafajbgdnegacfmo'
             - 'jbmdcnidiaknboflpljihfnbonjgegah'
             - 'ppemikmneckkgmmbedecgnclmcgfhemf'
@@ -6473,36 +6515,6 @@ falsepositives:
     - Legitimate extensions with matching IDs
 level: medium
 ---
-title: 'PUP' Browser Extension Detected in CommandLine - ExtSentry
-id: 20daa50a-1abf-5221-a707-a5271a33dee8
-status: experimental
-description: Detects browser extensions categorized as 'PUP' in the ExtSentry feed
-references:
-    - https://github.com/mthcht/awesome-lists
-author: ExtSentry / mthcht
-date: 2026-08-28
-modified: 2026-08-28
-tags:
-    - attack.persistence
-    - attack.t1176
-logsource:
-    category: process_creation
-    product: windows
-detection:
-    selection:
-        CommandLine|contains:
-            - 'caacbgbklghmpodbdafajbgdnegacfmo'
-            - 'jbmdcnidiaknboflpljihfnbonjgegah'
-            - 'gogbiohkminacikoppmljeolgccpmlop'
-            - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
-            - 'dhkplhfnhceodhffomolpfigojocbpcb'
-            - 'pfmopbbadnfoelckkcmjjeaaegjpjjbk'
-            - 'aaaailpifkkekipiachodfkfmgmiapmp'
-    condition: selection
-falsepositives:
-    - Legitimate use of extensions in this category
-level: medium
----
 title: 'malware' Browser Extension Detected in CommandLine - ExtSentry
 id: d273c263-db71-5a35-a431-479f9e94177f
 status: experimental
@@ -6521,6 +6533,20 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
+            - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'ppemikmneckkgmmbedecgnclmcgfhemf'
             - 'pmjfbdnpbhfgeioabfahbheefebeiehp'
             - 'noamdmpakpnhegiadckcbjacfcinaaih'
@@ -8431,6 +8457,36 @@ detection:
 falsepositives:
     - Legitimate use of extensions in this category
 level: high
+---
+title: 'PUP' Browser Extension Detected in CommandLine - ExtSentry
+id: 20daa50a-1abf-5221-a707-a5271a33dee8
+status: experimental
+description: Detects browser extensions categorized as 'PUP' in the ExtSentry feed
+references:
+    - https://github.com/mthcht/awesome-lists
+author: ExtSentry / mthcht
+date: 2026-08-28
+modified: 2026-08-28
+tags:
+    - attack.persistence
+    - attack.t1176
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        CommandLine|contains:
+            - 'caacbgbklghmpodbdafajbgdnegacfmo'
+            - 'jbmdcnidiaknboflpljihfnbonjgegah'
+            - 'gogbiohkminacikoppmljeolgccpmlop'
+            - 'bcjindcccaagfpapjjmafapmmgkkhgoa'
+            - 'dhkplhfnhceodhffomolpfigojocbpcb'
+            - 'pfmopbbadnfoelckkcmjjeaaegjpjjbk'
+            - 'aaaailpifkkekipiachodfkfmgmiapmp'
+    condition: selection
+falsepositives:
+    - Legitimate use of extensions in this category
+level: medium
 ---
 title: 'PROXY/VPN' Browser Extension Detected in CommandLine - ExtSentry
 id: a9aa6610-a8e3-5a19-a9fb-d63a4258d137

@@ -1,13 +1,13 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-08-28T06:20:45Z",
+  "generated": "2026-08-28T19:00:07Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2132,
+  "total_indicators": 2146,
   "categories": {
+    "malware": 1920,
     "PUP": 7,
-    "malware": 1906,
     "PROXY/VPN": 17,
     "compromised": 92,
     "cryptocurrency": 90,
@@ -19,6 +19,160 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "PixelCheck",
+      "wildcard_pattern": "*fcgdejjichpgfaaafflplhfijcnieopb*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Creative Library - Ad Spy Tool",
+      "wildcard_pattern": "*cfpnjdbpojpcongfaefcamjbaolpelcd*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Website Traffic Checker: MirrorSphere SEO Stats",
+      "wildcard_pattern": "*aapdalkmclfaahehnmicbglkohkldhne*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Site Signal Website Traffic & SEO Checker",
+      "wildcard_pattern": "*dkdadldmiefjldmegbjbnhhfddnkhlhm*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "SEO Pulse Pro Website Traffic & SEO Analyzer",
+      "wildcard_pattern": "*fjmlhlkccegopebcllcmafahkmeejpph*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Private Crypto News Reader",
+      "wildcard_pattern": "*iekoapohahgmogbagegmcgplbkikcgke*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Blockfolio: Address Monitor",
+      "wildcard_pattern": "*ahpnnnjbnfbhoikhohglpohnoocjcoco*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Crypto Rates & Fiat Converter",
+      "wildcard_pattern": "*oeacadlaclegkkkdehjmiifnjhcekclj*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Crypto Alerter: Price Alarms & Volatility Warnings",
+      "wildcard_pattern": "*jmlgannjlbliikgcaieomgmcnfplglea*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "DeFi Pulse Tracker",
+      "wildcard_pattern": "*lhmcajhgadanidbopgaoobjlldegjmke*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Crypto Price Badge: Quick Glance",
+      "wildcard_pattern": "*gfackggoapepdmnjnkblogdcjpgcjiak*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Multi-Chain Explorer",
+      "wildcard_pattern": "*hfijkbdkpidafdbeebnnkhfccildbcle*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "LedgerLook: Wallet Checker",
+      "wildcard_pattern": "*pcngchfbfgejllcbhmeadjhiebebiome*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
+    {
+      "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
+      "extension_name": "Meta & Facebook Ad Library Spy \u2014 Save Ads, Finder, Downloader | FeedX-Ray",
+      "wildcard_pattern": "*aodkjdeghbjiaienipfjkbpcikkacbcp*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/fcgdejjichpgfaaafflplhfijcnieopb"
+    },
     {
       "extension_id": "caacbgbklghmpodbdafajbgdnegacfmo",
       "extension_name": "Gradient Sentry Node",
