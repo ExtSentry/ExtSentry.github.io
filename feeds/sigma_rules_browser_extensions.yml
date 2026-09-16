@@ -19,6 +19,12 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'kkkoejaiilcofkhggclkbogjpinhjppm'
+            - 'bnolicehjnimmdfkihmojhonickmhegp'
+            - 'orbittracker@snapshot.xyz'
+            - 'vreo@j7tracker.io'
+            - 'nngccnjcllkehfiaidagbffjgbikcoij'
+            - 'ingjjklimdeocggninaaapofondbeopd'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
@@ -2192,6 +2198,12 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'kkkoejaiilcofkhggclkbogjpinhjppm'
+            - 'bnolicehjnimmdfkihmojhonickmhegp'
+            - 'orbittracker@snapshot.xyz'
+            - 'vreo@j7tracker.io'
+            - 'nngccnjcllkehfiaidagbffjgbikcoij'
+            - 'ingjjklimdeocggninaaapofondbeopd'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
@@ -4364,6 +4376,12 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'kkkoejaiilcofkhggclkbogjpinhjppm'
+            - 'bnolicehjnimmdfkihmojhonickmhegp'
+            - 'orbittracker@snapshot.xyz'
+            - 'vreo@j7tracker.io'
+            - 'nngccnjcllkehfiaidagbffjgbikcoij'
+            - 'ingjjklimdeocggninaaapofondbeopd'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
@@ -6533,6 +6551,12 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'kkkoejaiilcofkhggclkbogjpinhjppm'
+            - 'bnolicehjnimmdfkihmojhonickmhegp'
+            - 'orbittracker@snapshot.xyz'
+            - 'vreo@j7tracker.io'
+            - 'nngccnjcllkehfiaidagbffjgbikcoij'
+            - 'ingjjklimdeocggninaaapofondbeopd'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'
             - 'fcgdejjichpgfaaafflplhfijcnieopb'

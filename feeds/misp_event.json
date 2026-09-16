@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-09-16",
-    "timestamp": "1789553861",
+    "timestamp": "1789571354",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,108 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "cab6b8af-4652-528d-b459-6b56a9d793bb",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "kkkoejaiilcofkhggclkbogjpinhjppm",
+        "comment": "GhostApe Color - Theme Customizer | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "570472f2-1fab-50bf-b981-44c482dc3c5e",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "bnolicehjnimmdfkihmojhonickmhegp",
+        "comment": "GhostApe | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "bc68bcd4-a378-572f-861d-0a1adcd1b5ec",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "orbittracker@snapshot.xyz",
+        "comment": "Orbit Tracker | Category: malware | Type: malicious | credentials stealer - firefox addon",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "a258b138-b89d-5f4f-bb14-644d54597d89",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "vreo@j7tracker.io",
+        "comment": "VREO | Category: malware | Type: malicious | credentials stealer - firefox addon",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "ddc73620-c479-5154-a3e7-00a0c4ae9ed6",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "nngccnjcllkehfiaidagbffjgbikcoij",
+        "comment": "VREO | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
+      {
+        "uuid": "c0bc555d-e708-5fc1-86f6-e79d37d3608b",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "ingjjklimdeocggninaaapofondbeopd",
+        "comment": "J7Tracker | Category: malware | Type: malicious | credentials stealer",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "0b1fb39b-8087-5381-93c9-b67df755be4b",
         "type": "text",
@@ -36783,6 +36885,276 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "7ba040f8-97fe-54df-b77b-b70ef41f96c5",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: GhostApe Color - Theme Customizer",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "kkkoejaiilcofkhggclkbogjpinhjppm",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "GhostApe Color - Theme Customizer",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "dbf5d2c0-79e9-5147-a514-3d6e684ca45a",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: GhostApe",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "bnolicehjnimmdfkihmojhonickmhegp",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "GhostApe",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "a77830f4-e5cc-57de-87eb-1ba6140001fc",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: Orbit Tracker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "orbittracker@snapshot.xyz",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "Orbit Tracker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "df93157c-5d90-5f97-8396-90664ca2b3a0",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: VREO",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "vreo@j7tracker.io",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "VREO",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "ada807ea-8cd1-5702-84e1-7063096d1a5b",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: VREO",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "nngccnjcllkehfiaidagbffjgbikcoij",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "VREO",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
+      {
+        "uuid": "4039ed76-52ce-56bb-9df1-894259ecc365",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: J7Tracker",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "ingjjklimdeocggninaaapofondbeopd",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "J7Tracker",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "6535f4a9-5173-57f9-8aa0-936aeeb0de2e",
         "name": "annotation",

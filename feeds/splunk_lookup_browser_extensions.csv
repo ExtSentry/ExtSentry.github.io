@@ -1,4 +1,10 @@
 browser_extension_id,browser_extension_id_wildcard,extension_name,category,threat_type,severity,crx_sha256,description,reference_url
+kkkoejaiilcofkhggclkbogjpinhjppm,*kkkoejaiilcofkhggclkbogjpinhjppm*,GhostApe Color - Theme Customizer,malware,malicious,critical,,credentials stealer,https://socket.dev/blog/chrome-firefox-crypto-data-theft
+bnolicehjnimmdfkihmojhonickmhegp,*bnolicehjnimmdfkihmojhonickmhegp*,GhostApe,malware,malicious,critical,,credentials stealer,https://socket.dev/blog/chrome-firefox-crypto-data-theft
+orbittracker@snapshot.xyz,*orbittracker@snapshot.xyz*,Orbit Tracker,malware,malicious,critical,,credentials stealer - firefox addon,https://socket.dev/blog/chrome-firefox-crypto-data-theft
+vreo@j7tracker.io,*vreo@j7tracker.io*,VREO,malware,malicious,critical,,credentials stealer - firefox addon,https://socket.dev/blog/chrome-firefox-crypto-data-theft
+nngccnjcllkehfiaidagbffjgbikcoij,*nngccnjcllkehfiaidagbffjgbikcoij*,VREO,malware,malicious,critical,,credentials stealer,https://socket.dev/blog/chrome-firefox-crypto-data-theft
+ingjjklimdeocggninaaapofondbeopd,*ingjjklimdeocggninaaapofondbeopd*,J7Tracker,malware,malicious,critical,,credentials stealer,https://socket.dev/blog/chrome-firefox-crypto-data-theft
 fcgdejjichpgfaaafflplhfijcnieopb,*fcgdejjichpgfaaafflplhfijcnieopb*,PixelCheck,malware,malicious,critical,,credentials stealer,https://socket.dev/blog/chrome-edge-extension-wallet-drainer
 fcgdejjichpgfaaafflplhfijcnieopb,*cfpnjdbpojpcongfaefcamjbaolpelcd*,Creative Library - Ad Spy Tool,malware,malicious,critical,,credentials stealer,https://socket.dev/blog/chrome-edge-extension-wallet-drainer
 fcgdejjichpgfaaafflplhfijcnieopb,*aapdalkmclfaahehnmicbglkohkldhne*,Website Traffic Checker: MirrorSphere SEO Stats,malware,malicious,critical,,credentials stealer,https://socket.dev/blog/chrome-edge-extension-wallet-drainer

@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-09-16T10:17:41Z",
+  "generated": "2026-09-16T15:09:13Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2146,
+  "total_indicators": 2152,
   "categories": {
-    "malware": 1920,
+    "malware": 1926,
     "PUP": 7,
     "PROXY/VPN": 17,
     "compromised": 92,
@@ -19,6 +19,72 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "kkkoejaiilcofkhggclkbogjpinhjppm",
+      "extension_name": "GhostApe Color - Theme Customizer",
+      "wildcard_pattern": "*kkkoejaiilcofkhggclkbogjpinhjppm*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/kkkoejaiilcofkhggclkbogjpinhjppm"
+    },
+    {
+      "extension_id": "bnolicehjnimmdfkihmojhonickmhegp",
+      "extension_name": "GhostApe",
+      "wildcard_pattern": "*bnolicehjnimmdfkihmojhonickmhegp*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/bnolicehjnimmdfkihmojhonickmhegp"
+    },
+    {
+      "extension_id": "orbittracker@snapshot.xyz",
+      "extension_name": "Orbit Tracker",
+      "wildcard_pattern": "*orbittracker@snapshot.xyz*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+      "description": "credentials stealer - firefox addon",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/orbittracker@snapshot.xyz"
+    },
+    {
+      "extension_id": "vreo@j7tracker.io",
+      "extension_name": "VREO",
+      "wildcard_pattern": "*vreo@j7tracker.io*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+      "description": "credentials stealer - firefox addon",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/vreo@j7tracker.io"
+    },
+    {
+      "extension_id": "nngccnjcllkehfiaidagbffjgbikcoij",
+      "extension_name": "VREO",
+      "wildcard_pattern": "*nngccnjcllkehfiaidagbffjgbikcoij*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/nngccnjcllkehfiaidagbffjgbikcoij"
+    },
+    {
+      "extension_id": "ingjjklimdeocggninaaapofondbeopd",
+      "extension_name": "J7Tracker",
+      "wildcard_pattern": "*ingjjklimdeocggninaaapofondbeopd*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://socket.dev/blog/chrome-firefox-crypto-data-theft",
+      "description": "credentials stealer",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/ingjjklimdeocggninaaapofondbeopd"
+    },
     {
       "extension_id": "fcgdejjichpgfaaafflplhfijcnieopb",
       "extension_name": "PixelCheck",
