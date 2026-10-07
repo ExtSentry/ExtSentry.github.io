@@ -19,6 +19,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'pdf-para-texto@extensao.local'
             - 'kkkoejaiilcofkhggclkbogjpinhjppm'
             - 'bnolicehjnimmdfkihmojhonickmhegp'
             - 'orbittracker@snapshot.xyz'
@@ -2198,6 +2199,7 @@ logsource:
 detection:
     selection:
         TargetFilename|contains:
+            - 'pdf-para-texto@extensao.local'
             - 'kkkoejaiilcofkhggclkbogjpinhjppm'
             - 'bnolicehjnimmdfkihmojhonickmhegp'
             - 'orbittracker@snapshot.xyz'
@@ -4376,6 +4378,7 @@ logsource:
 detection:
     selection:
         TargetObject|contains:
+            - 'pdf-para-texto@extensao.local'
             - 'kkkoejaiilcofkhggclkbogjpinhjppm'
             - 'bnolicehjnimmdfkihmojhonickmhegp'
             - 'orbittracker@snapshot.xyz'
@@ -6551,6 +6554,7 @@ logsource:
 detection:
     selection:
         CommandLine|contains:
+            - 'pdf-para-texto@extensao.local'
             - 'kkkoejaiilcofkhggclkbogjpinhjppm'
             - 'bnolicehjnimmdfkihmojhonickmhegp'
             - 'orbittracker@snapshot.xyz'

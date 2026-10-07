@@ -5,7 +5,7 @@
     "analysis": "2",
     "distribution": "3",
     "date": "2026-10-07",
-    "timestamp": "1791358951",
+    "timestamp": "1791384295",
     "published": false,
     "uuid": "41ef2090-fab5-547e-9eb6-2aa8f195c66f",
     "Orgc": {
@@ -27,6 +27,23 @@
       }
     ],
     "Attribute": [
+      {
+        "uuid": "e3ab5c56-38bd-5dbf-8545-9acb71d5ef2f",
+        "type": "text",
+        "category": "Other",
+        "to_ids": false,
+        "value": "pdf-para-texto@extensao.local",
+        "comment": "PDF identity verification tool | Category: malware | Type: malicious | credentials stealer - firefox addon",
+        "distribution": "5",
+        "Tag": [
+          {
+            "name": "extsentry:category=\"malware\""
+          },
+          {
+            "name": "extsentry:type=\"malicious\""
+          }
+        ]
+      },
       {
         "uuid": "cab6b8af-4652-528d-b459-6b56a9d793bb",
         "type": "text",
@@ -36885,6 +36902,51 @@
       }
     ],
     "Object": [
+      {
+        "uuid": "75c7b3e3-9bbd-5081-b044-b2bd1f5f5f88",
+        "name": "annotation",
+        "meta-category": "misc",
+        "description": "Suspicious/Malicious browser extension: PDF identity verification tool",
+        "template_uuid": "e434b304-a905-53fb-b7df-1d552e338795",
+        "template_version": "1",
+        "Attribute": [
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "pdf-para-texto@extensao.local",
+            "comment": "Browser Extension ID",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "PDF identity verification tool",
+            "comment": "Extension Name",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malware",
+            "comment": "Threat Category",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "text",
+            "value": "malicious",
+            "comment": "Threat Type",
+            "to_ids": false
+          },
+          {
+            "object_relation": "text",
+            "type": "link",
+            "value": "https://www.esentry.io/articles/malicious-firefox-extension-hijacks-google-accounts",
+            "comment": "Reference URL",
+            "to_ids": false
+          }
+        ]
+      },
       {
         "uuid": "7ba040f8-97fe-54df-b77b-b70ef41f96c5",
         "name": "annotation",

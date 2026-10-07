@@ -1,12 +1,12 @@
 {
   "feed_name": "ExtSentry - Browser Extension Threat Intelligence",
   "feed_version": "1.0",
-  "generated": "2026-10-07T07:42:30Z",
+  "generated": "2026-10-07T14:44:54Z",
   "source": "https://github.com/mthcht/awesome-lists",
   "license": "TLP:CLEAR",
-  "total_indicators": 2152,
+  "total_indicators": 2153,
   "categories": {
-    "malware": 1926,
+    "malware": 1927,
     "PUP": 7,
     "PROXY/VPN": 17,
     "compromised": 92,
@@ -19,6 +19,17 @@
     "metadata_category": 1
   },
   "indicators": [
+    {
+      "extension_id": "pdf-para-texto@extensao.local",
+      "extension_name": "PDF identity verification tool",
+      "wildcard_pattern": "*pdf-para-texto@extensao.local*",
+      "category": "malware",
+      "threat_type": "malicious",
+      "reference_url": "https://www.esentry.io/articles/malicious-firefox-extension-hijacks-google-accounts",
+      "description": "credentials stealer - firefox addon",
+      "crx_sha256": null,
+      "chrome_webstore_url": "https://chromewebstore.google.com/detail/pdf-para-texto@extensao.local"
+    },
     {
       "extension_id": "kkkoejaiilcofkhggclkbogjpinhjppm",
       "extension_name": "GhostApe Color - Theme Customizer",
