@@ -1,6 +1,6 @@
 {
   "name": "ExtSentry - Known Malicious/Suspicious Browser Extension IDs",
-  "version": 20261113,
+  "version": 20261114,
   "description": "List of known malicious, suspicious, and potentially unwanted browser extension IDs. Maintained by mthcht.",
   "type": "string",
   "matching_attributes": [
